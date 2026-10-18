@@ -1,0 +1,3636 @@
+{
+ "version": 1,
+ "generated_at": "2026-10-19T02:25:06+03:00",
+ "timezone": "Europe/Istanbul",
+ "source": "Maçkolik (vd.mackolik.com oran/skor, arsiv.mackolik.com form + korner/kart istatistiği)",
+ "bot": "https://t.me/mackolik_canli_skor_bot",
+ "model": {
+  "text": "1X2: %65 piyasa + %20 Poisson gol modeli + %15 form (son 10 maç puan ort.). Alt/Üst 2.5: %65 piyasa + %35 Poisson. Form yoksa yalnız oran."
+ },
+ "predictions": [
+  {
+   "match_id": 4540585,
+   "iddaa": 3290707,
+   "home": "The Strongest",
+   "away": "Always Ready",
+   "league": "Bolivya · Premier Lig",
+   "date": "19/10/2026",
+   "kickoff": "00:15",
+   "kickoff_iso": "2026-10-19T00:15:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.2803,
+   "probs": {
+    "1": 0.3698,
+    "X": 0.2461,
+    "2": 0.384
+   },
+   "odds": {
+    "1": 2.19,
+    "X": 3.23,
+    "2": 2.13,
+    "alt": 2.0,
+    "ust": 1.36
+   },
+   "pick_odd": 2.13,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6005,
+    "odd": 1.36
+   },
+   "kg_var": 0.6293,
+   "xg": {
+    "home": 1.58,
+    "away": 1.57
+   },
+   "form": {
+    "home": {
+     "last5": "GGGGM",
+     "ppg": 1.9,
+     "gf": 2.3,
+     "ga": 1.4,
+     "n": 10
+    },
+    "away": {
+     "last5": "BGGGG",
+     "ppg": 2.2,
+     "gf": 2.2,
+     "ga": 0.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 3. vs 2. (16 takım, 42–48 puan)",
+    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 2.2 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.2,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5671,
+    "odd": null,
+    "source": "model",
+    "actual": 9,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.2,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5842,
+    "odd": null,
+    "source": "model",
+    "actual": 6,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4423337,
+   "iddaa": 3217111,
+   "home": "Bahia",
+   "away": "Flamengo",
+   "league": "Brezilya · Serie A",
+   "date": "19/10/2026",
+   "kickoff": "00:30",
+   "kickoff_iso": "2026-10-19T00:30:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4158,
+   "probs": {
+    "1": 0.2818,
+    "X": 0.2504,
+    "2": 0.4678
+   },
+   "odds": {
+    "1": 3.28,
+    "X": 3.27,
+    "2": 1.74,
+    "alt": 2.0,
+    "ust": 1.46
+   },
+   "pick_odd": 1.74,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5079,
+    "odd": 1.46
+   },
+   "kg_var": 0.4914,
+   "xg": {
+    "home": 1.17,
+    "away": 1.25
+   },
+   "form": {
+    "home": {
+     "last5": "GGMMG",
+     "ppg": 1.8,
+     "gf": 1.5,
+     "ga": 1.1,
+     "n": 10
+    },
+    "away": {
+     "last5": "BGBGB",
+     "ppg": 2.4,
+     "gf": 1.6,
+     "ga": 0.5,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 1G 0B 4M",
+    "⚽ H2H gol ort. 1.6",
+    "📈 Sıra: 7. vs 2. (20 takım, 49–64 puan)",
+    "🏟 İç saha 2.5 p/m (4 maç) vs dış saha 2.0 p/m (4 maç)"
+   ],
+   "corners": {
+    "expected": 10.5,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5267,
+    "odd": 1.54,
+    "source": "model+oran",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 5.4,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5552,
+    "odd": 1.53,
+    "source": "model+oran",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "88",
+    "score": "0-3"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4441265,
+   "iddaa": 3218710,
+   "home": "San Martin Tucuman",
+   "away": "Midland",
+   "league": "Arjantin · Ulusal Primera Lig",
+   "date": "19/10/2026",
+   "kickoff": "00:30",
+   "kickoff_iso": "2026-10-19T00:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.3626,
+   "probs": {
+    "1": 0.4215,
+    "X": 0.3068,
+    "2": 0.2718
+   },
+   "odds": {
+    "1": 1.85,
+    "X": 2.48,
+    "2": 3.46,
+    "alt": null,
+    "ust": null
+   },
+   "pick_odd": 1.85,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4967,
+    "odd": null
+   },
+   "kg_var": 0.5406,
+   "xg": {
+    "home": 1.37,
+    "away": 1.29
+   },
+   "form": {
+    "home": {
+     "last5": "GMBGM",
+     "ppg": 1.3,
+     "gf": 1.4,
+     "ga": 1.4,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGMBG",
+     "ppg": 1.4,
+     "gf": 1.4,
+     "ga": 1.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 11. vs 6. (36 takım, 43–51 puan)",
+    "🏟 İç saha 1.8 p/m (5 maç) vs dış saha 0.8 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": {
+    "expected": 5.1,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.6019,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "84",
+    "score": "1-2"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4563398,
+   "iddaa": 3234690,
+   "home": "Barcelona SC",
+   "away": "Universidad Catolica",
+   "league": "Ekvador · Pro Lig Şampiyonluk Grubu",
+   "date": "19/10/2026",
+   "kickoff": "00:30",
+   "kickoff_iso": "2026-10-19T00:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.2899,
+   "probs": {
+    "1": 0.3973,
+    "X": 0.2714,
+    "2": 0.3313
+   },
+   "odds": {
+    "1": 1.96,
+    "X": 2.92,
+    "2": 2.61,
+    "alt": 1.58,
+    "ust": 1.67
+   },
+   "pick_odd": 1.96,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4733,
+    "odd": 1.58
+   },
+   "kg_var": 0.494,
+   "xg": {
+    "home": 1.25,
+    "away": 1.18
+   },
+   "form": {
+    "home": {
+     "last5": "MGBBM",
+     "ppg": 1.3,
+     "gf": 1.1,
+     "ga": 1.0,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGGMM",
+     "ppg": 1.5,
+     "gf": 1.5,
+     "ga": 1.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 0G 3B 2M",
+    "⚽ H2H gol ort. 2.8",
+    "📈 Sıra: 5. vs 6. (6 takım, 0–0 puan) · erken sezon, etkisiz",
+    "🏟 İç saha 1.8 p/m (4 maç) vs dış saha 1.3 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.6,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5194,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 4.5,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.5395,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "89",
+    "score": "0-1"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4574558,
+   "iddaa": 3300898,
+   "home": "Liverpool FC (Montevideo)",
+   "away": "CA Penarol",
+   "league": "Uruguay · Premier Lig Clausura",
+   "date": "19/10/2026",
+   "kickoff": "00:30",
+   "kickoff_iso": "2026-10-19T00:30:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.3539,
+   "probs": {
+    "1": 0.3107,
+    "X": 0.2772,
+    "2": 0.412
+   },
+   "odds": {
+    "1": 2.97,
+    "X": 2.89,
+    "2": 1.81,
+    "alt": 1.45,
+    "ust": 1.85
+   },
+   "pick_odd": 1.81,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4458,
+    "odd": 1.45
+   },
+   "kg_var": 0.5099,
+   "xg": {
+    "home": 1.29,
+    "away": 1.21
+   },
+   "form": {
+    "home": {
+     "last5": "BGGGB",
+     "ppg": 1.8,
+     "gf": 1.4,
+     "ga": 0.9,
+     "n": 10
+    },
+    "away": {
+     "last5": "BGBGB",
+     "ppg": 1.9,
+     "gf": 1.7,
+     "ga": 0.9,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 2. vs 3. (16 takım, 21–21 puan)",
+    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 2.0 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 8.5,
+    "line": 8.5,
+    "pick": "Alt",
+    "prob": 0.5353,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 5.3,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5661,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "90",
+    "score": "1-0"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4487095,
+   "iddaa": 3218161,
+   "home": "Perez Zeledon",
+   "away": "CS Herediano",
+   "league": "Kosta Rika · Premier Lig Apertura",
+   "date": "19/10/2026",
+   "kickoff": "01:00",
+   "kickoff_iso": "2026-10-19T01:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4085,
+   "probs": {
+    "1": 0.2714,
+    "X": 0.254,
+    "2": 0.4746
+   },
+   "odds": {
+    "1": 3.54,
+    "X": 3.08,
+    "2": 1.6,
+    "alt": 1.62,
+    "ust": 1.61
+   },
+   "pick_odd": 1.6,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4729,
+    "odd": 1.62
+   },
+   "kg_var": 0.4697,
+   "xg": {
+    "home": 1.21,
+    "away": 1.11
+   },
+   "form": {
+    "home": {
+     "last5": "GMMBM",
+     "ppg": 0.9,
+     "gf": 0.8,
+     "ga": 1.4,
+     "n": 10
+    },
+    "away": {
+     "last5": "MGMMB",
+     "ppg": 1.0,
+     "gf": 0.9,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 0G 0B 5M",
+    "⚽ H2H gol ort. 2.8",
+    "📈 Sıra: 9. vs 10. (10 takım, 9–6 puan)",
+    "🏟 İç saha 0.7 p/m (6 maç) vs dış saha 1.2 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.8,
+    "line": 10.5,
+    "pick": "Üst",
+    "prob": 0.5033,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 6.5,
+    "line": 6.5,
+    "pick": "Alt",
+    "prob": 0.5319,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "57",
+    "score": "0-0"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4423338,
+   "iddaa": 3218817,
+   "home": "Remo",
+   "away": "RB Bragantino",
+   "league": "Brezilya · Serie A",
+   "date": "19/10/2026",
+   "kickoff": "01:30",
+   "kickoff_iso": "2026-10-19T01:30:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4137,
+   "probs": {
+    "1": 0.2848,
+    "X": 0.2494,
+    "2": 0.4658
+   },
+   "odds": {
+    "1": 3.14,
+    "X": 3.3,
+    "2": 1.77,
+    "alt": 1.91,
+    "ust": 1.51
+   },
+   "pick_odd": 1.77,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5363,
+    "odd": 1.51
+   },
+   "kg_var": 0.5399,
+   "xg": {
+    "home": 1.33,
+    "away": 1.32
+   },
+   "form": {
+    "home": {
+     "last5": "MMMBB",
+     "ppg": 0.4,
+     "gf": 0.9,
+     "ga": 1.5,
+     "n": 10
+    },
+    "away": {
+     "last5": "BMMBG",
+     "ppg": 1.0,
+     "gf": 1.4,
+     "ga": 1.5,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 19. vs 10. (20 takım, 25–40 puan)",
+    "🏟 İç saha 0.3 p/m (6 maç) vs dış saha 0.5 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 11.0,
+    "line": 10.5,
+    "pick": "Üst",
+    "prob": 0.5241,
+    "odd": 1.53,
+    "source": "model+oran",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 5.3,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5773,
+    "odd": 1.51,
+    "source": "model+oran",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "45",
+    "score": "0-1"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4560774,
+   "iddaa": 3219728,
+   "home": "Atletico San Luis (K)",
+   "away": "Juarez (K)",
+   "league": "Meksika · Kadınlar Liga MX Apertura",
+   "date": "19/10/2026",
+   "kickoff": "02:00",
+   "kickoff_iso": "2026-10-19T02:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.388,
+   "probs": {
+    "1": 0.3027,
+    "X": 0.2465,
+    "2": 0.4508
+   },
+   "odds": {
+    "1": 3.44,
+    "X": 3.24,
+    "2": 1.58,
+    "alt": 1.79,
+    "ust": 1.48
+   },
+   "pick_odd": 1.58,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5529,
+    "odd": 1.48
+   },
+   "kg_var": 0.59,
+   "xg": {
+    "home": 1.58,
+    "away": 1.36
+   },
+   "form": {
+    "home": {
+     "last5": "GMGBG",
+     "ppg": 1.9,
+     "gf": 2.3,
+     "ga": 1.6,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGGGM",
+     "ppg": 2.1,
+     "gf": 1.4,
+     "ga": 0.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 3. vs 4. (18 takım, 19–21 puan)",
+    "🏟 İç saha 1.8 p/m (5 maç) vs dış saha 1.2 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 8.7,
+    "line": 8.5,
+    "pick": "Alt",
+    "prob": 0.5077,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 4.5,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.5518,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "19",
+    "score": "0-1"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4564402,
+   "iddaa": 3221998,
+   "home": "Walter Ferretti",
+   "away": "Real Esteli",
+   "league": "Nikaragua · Premier Lig Apertura",
+   "date": "19/10/2026",
+   "kickoff": "02:00",
+   "kickoff_iso": "2026-10-19T02:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4215,
+   "probs": {
+    "1": 0.2801,
+    "X": 0.2303,
+    "2": 0.4896
+   },
+   "odds": {
+    "1": 3.99,
+    "X": 3.43,
+    "2": 1.45,
+    "alt": 1.88,
+    "ust": 1.42
+   },
+   "pick_odd": 1.45,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.583,
+    "odd": 1.42
+   },
+   "kg_var": 0.6208,
+   "xg": {
+    "home": 1.75,
+    "away": 1.39
+   },
+   "form": {
+    "home": {
+     "last5": "BMBGG",
+     "ppg": 1.4,
+     "gf": 2.2,
+     "ga": 1.7,
+     "n": 10
+    },
+    "away": {
+     "last5": "BBMGB",
+     "ppg": 1.2,
+     "gf": 1.4,
+     "ga": 1.2,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 6. vs 3. (10 takım, 14–22 puan)",
+    "🏟 İç saha 1.0 p/m (4 maç) vs dış saha 1.3 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.6,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5148,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 5.8,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5014,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "21",
+    "score": "0-0"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4574692,
+   "iddaa": 3261854,
+   "home": "Houston Dynamo FC II",
+   "away": "Los Angeles II",
+   "league": "ABD · MLS Next Pro Konferans Çeyrek Final",
+   "date": "19/10/2026",
+   "kickoff": "02:00",
+   "kickoff_iso": "2026-10-19T02:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.3655,
+   "probs": {
+    "1": 0.4248,
+    "X": 0.2501,
+    "2": 0.325
+   },
+   "odds": {
+    "1": 1.74,
+    "X": 3.17,
+    "2": 2.92,
+    "alt": 2.02,
+    "ust": 1.35
+   },
+   "pick_odd": 1.74,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6139,
+    "odd": 1.35
+   },
+   "kg_var": 0.6529,
+   "xg": {
+    "home": 1.62,
+    "away": 1.68
+   },
+   "form": {
+    "home": {
+     "last5": "MMGBM",
+     "ppg": 0.9,
+     "gf": 1.3,
+     "ga": 1.7,
+     "n": 10
+    },
+    "away": {
+     "last5": "MMBGM",
+     "ppg": 1.5,
+     "gf": 2.2,
+     "ga": 1.8,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "🏟 İç saha 0.7 p/m (6 maç) vs dış saha 0.8 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "canli",
+   "live": {
+    "minute": "15",
+    "score": "0-1"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4574693,
+   "iddaa": 3312345,
+   "home": "Crown Legacy",
+   "away": "New York RB II",
+   "league": "ABD · MLS Next Pro Konferans Çeyrek Final",
+   "date": "19/10/2026",
+   "kickoff": "02:00",
+   "kickoff_iso": "2026-10-19T02:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.3836,
+   "probs": {
+    "1": 0.4466,
+    "X": 0.2349,
+    "2": 0.3186
+   },
+   "odds": {
+    "1": 1.96,
+    "X": 3.34,
+    "2": 2.35,
+    "alt": null,
+    "ust": null
+   },
+   "pick_odd": 1.96,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6895,
+    "odd": null
+   },
+   "kg_var": 0.6652,
+   "xg": {
+    "home": 2.16,
+    "away": 1.39
+   },
+   "form": {
+    "home": {
+     "last5": "GMGBG",
+     "ppg": 2.0,
+     "gf": 2.3,
+     "ga": 1.2,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGMBM",
+     "ppg": 1.3,
+     "gf": 1.9,
+     "ga": 2.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "🏟 İç saha 1.8 p/m (4 maç) vs dış saha 1.8 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": {
+    "expected": 5.2,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5877,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "16",
+    "score": "1-0"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4513966,
+   "iddaa": 3220064,
+   "home": "Llaneros",
+   "away": "Santa Fe",
+   "league": "Kolombiya · Primera A Clausura",
+   "date": "19/10/2026",
+   "kickoff": "02:05",
+   "kickoff_iso": "2026-10-19T02:05:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.3657,
+   "probs": {
+    "1": 0.2977,
+    "X": 0.2767,
+    "2": 0.4256
+   },
+   "odds": {
+    "1": 2.52,
+    "X": 2.75,
+    "2": 2.11,
+    "alt": 1.45,
+    "ust": 1.85
+   },
+   "pick_odd": 2.11,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4577,
+    "odd": 1.45
+   },
+   "kg_var": 0.5236,
+   "xg": {
+    "home": 1.17,
+    "away": 1.43
+   },
+   "form": {
+    "home": {
+     "last5": "GMMMM",
+     "ppg": 0.4,
+     "gf": 1.0,
+     "ga": 1.9,
+     "n": 10
+    },
+    "away": {
+     "last5": "MBGGB",
+     "ppg": 1.6,
+     "gf": 1.3,
+     "ga": 1.0,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 3G 0B 2M",
+    "⚽ H2H gol ort. 2.8",
+    "📈 Sıra: 12. vs 7. (20 takım, 14–22 puan)",
+    "🏟 İç saha 0.8 p/m (4 maç) vs dış saha 2.0 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.1,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5766,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 5.8,
+    "line": 5.5,
+    "pick": "Üst",
+    "prob": 0.5069,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "15",
+    "score": "0-0"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4475895,
+   "iddaa": 3217470,
+   "home": "Belgrano Cordoba",
+   "away": "River Plate",
+   "league": "Arjantin · Premier Lig 2. Aşama",
+   "date": "19/10/2026",
+   "kickoff": "02:15",
+   "kickoff_iso": "2026-10-19T02:15:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.3008,
+   "probs": {
+    "1": 0.3049,
+    "X": 0.2965,
+    "2": 0.3986
+   },
+   "odds": {
+    "1": 3.29,
+    "X": 2.76,
+    "2": 1.92,
+    "alt": 1.35,
+    "ust": 2.24
+   },
+   "pick_odd": 1.92,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.3879,
+    "odd": 1.35
+   },
+   "kg_var": 0.4693,
+   "xg": {
+    "home": 1.25,
+    "away": 1.07
+   },
+   "form": {
+    "home": {
+     "last5": "BBGGG",
+     "ppg": 1.8,
+     "gf": 1.2,
+     "ga": 0.6,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGMGB",
+     "ppg": 1.9,
+     "gf": 1.6,
+     "ga": 1.0,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 3. vs 9. (30 takım, 22–17 puan)",
+    "🏟 İç saha 1.8 p/m (4 maç) vs dış saha 2.0 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 8.7,
+    "line": 8.5,
+    "pick": "Alt",
+    "prob": 0.503,
+    "odd": 1.63,
+    "source": "oran",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 5.0,
+    "line": 4.5,
+    "pick": "Üst",
+    "prob": 0.5319,
+    "odd": 1.54,
+    "source": "oran",
+    "actual": null,
+    "hit": null
+   },
+   "status": "canli",
+   "live": {
+    "minute": "4",
+    "score": "0-0"
+   },
+   "result": null
+  },
+  {
+   "match_id": 4501881,
+   "iddaa": 3210950,
+   "home": "Cienciano",
+   "away": "UTC Cajamarca",
+   "league": "Peru · Premier Lig Clausura",
+   "date": "19/10/2026",
+   "kickoff": "02:30",
+   "kickoff_iso": "2026-10-19T02:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6208,
+   "probs": {
+    "1": 0.721,
+    "X": 0.1466,
+    "2": 0.1324
+   },
+   "odds": {
+    "1": 1.07,
+    "X": 5.45,
+    "2": 8.81,
+    "alt": null,
+    "ust": null
+   },
+   "pick_odd": 1.07,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6249,
+    "odd": null
+   },
+   "kg_var": 0.5993,
+   "xg": {
+    "home": 1.83,
+    "away": 1.25
+   },
+   "form": {
+    "home": {
+     "last5": "GMMBG",
+     "ppg": 1.1,
+     "gf": 1.3,
+     "ga": 1.6,
+     "n": 10
+    },
+    "away": {
+     "last5": "MMMMM",
+     "ppg": 0.2,
+     "gf": 1.1,
+     "ga": 2.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 1B 0M",
+    "⚽ H2H gol ort. 4.2",
+    "📈 Sıra: 13. vs 18. (18 takım, 11–2 puan)",
+    "🏟 İç saha 1.2 p/m (4 maç) vs dış saha 0.2 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.1,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5806,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 5.7,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5081,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
+  {
+   "match_id": 4504400,
+   "iddaa": 3216312,
+   "home": "FAS",
+   "away": "Platense",
+   "league": "El Salvador · Primera Lig Apertura",
+   "date": "19/10/2026",
+   "kickoff": "02:30",
+   "kickoff_iso": "2026-10-19T02:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.5337,
+   "probs": {
+    "1": 0.6216,
+    "X": 0.2023,
+    "2": 0.1762
+   },
+   "odds": {
+    "1": 1.22,
+    "X": 3.96,
+    "2": 6.12,
+    "alt": 1.77,
+    "ust": 1.5
+   },
+   "pick_odd": 1.22,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5026,
+    "odd": 1.5
+   },
+   "kg_var": 0.5262,
+   "xg": {
+    "home": 1.54,
+    "away": 1.11
+   },
+   "form": {
+    "home": {
+     "last5": "GGBGG",
+     "ppg": 2.3,
+     "gf": 1.6,
+     "ga": 0.8,
+     "n": 10
+    },
+    "away": {
+     "last5": "MBMGG",
+     "ppg": 1.4,
+     "gf": 1.5,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 4 (ev açısından): 2G 2B 0M",
+    "⚽ H2H gol ort. 1.5",
+    "📈 Sıra: 2. vs 6. (12 takım, 30–22 puan)",
+    "🏟 İç saha 2.5 p/m (4 maç) vs dış saha 2.2 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": {
+    "expected": 5.7,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.507,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
+  {
+   "match_id": 4540586,
+   "iddaa": 3290713,
+   "home": "Guabira",
+   "away": "Oriente Petrolero",
+   "league": "Bolivya · Premier Lig",
+   "date": "19/10/2026",
+   "kickoff": "02:30",
+   "kickoff_iso": "2026-10-19T02:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.2849,
+   "probs": {
+    "1": 0.3899,
+    "X": 0.2477,
+    "2": 0.3624
+   },
+   "odds": {
+    "1": 1.95,
+    "X": 3.13,
+    "2": 2.49,
+    "alt": null,
+    "ust": null
+   },
+   "pick_odd": 1.95,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6292,
+    "odd": null
+   },
+   "kg_var": 0.6208,
+   "xg": {
+    "home": 1.42,
+    "away": 1.71
+   },
+   "form": {
+    "home": {
+     "last5": "MBMGM",
+     "ppg": 1.5,
+     "gf": 1.5,
+     "ga": 1.8,
+     "n": 10
+    },
+    "away": {
+     "last5": "BMMGG",
+     "ppg": 1.9,
+     "gf": 2.2,
+     "ga": 1.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 1G 2B 2M",
+    "⚽ H2H gol ort. 3.8",
+    "📈 Sıra: 7. vs 5. (16 takım, 29–33 puan)",
+    "🏟 İç saha 2.2 p/m (5 maç) vs dış saha 1.4 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.2,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5638,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 6.5,
+    "line": 6.5,
+    "pick": "Alt",
+    "prob": 0.5376,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
+  {
+   "match_id": 4490427,
+   "iddaa": 3206447,
+   "home": "Municipal",
+   "away": "Guastatoya",
+   "league": "Guatemala · Ulusal Lig Apertura",
+   "date": "19/10/2026",
+   "kickoff": "03:00",
+   "kickoff_iso": "2026-10-19T03:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.5162,
+   "probs": {
+    "1": 0.6024,
+    "X": 0.2093,
+    "2": 0.1883
+   },
+   "odds": {
+    "1": 1.21,
+    "X": 3.89,
+    "2": 6.45,
+    "alt": 1.6,
+    "ust": 1.65
+   },
+   "pick_odd": 1.21,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.482,
+    "odd": 1.6
+   },
+   "kg_var": 0.5108,
+   "xg": {
+    "home": 1.5,
+    "away": 1.07
+   },
+   "form": {
+    "home": {
+     "last5": "BGBBM",
+     "ppg": 1.7,
+     "gf": 1.4,
+     "ga": 0.8,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGGMB",
+     "ppg": 1.7,
+     "gf": 1.4,
+     "ga": 1.4,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 0B 1M",
+    "⚽ H2H gol ort. 2.4",
+    "📈 Sıra: 3. vs 2. (12 takım, 25–26 puan)",
+    "🏟 İç saha 1.7 p/m (6 maç) vs dış saha 1.4 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": {
+    "expected": 4.8,
+    "line": 4.5,
+    "pick": "Üst",
+    "prob": 0.5004,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
+  {
+   "match_id": 4574694,
+   "iddaa": 3312381,
+   "home": "Austin II",
+   "away": "San Jose Earthquakes II",
+   "league": "ABD · MLS Next Pro Konferans Çeyrek Final",
+   "date": "19/10/2026",
+   "kickoff": "03:30",
+   "kickoff_iso": "2026-10-19T03:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4242,
+   "probs": {
+    "1": 0.4933,
+    "X": 0.2554,
+    "2": 0.2513
+   },
+   "odds": {
+    "1": 1.7,
+    "X": 3.07,
+    "2": 3.13,
+    "alt": 1.79,
+    "ust": 1.48
+   },
+   "pick_odd": 1.7,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5085,
+    "odd": 1.48
+   },
+   "kg_var": 0.475,
+   "xg": {
+    "home": 1.46,
+    "away": 0.97
+   },
+   "form": {
+    "home": {
+     "last5": "GMGGG",
+     "ppg": 2.1,
+     "gf": 1.4,
+     "ga": 0.5,
+     "n": 10
+    },
+    "away": {
+     "last5": "GMMGG",
+     "ppg": 1.2,
+     "gf": 1.4,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "🏟 İç saha 3.0 p/m (4 maç) vs dış saha 1.2 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": {
+    "expected": 4.3,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.5821,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  }
+ ],
+ "stats": {
+  "settled": 3370,
+  "pending": 28,
+  "void": 56,
+  "overall": {
+   "n": 6639,
+   "hits": 3653,
+   "rate": 0.5502,
+   "roi": -0.1714,
+   "profit": -1053.45,
+   "roi_n": 6145
+  },
+  "ms1x2": {
+   "n": 3370,
+   "hits": 1739,
+   "rate": 0.516,
+   "roi": -0.1615,
+   "profit": -544.36,
+   "roi_n": 3370
+  },
+  "alt_ust": {
+   "n": 3269,
+   "hits": 1914,
+   "rate": 0.5855,
+   "roi": -0.1835,
+   "profit": -509.09,
+   "roi_n": 2775
+  },
+  "korner": {
+   "n": 1215,
+   "hits": 655,
+   "rate": 0.5391,
+   "roi": -0.1176,
+   "profit": -52.79,
+   "roi_n": 449
+  },
+  "kart": {
+   "n": 1052,
+   "hits": 580,
+   "rate": 0.5513,
+   "roi": -0.1514,
+   "profit": -42.38,
+   "roi_n": 280
+  },
+  "bands": [
+   {
+    "label": "< %45",
+    "n": 2203,
+    "hits": 960,
+    "rate": 0.4358,
+    "roi": -0.1814,
+    "profit": -399.68,
+    "roi_n": 2203
+   },
+   {
+    "label": "%45–55",
+    "n": 788,
+    "hits": 500,
+    "rate": 0.6345,
+    "roi": -0.1173,
+    "profit": -92.42,
+    "roi_n": 788
+   },
+   {
+    "label": "%55–65",
+    "n": 346,
+    "hits": 258,
+    "rate": 0.7457,
+    "roi": -0.1243,
+    "profit": -43.02,
+    "roi_n": 346
+   },
+   {
+    "label": "≥ %65",
+    "n": 33,
+    "hits": 21,
+    "rate": 0.6364,
+    "roi": -0.28,
+    "profit": -9.24,
+    "roi_n": 33
+   }
+  ],
+  "model": {
+   "form": {
+    "n": 2904,
+    "hits": 1505,
+    "rate": 0.5183,
+    "roi": -0.1586,
+    "profit": -460.68,
+    "roi_n": 2904
+   },
+   "oran": {
+    "n": 466,
+    "hits": 234,
+    "rate": 0.5021,
+    "roi": -0.1796,
+    "profit": -83.68,
+    "roi_n": 466
+   }
+  },
+  "last7": {
+   "ms1x2": {
+    "n": 1450,
+    "hits": 749,
+    "rate": 0.5166,
+    "roi": -0.1524,
+    "profit": -220.91,
+    "roi_n": 1450
+   },
+   "alt_ust": {
+    "n": 1403,
+    "hits": 817,
+    "rate": 0.5823,
+    "roi": -0.1908,
+    "profit": -233.58,
+    "roi_n": 1224
+   }
+  },
+  "channel": {
+   "ms1x2": {
+    "n": 206,
+    "hits": 134,
+    "rate": 0.6505,
+    "roi": -0.0996,
+    "profit": -20.52,
+    "roi_n": 206
+   },
+   "alt_ust": {
+    "n": 204,
+    "hits": 139,
+    "rate": 0.6814,
+    "roi": -0.0767,
+    "profit": -14.27,
+    "roi_n": 186
+   },
+   "korner": {
+    "n": 126,
+    "hits": 69,
+    "rate": 0.5476,
+    "roi": -0.1533,
+    "profit": -13.8,
+    "roi_n": 90
+   },
+   "kart": {
+    "n": 116,
+    "hits": 63,
+    "rate": 0.5431,
+    "roi": -0.1073,
+    "profit": -6.33,
+    "roi_n": 59
+   },
+   "days": 19
+  }
+ },
+ "history": [
+  {
+   "match_id": 4540585,
+   "iddaa": 3290707,
+   "home": "The Strongest",
+   "away": "Always Ready",
+   "league": "Bolivya · Premier Lig",
+   "date": "19/10/2026",
+   "kickoff": "00:15",
+   "kickoff_iso": "2026-10-19T00:15:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.2803,
+   "probs": {
+    "1": 0.3698,
+    "X": 0.2461,
+    "2": 0.384
+   },
+   "odds": {
+    "1": 2.19,
+    "X": 3.23,
+    "2": 2.13,
+    "alt": 2.0,
+    "ust": 1.36
+   },
+   "pick_odd": 2.13,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6005,
+    "odd": 1.36
+   },
+   "kg_var": 0.6293,
+   "xg": {
+    "home": 1.58,
+    "away": 1.57
+   },
+   "form": {
+    "home": {
+     "last5": "GGGGM",
+     "ppg": 1.9,
+     "gf": 2.3,
+     "ga": 1.4,
+     "n": 10
+    },
+    "away": {
+     "last5": "BGGGG",
+     "ppg": 2.2,
+     "gf": 2.2,
+     "ga": 0.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 3. vs 2. (16 takım, 42–48 puan)",
+    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 2.2 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.2,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5671,
+    "odd": null,
+    "source": "model",
+    "actual": 9,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.2,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5842,
+    "odd": null,
+    "source": "model",
+    "actual": 6,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4510224,
+   "iddaa": 3282342,
+   "home": "Envigado",
+   "away": "Barranquilla",
+   "league": "Kolombiya · Primera B Clausura",
+   "date": "18/10/2026",
+   "kickoff": "23:30",
+   "kickoff_iso": "2026-10-18T23:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.5599,
+   "probs": {
+    "1": 0.6511,
+    "X": 0.1725,
+    "2": 0.1764
+   },
+   "odds": {
+    "1": 1.1,
+    "X": 4.92,
+    "2": 8.26,
+    "alt": 2.01,
+    "ust": 1.36
+   },
+   "pick_odd": 1.1,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5407,
+    "odd": 1.36
+   },
+   "kg_var": 0.516,
+   "xg": {
+    "home": 1.42,
+    "away": 1.14
+   },
+   "form": {
+    "home": {
+     "last5": "GBBBB",
+     "ppg": 1.0,
+     "gf": 1.1,
+     "ga": 1.0,
+     "n": 10
+    },
+    "away": {
+     "last5": "MBBGB",
+     "ppg": 1.2,
+     "gf": 1.4,
+     "ga": 1.5,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 3 (ev açısından): 2G 1B 0M",
+    "⚽ H2H gol ort. 2.0",
+    "📈 Sıra: 11. vs 16. (16 takım, 14–13 puan)",
+    "🏟 İç saha 1.2 p/m (6 maç) vs dış saha 1.0 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4501884,
+   "iddaa": 3211214,
+   "home": "Alianza Atletico",
+   "away": "Universitario",
+   "league": "Peru · Premier Lig Clausura",
+   "date": "18/10/2026",
+   "kickoff": "23:30",
+   "kickoff_iso": "2026-10-18T23:30:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.2716,
+   "probs": {
+    "1": 0.3622,
+    "X": 0.2658,
+    "2": 0.372
+   },
+   "odds": {
+    "1": 2.85,
+    "X": 2.84,
+    "2": 1.88,
+    "alt": 1.54,
+    "ust": 1.71
+   },
+   "pick_odd": 1.88,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5489,
+    "odd": 1.71
+   },
+   "kg_var": 0.6692,
+   "xg": {
+    "home": 2.12,
+    "away": 1.43
+   },
+   "form": {
+    "home": {
+     "last5": "MGGGG",
+     "ppg": 2.3,
+     "gf": 2.6,
+     "ga": 1.3,
+     "n": 10
+    },
+    "away": {
+     "last5": "GBGMB",
+     "ppg": 1.8,
+     "gf": 1.9,
+     "ga": 1.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 7. vs 8. (18 takım, 22–21 puan)",
+    "🏟 İç saha 2.6 p/m (5 maç) vs dış saha 1.8 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.0,
+    "line": 9.5,
+    "pick": "Üst",
+    "prob": 0.5267,
+    "odd": null,
+    "source": "model",
+    "actual": 14,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.5,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5417,
+    "odd": null,
+    "source": "model",
+    "actual": 5,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-4",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4571030,
+   "iddaa": 3293203,
+   "home": "Wydad Casablanca",
+   "away": "Amal Tiznit",
+   "league": "Fas · Botola Pro",
+   "date": "18/10/2026",
+   "kickoff": "23:00",
+   "kickoff_iso": "2026-10-18T23:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4523,
+   "probs": {
+    "1": 0.525,
+    "X": 0.2326,
+    "2": 0.2424
+   },
+   "odds": {
+    "1": 1.27,
+    "X": 3.49,
+    "2": 6.38,
+    "alt": 1.38,
+    "ust": 1.96
+   },
+   "pick_odd": 1.27,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4213,
+    "odd": 1.38
+   },
+   "kg_var": 0.4932,
+   "xg": {
+    "home": 1.21,
+    "away": 1.21
+   },
+   "form": {
+    "home": {
+     "last5": "MMMGB",
+     "ppg": 0.4,
+     "gf": 0.7,
+     "ga": 1.6,
+     "n": 10
+    },
+    "away": {
+     "last5": "BBMGM",
+     "ppg": 1.3,
+     "gf": 1.0,
+     "ga": 1.4,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 10. vs 14. (16 takım, 4–3 puan)",
+    "🏟 İç saha 0.2 p/m (6 maç) vs dış saha 1.8 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 6.9,
+    "line": 6.5,
+    "pick": "Üst",
+    "prob": 0.5244,
+    "odd": null,
+    "source": "model",
+    "actual": 12,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.2,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5935,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-1",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4441261,
+   "iddaa": 3216841,
+   "home": "Club Atletico Guemes",
+   "away": "Almagro",
+   "league": "Arjantin · Ulusal Primera Lig",
+   "date": "18/10/2026",
+   "kickoff": "23:00",
+   "kickoff_iso": "2026-10-18T23:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4856,
+   "probs": {
+    "1": 0.1877,
+    "X": 0.2491,
+    "2": 0.5633
+   },
+   "odds": {
+    "1": 5.84,
+    "X": 3.26,
+    "2": 1.33,
+    "alt": 1.31,
+    "ust": 2.13
+   },
+   "pick_odd": 1.33,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.3743,
+    "odd": 1.31
+   },
+   "kg_var": 0.4309,
+   "xg": {
+    "home": 1.0,
+    "away": 1.14
+   },
+   "form": {
+    "home": {
+     "last5": "MMMMM",
+     "ppg": 0.4,
+     "gf": 0.3,
+     "ga": 1.4,
+     "n": 10
+    },
+    "away": {
+     "last5": "BMMGG",
+     "ppg": 1.2,
+     "gf": 1.0,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 18. vs 12. (36 takım, 23–41 puan)",
+    "🏟 İç saha 0.2 p/m (4 maç) vs dış saha 1.4 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4441250,
+   "iddaa": 3219630,
+   "home": "Chaco For Ever",
+   "away": "Central Norte",
+   "league": "Arjantin · Ulusal Primera Lig",
+   "date": "18/10/2026",
+   "kickoff": "23:00",
+   "kickoff_iso": "2026-10-18T23:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4009,
+   "probs": {
+    "1": 0.466,
+    "X": 0.3107,
+    "2": 0.2233
+   },
+   "odds": {
+    "1": 1.77,
+    "X": 2.52,
+    "2": 3.69,
+    "alt": null,
+    "ust": null
+   },
+   "pick_odd": 1.77,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.2583,
+    "odd": null
+   },
+   "kg_var": 0.331,
+   "xg": {
+    "home": 1.04,
+    "away": 0.72
+   },
+   "form": {
+    "home": {
+     "last5": "BGMBG",
+     "ppg": 1.8,
+     "gf": 1.1,
+     "ga": 0.6,
+     "n": 10
+    },
+    "away": {
+     "last5": "BMBBB",
+     "ppg": 1.1,
+     "gf": 0.6,
+     "ga": 0.6,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 10. vs 16. (36 takım, 40–34 puan)",
+    "🏟 İç saha 2.6 p/m (5 maç) vs dış saha 1.0 p/m (3 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": {
+    "expected": 4.4,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.569,
+    "odd": null,
+    "source": "model",
+    "actual": 8,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-2",
+    "outcome": "2",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4514399,
+   "iddaa": 3238616,
+   "home": "UCV",
+   "away": "Portuguesa FC",
+   "league": "Venezuela · Premier Lig Clausura",
+   "date": "18/10/2026",
+   "kickoff": "22:30",
+   "kickoff_iso": "2026-10-18T22:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.401,
+   "probs": {
+    "1": 0.4668,
+    "X": 0.2643,
+    "2": 0.2689
+   },
+   "odds": {
+    "1": 1.55,
+    "X": 3.02,
+    "2": 3.87,
+    "alt": 1.56,
+    "ust": 1.68
+   },
+   "pick_odd": 1.55,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4742,
+    "odd": 1.56
+   },
+   "kg_var": 0.494,
+   "xg": {
+    "home": 1.25,
+    "away": 1.18
+   },
+   "form": {
+    "home": {
+     "last5": "BGGBM",
+     "ppg": 1.2,
+     "gf": 1.1,
+     "ga": 1.2,
+     "n": 10
+    },
+    "away": {
+     "last5": "BBGMB",
+     "ppg": 1.5,
+     "gf": 1.3,
+     "ga": 1.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 2G 1B 2M",
+    "⚽ H2H gol ort. 3.0",
+    "📈 Sıra: 9. vs 5. (14 takım, 15–18 puan)",
+    "🏟 İç saha 1.6 p/m (5 maç) vs dış saha 1.2 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 8.8,
+    "line": 8.5,
+    "pick": "Üst",
+    "prob": 0.5085,
+    "odd": null,
+    "source": "model",
+    "actual": 19,
+    "hit": true
+   },
+   "cards": {
+    "expected": 6.9,
+    "line": 6.5,
+    "pick": "Üst",
+    "prob": 0.5141,
+    "odd": null,
+    "source": "model",
+    "actual": 3,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-0",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4514398,
+   "iddaa": 3238881,
+   "home": "Estudiantes De Merida",
+   "away": "Metropolitanos",
+   "league": "Venezuela · Premier Lig Clausura",
+   "date": "18/10/2026",
+   "kickoff": "22:30",
+   "kickoff_iso": "2026-10-18T22:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4322,
+   "probs": {
+    "1": 0.502,
+    "X": 0.219,
+    "2": 0.2791
+   },
+   "odds": {
+    "1": 1.26,
+    "X": 3.74,
+    "2": 5.86,
+    "alt": 1.71,
+    "ust": 1.54
+   },
+   "pick_odd": 1.26,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5117,
+    "odd": 1.54
+   },
+   "kg_var": 0.5128,
+   "xg": {
+    "home": 1.04,
+    "away": 1.57
+   },
+   "form": {
+    "home": {
+     "last5": "MGMBM",
+     "ppg": 1.2,
+     "gf": 1.0,
+     "ga": 1.2,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGGGG",
+     "ppg": 2.5,
+     "gf": 2.4,
+     "ga": 0.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 8. vs 1. (14 takım, 16–31 puan)",
+    "🏟 İç saha 1.8 p/m (5 maç) vs dış saha 2.0 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.5,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5319,
+    "odd": null,
+    "source": "model",
+    "actual": 13,
+    "hit": false
+   },
+   "cards": {
+    "expected": 5.5,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5435,
+    "odd": null,
+    "source": "model",
+    "actual": 5,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-2",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4514394,
+   "iddaa": 3239007,
+   "home": "Academia Puerto Cabello",
+   "away": "Monagas",
+   "league": "Venezuela · Premier Lig Clausura",
+   "date": "18/10/2026",
+   "kickoff": "22:30",
+   "kickoff_iso": "2026-10-18T22:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.3581,
+   "probs": {
+    "1": 0.4161,
+    "X": 0.277,
+    "2": 0.3069
+   },
+   "odds": {
+    "1": 1.99,
+    "X": 2.85,
+    "2": 2.64,
+    "alt": 1.57,
+    "ust": 1.67
+   },
+   "pick_odd": 1.99,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4584,
+    "odd": 1.57
+   },
+   "kg_var": 0.4693,
+   "xg": {
+    "home": 1.25,
+    "away": 1.07
+   },
+   "form": {
+    "home": {
+     "last5": "BMBGG",
+     "ppg": 1.9,
+     "gf": 1.2,
+     "ga": 0.6,
+     "n": 10
+    },
+    "away": {
+     "last5": "GBMGG",
+     "ppg": 1.9,
+     "gf": 1.6,
+     "ga": 1.0,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 3. vs 7. (14 takım, 22–17 puan)",
+    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 1.4 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 8.2,
+    "line": 8.5,
+    "pick": "Alt",
+    "prob": 0.5682,
+    "odd": null,
+    "source": "model",
+    "actual": 4,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.7,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5054,
+    "odd": null,
+    "source": "model",
+    "actual": 0,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "3-3",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4514393,
+   "iddaa": 3238374,
+   "home": "Rayo Zuliano",
+   "away": "Caracas FC",
+   "league": "Venezuela · Premier Lig Clausura",
+   "date": "18/10/2026",
+   "kickoff": "22:30",
+   "kickoff_iso": "2026-10-18T22:30:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4784,
+   "probs": {
+    "1": 0.231,
+    "X": 0.2122,
+    "2": 0.5568
+   },
+   "odds": {
+    "1": 5.01,
+    "X": 3.76,
+    "2": 1.3,
+    "alt": 1.83,
+    "ust": 1.46
+   },
+   "pick_odd": 1.3,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5374,
+    "odd": 1.46
+   },
+   "kg_var": 0.5803,
+   "xg": {
+    "home": 1.37,
+    "away": 1.5
+   },
+   "form": {
+    "home": {
+     "last5": "GBGMB",
+     "ppg": 1.3,
+     "gf": 1.5,
+     "ga": 2.0,
+     "n": 10
+    },
+    "away": {
+     "last5": "MBGGM",
+     "ppg": 1.5,
+     "gf": 1.4,
+     "ga": 1.0,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 0G 2B 3M",
+    "⚽ H2H gol ort. 1.8",
+    "📈 Sıra: 12. vs 10. (14 takım, 11–14 puan)",
+    "🏟 İç saha 2.0 p/m (4 maç) vs dış saha 1.3 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-2",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4563384,
+   "iddaa": 3234673,
+   "home": "Leones del Norte",
+   "away": "Emelec",
+   "league": "Ekvador · Pro Lig Copa Sudamericana Play Off",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.3782,
+   "probs": {
+    "1": 0.4396,
+    "X": 0.289,
+    "2": 0.2713
+   },
+   "odds": {
+    "1": 1.73,
+    "X": 2.74,
+    "2": 3.45,
+    "alt": 1.34,
+    "ust": 2.06
+   },
+   "pick_odd": 1.73,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4062,
+    "odd": 1.34
+   },
+   "kg_var": 0.4861,
+   "xg": {
+    "home": 1.25,
+    "away": 1.14
+   },
+   "form": {
+    "home": {
+     "last5": "GBMBM",
+     "ppg": 0.9,
+     "gf": 0.9,
+     "ga": 1.5,
+     "n": 10
+    },
+    "away": {
+     "last5": "BGMMM",
+     "ppg": 1.1,
+     "gf": 0.9,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 3. vs 4. (4 takım, 1–0 puan) · erken sezon, etkisiz",
+    "🏟 İç saha 1.0 p/m (4 maç) vs dış saha 0.4 p/m (5 maç)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-3",
+    "outcome": "2",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4540584,
+   "iddaa": 3290703,
+   "home": "Nacional Potosi",
+   "away": "Bolivar",
+   "league": "Bolivya · Premier Lig",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4555,
+   "probs": {
+    "1": 0.2496,
+    "X": 0.2216,
+    "2": 0.5288
+   },
+   "odds": {
+    "1": 3.48,
+    "X": 3.5,
+    "2": 1.52,
+    "alt": null,
+    "ust": null
+   },
+   "pick_odd": 1.52,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6515,
+    "odd": null
+   },
+   "kg_var": 0.6553,
+   "xg": {
+    "home": 1.5,
+    "away": 1.86
+   },
+   "form": {
+    "home": {
+     "last5": "MGGMB",
+     "ppg": 1.3,
+     "gf": 1.5,
+     "ga": 1.5,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGGGG",
+     "ppg": 2.5,
+     "gf": 2.9,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 9. vs 2. (16 takım, 28–48 puan)",
+    "🏟 İç saha 1.8 p/m (5 maç) vs dış saha 2.4 p/m (5 maç)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-1",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4513963,
+   "iddaa": 3219667,
+   "home": "Aguilas Doradas",
+   "away": "Deportes Tolima",
+   "league": "Kolombiya · Primera A Clausura",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.2686,
+   "probs": {
+    "1": 0.351,
+    "X": 0.2812,
+    "2": 0.3679
+   },
+   "odds": {
+    "1": 2.43,
+    "X": 2.71,
+    "2": 2.2,
+    "alt": 1.48,
+    "ust": 1.8
+   },
+   "pick_odd": 2.2,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4658,
+    "odd": 1.48
+   },
+   "kg_var": 0.5173,
+   "xg": {
+    "home": 1.37,
+    "away": 1.18
+   },
+   "form": {
+    "home": {
+     "last5": "MMGBB",
+     "ppg": 0.9,
+     "gf": 1.2,
+     "ga": 1.5,
+     "n": 10
+    },
+    "away": {
+     "last5": "BBBBM",
+     "ppg": 1.0,
+     "gf": 1.0,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 1G 0B 4M",
+    "⚽ H2H gol ort. 3.0",
+    "📈 Sıra: 11. vs 8. (20 takım, 16–20 puan)",
+    "🏟 İç saha 1.5 p/m (4 maç) vs dış saha 0.7 p/m (7 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.2,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5579,
+    "odd": null,
+    "source": "model",
+    "actual": 7,
+    "hit": true
+   },
+   "cards": {
+    "expected": 6.5,
+    "line": 6.5,
+    "pick": "Alt",
+    "prob": 0.5447,
+    "odd": null,
+    "source": "model",
+    "actual": 8,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4492778,
+   "iddaa": 3218412,
+   "home": "Burgos",
+   "away": "Sabadell",
+   "league": "İspanya · 2.Lig",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.2603,
+   "probs": {
+    "1": 0.3343,
+    "X": 0.3206,
+    "2": 0.3451
+   },
+   "odds": {
+    "1": 2.58,
+    "X": 2.54,
+    "2": 2.46,
+    "alt": 1.27,
+    "ust": 2.52
+   },
+   "pick_odd": 2.46,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.353,
+    "odd": 1.27
+   },
+   "kg_var": 0.4524,
+   "xg": {
+    "home": 1.13,
+    "away": 1.11
+   },
+   "form": {
+    "home": {
+     "last5": "GGGMM",
+     "ppg": 1.5,
+     "gf": 1.2,
+     "ga": 1.0,
+     "n": 10
+    },
+    "away": {
+     "last5": "MGBBG",
+     "ppg": 1.9,
+     "gf": 1.3,
+     "ga": 0.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 10. vs 9. (22 takım, 14–16 puan)",
+    "🏟 İç saha 1.8 p/m (6 maç) vs dış saha 1.5 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 8.5,
+    "line": 8.5,
+    "pick": "Alt",
+    "prob": 0.5264,
+    "odd": 1.59,
+    "source": "model+oran",
+    "actual": 13,
+    "hit": false
+   },
+   "cards": {
+    "expected": 6.0,
+    "line": 6.5,
+    "pick": "Alt",
+    "prob": 0.6058,
+    "odd": 1.61,
+    "source": "model+oran",
+    "actual": 3,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-0",
+    "outcome": "1",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4492346,
+   "iddaa": 3219970,
+   "home": "Real Madrid",
+   "away": "Sevilla",
+   "league": "İspanya · LaLiga",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6679,
+   "probs": {
+    "1": 0.7542,
+    "X": 0.1232,
+    "2": 0.1227
+   },
+   "odds": {
+    "1": 1.09,
+    "X": 6.04,
+    "2": 9.28,
+    "alt": 2.67,
+    "ust": 1.23
+   },
+   "pick_odd": 1.09,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6674,
+    "odd": 1.23
+   },
+   "kg_var": 0.6245,
+   "xg": {
+    "home": 2.08,
+    "away": 1.25
+   },
+   "form": {
+    "home": {
+     "last5": "GGMGG",
+     "ppg": 2.4,
+     "gf": 2.5,
+     "ga": 1.2,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGMMB",
+     "ppg": 1.4,
+     "gf": 1.5,
+     "ga": 1.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 1B 0M",
+    "⚽ H2H gol ort. 2.4",
+    "📈 Sıra: 4. vs 5. (20 takım, 18–14 puan)",
+    "🏟 İç saha 3.0 p/m (5 maç) vs dış saha 1.6 p/m (5 maç)",
+    "🚑 Eksik: ev 4 (3 sakat, 1 cezalı) · dep 6 (5 sakat, 1 cezalı)"
+   ],
+   "corners": {
+    "expected": 10.2,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5587,
+    "odd": 1.5,
+    "source": "model+oran",
+    "actual": 3,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.1,
+    "line": 4.5,
+    "pick": "Üst",
+    "prob": 0.5511,
+    "odd": 1.62,
+    "source": "model+oran",
+    "actual": 4,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "4-1",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4454025,
+   "iddaa": 3218735,
+   "home": "CRB",
+   "away": "Botafogo SP",
+   "league": "Brezilya · Serie B",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.5282,
+   "probs": {
+    "1": 0.6148,
+    "X": 0.2069,
+    "2": 0.1783
+   },
+   "odds": {
+    "1": 1.29,
+    "X": 3.63,
+    "2": 5.43,
+    "alt": 1.67,
+    "ust": 1.58
+   },
+   "pick_odd": 1.29,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5044,
+    "odd": 1.58
+   },
+   "kg_var": 0.5524,
+   "xg": {
+    "home": 1.67,
+    "away": 1.14
+   },
+   "form": {
+    "home": {
+     "last5": "MGMGB",
+     "ppg": 1.6,
+     "gf": 1.7,
+     "ga": 1.5,
+     "n": 10
+    },
+    "away": {
+     "last5": "BGMGG",
+     "ppg": 1.0,
+     "gf": 0.9,
+     "ga": 1.5,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 2G 2B 1M",
+    "⚽ H2H gol ort. 1.8",
+    "📈 Sıra: 7. vs 16. (20 takım, 52–41 puan)",
+    "🏟 İç saha 3.0 p/m (5 maç) vs dış saha 1.0 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.9,
+    "line": 9.5,
+    "pick": "Üst",
+    "prob": 0.5189,
+    "odd": null,
+    "source": "model",
+    "actual": 15,
+    "hit": true
+   },
+   "cards": {
+    "expected": 4.7,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.5156,
+    "odd": null,
+    "source": "model",
+    "actual": 7,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-1",
+    "outcome": "2",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4454023,
+   "iddaa": 3216209,
+   "home": "Avai",
+   "away": "Athletic Club",
+   "league": "Brezilya · Serie B",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.3456,
+   "probs": {
+    "1": 0.4025,
+    "X": 0.2916,
+    "2": 0.3058
+   },
+   "odds": {
+    "1": 1.96,
+    "X": 2.66,
+    "2": 2.86,
+    "alt": 1.35,
+    "ust": 2.03
+   },
+   "pick_odd": 1.96,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4401,
+    "odd": 1.35
+   },
+   "kg_var": 0.5553,
+   "xg": {
+    "home": 1.42,
+    "away": 1.32
+   },
+   "form": {
+    "home": {
+     "last5": "MMMGG",
+     "ppg": 1.0,
+     "gf": 0.8,
+     "ga": 1.3,
+     "n": 10
+    },
+    "away": {
+     "last5": "BBMMB",
+     "ppg": 0.9,
+     "gf": 1.6,
+     "ga": 1.8,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 17. vs 14. (20 takım, 36–43 puan)",
+    "🏟 İç saha 1.0 p/m (4 maç) vs dış saha 0.8 p/m (5 maç)"
+   ],
+   "corners": {
+    "expected": 9.9,
+    "line": 9.5,
+    "pick": "Üst",
+    "prob": 0.5167,
+    "odd": null,
+    "source": "model",
+    "actual": 12,
+    "hit": true
+   },
+   "cards": {
+    "expected": 4.0,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.6225,
+    "odd": null,
+    "source": "model",
+    "actual": 6,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-0",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4454018,
+   "iddaa": 3217984,
+   "home": "Sao Bernardo FC",
+   "away": "Criciuma",
+   "league": "Brezilya · Serie B",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.3735,
+   "probs": {
+    "1": 0.2742,
+    "X": 0.2919,
+    "2": 0.4339
+   },
+   "odds": {
+    "1": 2.96,
+    "X": 2.78,
+    "2": 1.87,
+    "alt": 1.41,
+    "ust": 1.92
+   },
+   "pick_odd": 1.87,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4234,
+    "odd": 1.41
+   },
+   "kg_var": null,
+   "xg": null,
+   "form": null,
+   "model": "oran",
+   "factors": [],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-1",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4441249,
+   "iddaa": 3216626,
+   "home": "Ferro Carril Oeste",
+   "away": "Racing Cordoba",
+   "league": "Arjantin · Ulusal Primera Lig",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.5116,
+   "probs": {
+    "1": 0.5951,
+    "X": 0.2335,
+    "2": 0.1714
+   },
+   "odds": {
+    "1": 1.28,
+    "X": 3.44,
+    "2": 6.17,
+    "alt": 1.38,
+    "ust": 1.97
+   },
+   "pick_odd": 1.28,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.3878,
+    "odd": 1.38
+   },
+   "kg_var": 0.4001,
+   "xg": {
+    "home": 1.25,
+    "away": 0.82
+   },
+   "form": {
+    "home": {
+     "last5": "BGGMB",
+     "ppg": 1.9,
+     "gf": 1.1,
+     "ga": 0.7,
+     "n": 10
+    },
+    "away": {
+     "last5": "MMBBG",
+     "ppg": 1.3,
+     "gf": 0.8,
+     "ga": 1.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📈 Sıra: 1. vs 11. (36 takım, 62–40 puan)",
+    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 0.5 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": {
+    "expected": 4.8,
+    "line": 4.5,
+    "pick": "Üst",
+    "prob": 0.5029,
+    "odd": null,
+    "source": "model",
+    "actual": 5,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4423335,
+   "iddaa": 3219753,
+   "home": "Gremio",
+   "away": "Cruzeiro",
+   "league": "Brezilya · Serie A",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.3852,
+   "probs": {
+    "1": 0.3213,
+    "X": 0.2449,
+    "2": 0.4338
+   },
+   "odds": {
+    "1": 2.93,
+    "X": 3.22,
+    "2": 1.87,
+    "alt": 1.9,
+    "ust": 1.51
+   },
+   "pick_odd": 1.87,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5466,
+    "odd": 1.51
+   },
+   "kg_var": 0.562,
+   "xg": {
+    "home": 1.5,
+    "away": 1.29
+   },
+   "form": {
+    "home": {
+     "last5": "MMBBB",
+     "ppg": 1.0,
+     "gf": 1.1,
+     "ga": 1.1,
+     "n": 10
+    },
+    "away": {
+     "last5": "GMGGM",
+     "ppg": 1.3,
+     "gf": 1.7,
+     "ga": 1.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 1G 1B 3M",
+    "⚽ H2H gol ort. 2.6",
+    "📈 Sıra: 18. vs 7. (20 takım, 31–48 puan)",
+    "🏟 İç saha 1.6 p/m (5 maç) vs dış saha 0.5 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.3,
+    "line": 9.5,
+    "pick": "Üst",
+    "prob": 0.5619,
+    "odd": 1.59,
+    "source": "model+oran",
+    "actual": 16,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.0,
+    "line": 4.5,
+    "pick": "Üst",
+    "prob": 0.5401,
+    "odd": 1.59,
+    "source": "model+oran",
+    "actual": 6,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-4",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4423329,
+   "iddaa": 3218749,
+   "home": "Fluminense",
+   "away": "Santos",
+   "league": "Brezilya · Serie A",
+   "date": "18/10/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-10-18T22:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.3984,
+   "probs": {
+    "1": 0.4492,
+    "X": 0.2495,
+    "2": 0.3013
+   },
+   "odds": {
+    "1": 1.94,
+    "X": 3.15,
+    "2": 2.81,
+    "alt": 1.91,
+    "ust": 1.51
+   },
+   "pick_odd": 1.94,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5514,
+    "odd": 1.51
+   },
+   "kg_var": 0.5962,
+   "xg": {
+    "home": 1.62,
+    "away": 1.36
+   },
+   "form": {
+    "home": {
+     "last5": "MGGMM",
+     "ppg": 1.6,
+     "gf": 1.8,
+     "ga": 1.3,
+     "n": 10
+    },
+    "away": {
+     "last5": "MGGBM",
+     "ppg": 2.0,
+     "gf": 1.7,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 1B 0M",
+    "⚽ H2H gol ort. 2.0",
+    "📈 Sıra: 4. vs 9. (20 takım, 51–42 puan)",
+    "🏟 İç saha 2.4 p/m (5 maç) vs dış saha 2.0 p/m (6 maç)"
+   ],
+   "corners": {
+    "expected": 10.2,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5559,
+    "odd": 1.53,
+    "source": "model+oran",
+    "actual": 9,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.8,
+    "line": 5.5,
+    "pick": "Üst",
+    "prob": 0.5005,
+    "odd": 1.53,
+    "source": "model+oran",
+    "actual": 3,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-2",
+    "outcome": "2",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4476563,
+   "iddaa": 3216600,
+   "home": "Lyon",
+   "away": "Nice",
+   "league": "Fransa · Ligue 1",
+   "date": "18/10/2026",
+   "kickoff": "21:45",
+   "kickoff_iso": "2026-10-18T21:45:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4694,
+   "probs": {
+    "1": 0.5282,
+    "X": 0.2317,
+    "2": 0.24
+   },
+   "odds": {
+    "1": 1.74,
+    "X": 3.32,
+    "2": 3.23,
+    "alt": 1.98,
+    "ust": 1.47
+   },
+   "pick_odd": 1.74,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5518,
+    "odd": 1.47
+   },
+   "kg_var": 0.5078,
+   "xg": {
+    "home": 1.62,
+    "away": 1.0
+   },
+   "form": {
+    "home": {
+     "last5": "BGGMG",
+     "ppg": 1.8,
+     "gf": 1.8,
+     "ga": 1.0,
+     "n": 10
+    },
+    "away": {
+     "last5": "MBMGG",
+     "ppg": 1.2,
+     "gf": 1.0,
+     "ga": 1.3,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 0B 1M",
+    "⚽ H2H gol ort. 3.0",
+    "📈 Sıra: 5. vs 11. (18 takım, 11–8 puan)",
+    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 0.7 p/m (6 maç)",
+    "🚑 Eksik: ev 3 (3 sakat) · dep 4 (4 sakat)"
+   ],
+   "corners": {
+    "expected": 10.1,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5739,
+    "odd": 1.54,
+    "source": "model+oran",
+    "actual": 10,
+    "hit": true
+   },
+   "cards": {
+    "expected": 3.9,
+    "line": 3.5,
+    "pick": "Üst",
+    "prob": 0.5151,
+    "odd": 1.51,
+    "source": "model+oran",
+    "actual": 6,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4475105,
+   "iddaa": 3219857,
+   "home": "Juventus",
+   "away": "Lazio",
+   "league": "İtalya · Serie A",
+   "date": "18/10/2026",
+   "kickoff": "21:45",
+   "kickoff_iso": "2026-10-18T21:45:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4602,
+   "probs": {
+    "1": 0.5184,
+    "X": 0.2341,
+    "2": 0.2475
+   },
+   "odds": {
+    "1": 1.44,
+    "X": 3.55,
+    "2": 4.74,
+    "alt": 1.76,
+    "ust": 1.61
+   },
+   "pick_odd": 1.44,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5068,
+    "odd": 1.61
+   },
+   "kg_var": 0.5378,
+   "xg": {
+    "home": 1.5,
+    "away": 1.18
+   },
+   "form": {
+    "home": {
+     "last5": "GGMBG",
+     "ppg": 2.0,
+     "gf": 1.8,
+     "ga": 0.7,
+     "n": 10
+    },
+    "away": {
+     "last5": "BGGBG",
+     "ppg": 2.3,
+     "gf": 1.8,
+     "ga": 1.0,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 2G 1B 2M",
+    "⚽ H2H gol ort. 2.2",
+    "📈 Sıra: 7. vs 3. (20 takım, 11–16 puan)",
+    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 3.0 p/m (4 maç)",
+    "🚑 Eksik: ev 6 (5 sakat, 1 diğer) · dep 6 (6 sakat)"
+   ],
+   "corners": {
+    "expected": 9.7,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5056,
+    "odd": 1.67,
+    "source": "model+oran",
+    "actual": 12,
+    "hit": false
+   },
+   "cards": {
+    "expected": 4.8,
+    "line": 4.5,
+    "pick": "Üst",
+    "prob": 0.5035,
+    "odd": 1.61,
+    "source": "model+oran",
+    "actual": 2,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-3",
+    "outcome": "2",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4574087,
+   "iddaa": 3264563,
+   "home": "Paredes",
+   "away": "Famalicao",
+   "league": "Portekiz · Kupa 3.Tur",
+   "date": "18/10/2026",
+   "kickoff": "21:30",
+   "kickoff_iso": "2026-10-18T21:30:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4364,
+   "probs": {
+    "1": 0.2932,
+    "X": 0.1987,
+    "2": 0.5081
+   },
+   "odds": {
+    "1": 5.39,
+    "X": 4.11,
+    "2": 1.24,
+    "alt": 1.84,
+    "ust": 1.45
+   },
+   "pick_odd": 1.24,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5766,
+    "odd": 1.45
+   },
+   "kg_var": 0.6212,
+   "xg": {
+    "home": 1.96,
+    "away": 1.29
+   },
+   "form": {
+    "home": {
+     "last5": "GGGGB",
+     "ppg": 2.2,
+     "gf": 2.5,
+     "ga": 1.5,
+     "n": 10
+    },
+    "away": {
+     "last5": "BBBGM",
+     "ppg": 1.0,
+     "gf": 1.3,
+     "ga": 1.4,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 4 (ev açısından): 2G 0B 2M",
+    "⚽ H2H gol ort. 2.2",
+    "🏟 İç saha 2.2 p/m (4 maç) vs dış saha 1.2 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.3,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5551,
+    "odd": null,
+    "source": "model",
+    "actual": 5,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.6,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.526,
+    "odd": null,
+    "source": "model",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-0",
+    "outcome": "1",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4493219,
+   "iddaa": 3216779,
+   "home": "UD Logrones",
+   "away": "Cultural Leonesa",
+   "league": "İspanya · Primera Lig RFEF Grup 1",
+   "date": "18/10/2026",
+   "kickoff": "21:30",
+   "kickoff_iso": "2026-10-18T21:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4354,
+   "probs": {
+    "1": 0.5059,
+    "X": 0.248,
+    "2": 0.2461
+   },
+   "odds": {
+    "1": 1.69,
+    "X": 2.97,
+    "2": 3.29,
+    "alt": 1.56,
+    "ust": 1.68
+   },
+   "pick_odd": 1.69,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4878,
+    "odd": 1.56
+   },
+   "kg_var": 0.5395,
+   "xg": {
+    "home": 1.46,
+    "away": 1.21
+   },
+   "form": {
+    "home": {
+     "last5": "GBGGM",
+     "ppg": 2.3,
+     "gf": 2.0,
+     "ga": 1.2,
+     "n": 10
+    },
+    "away": {
+     "last5": "MGBMG",
+     "ppg": 1.6,
+     "gf": 1.4,
+     "ga": 0.7,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 1B 0M",
+    "⚽ H2H gol ort. 2.6",
+    "📈 Sıra: 2. vs 10. (20 takım, 16–11 puan)",
+    "🏟 İç saha 2.6 p/m (5 maç) vs dış saha 1.0 p/m (6 maç)"
+   ],
+   "corners": {
+    "expected": 9.4,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5368,
+    "odd": null,
+    "source": "model",
+    "actual": 14,
+    "hit": false
+   },
+   "cards": {
+    "expected": 5.2,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5945,
+    "odd": null,
+    "source": "model",
+    "actual": 7,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-1",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  }
+ ]
+}
