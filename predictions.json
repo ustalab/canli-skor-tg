@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-09T00:23:25+03:00",
+ "generated_at": "2026-11-09T00:33:25+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -9,40 +9,40 @@
  },
  "predictions": [],
  "stats": {
-  "settled": 6168,
-  "pending": 203,
+  "settled": 6170,
+  "pending": 201,
   "void": 429,
   "overall": {
-   "n": 12226,
-   "hits": 6775,
-   "rate": 0.5541,
-   "roi": -0.1623,
-   "profit": -1850.86,
-   "roi_n": 11404
+   "n": 12230,
+   "hits": 6776,
+   "rate": 0.554,
+   "roi": -0.1625,
+   "profit": -1853.51,
+   "roi_n": 11408
   },
   "ms1x2": {
-   "n": 6168,
+   "n": 6170,
    "hits": 3210,
-   "rate": 0.5204,
-   "roi": -0.1528,
-   "profit": -942.33,
-   "roi_n": 6168
+   "rate": 0.5203,
+   "roi": -0.1531,
+   "profit": -944.33,
+   "roi_n": 6170
   },
   "alt_ust": {
-   "n": 6058,
-   "hits": 3565,
-   "rate": 0.5885,
-   "roi": -0.1735,
-   "profit": -908.53,
-   "roi_n": 5236
+   "n": 6060,
+   "hits": 3566,
+   "rate": 0.5884,
+   "roi": -0.1736,
+   "profit": -909.18,
+   "roi_n": 5238
   },
   "korner": {
-   "n": 2733,
-   "hits": 1489,
+   "n": 2735,
+   "hits": 1490,
    "rate": 0.5448,
-   "roi": -0.1198,
-   "profit": -118.34,
-   "roi_n": 988
+   "roi": -0.1207,
+   "profit": -119.34,
+   "roi_n": 989
   },
   "kart": {
    "n": 1762,
@@ -64,12 +64,12 @@
    },
    {
     "label": "%45–55",
-    "n": 1462,
+    "n": 1464,
     "hits": 908,
-    "rate": 0.6211,
-    "roi": -0.1324,
-    "profit": -193.53,
-    "roi_n": 1462
+    "rate": 0.6202,
+    "roi": -0.1336,
+    "profit": -195.53,
+    "roi_n": 1464
    },
    {
     "label": "%55–65",
@@ -92,12 +92,12 @@
   ],
   "model": {
    "form": {
-    "n": 5309,
+    "n": 5311,
     "hits": 2736,
-    "rate": 0.5154,
-    "roi": -0.1537,
-    "profit": -815.94,
-    "roi_n": 5309
+    "rate": 0.5152,
+    "roi": -0.154,
+    "profit": -817.94,
+    "roi_n": 5311
    },
    "oran": {
     "n": 512,
@@ -118,20 +118,20 @@
   },
   "last7": {
    "ms1x2": {
-    "n": 829,
-    "hits": 461,
-    "rate": 0.5561,
-    "roi": -0.0831,
-    "profit": -68.89,
-    "roi_n": 829
+    "n": 822,
+    "hits": 456,
+    "rate": 0.5547,
+    "roi": -0.0851,
+    "profit": -69.98,
+    "roi_n": 822
    },
    "alt_ust": {
-    "n": 829,
-    "hits": 500,
-    "rate": 0.6031,
-    "roi": -0.1573,
-    "profit": -118.63,
-    "roi_n": 754
+    "n": 822,
+    "hits": 495,
+    "rate": 0.6022,
+    "roi": -0.1584,
+    "profit": -118.31,
+    "roi_n": 747
    }
   },
   "channel": {
@@ -171,6 +171,203 @@
   }
  },
  "history": [
+  {
+   "match_id": 4486247,
+   "iddaa": 3274845,
+   "home": "Stal Mielec",
+   "away": "Ruch Chorzow",
+   "league": "Polonya · 1.Lig",
+   "date": "08/11/2026",
+   "kickoff": "22:15",
+   "kickoff_iso": "2026-11-08T22:15:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4685,
+   "probs": {
+    "1": 0.2268,
+    "X": 0.2282,
+    "2": 0.545
+   },
+   "odds": {
+    "1": 3.65,
+    "X": 3.31,
+    "2": 1.52,
+    "alt": 1.86,
+    "ust": 1.44
+   },
+   "pick_odd": 1.52,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5593,
+    "odd": 1.44
+   },
+   "kg_var": 0.5348,
+   "xg": {
+    "home": 1.04,
+    "away": 1.75
+   },
+   "form": {
+    "home": {
+     "last5": "MGMBG",
+     "ppg": 0.9,
+     "gf": 0.9,
+     "ga": 2.3,
+     "n": 10
+    },
+    "away": {
+     "last5": "GGGGB",
+     "ppg": 2.1,
+     "gf": 1.8,
+     "ga": 0.8,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 3G 1B 1M",
+    "⚽ H2H gol ort. 3.0",
+    "📈 Sıra: 13. vs 4. (18 takım, 16–22 puan)",
+    "🏟 İç saha 1.2 p/m (4 maç) vs dış saha 2.2 p/m (5 maç)"
+   ],
+   "corners": {
+    "expected": 9.8,
+    "line": 9.5,
+    "pick": "Üst",
+    "prob": 0.5013,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 12,
+    "hit": true
+   },
+   "cards": {
+    "expected": 4.4,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.5564,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-0",
+    "outcome": "1",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4484412,
+   "iddaa": 3275689,
+   "home": "Lech Poznan",
+   "away": "Zaglebie Lubin",
+   "league": "Polonya · Ekstraklasa",
+   "date": "08/11/2026",
+   "kickoff": "22:15",
+   "kickoff_iso": "2026-11-08T22:15:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.5252,
+   "probs": {
+    "1": 0.6113,
+    "X": 0.1919,
+    "2": 0.1968
+   },
+   "odds": {
+    "1": 1.26,
+    "X": 3.99,
+    "2": 5.25,
+    "alt": 2.01,
+    "ust": 1.35
+   },
+   "pick_odd": 1.26,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.603,
+    "odd": 1.35
+   },
+   "kg_var": 0.6331,
+   "xg": {
+    "home": 1.91,
+    "away": 1.36
+   },
+   "form": {
+    "home": {
+     "last5": "BGMGM",
+     "ppg": 1.7,
+     "gf": 2.4,
+     "ga": 1.6,
+     "n": 10
+    },
+    "away": {
+     "last5": "GMGBG",
+     "ppg": 1.7,
+     "gf": 1.4,
+     "ga": 1.4,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 0B 1M",
+    "⚽ H2H gol ort. 2.2",
+    "📈 Sıra: 1. vs 7. (18 takım, 31–22 puan)",
+    "🏟 İç saha 1.8 p/m (6 maç) vs dış saha 1.0 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.4,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5348,
+    "odd": 1.63,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 13,
+    "hit": false
+   },
+   "cards": {
+    "expected": 4.6,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.5254,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-2",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
   {
    "match_id": 4577014,
    "iddaa": 3304815,
@@ -2404,199 +2601,6 @@
    "result": {
     "score": "0-2",
     "outcome": "2",
-    "hit_1x2": false,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4493246,
-   "iddaa": 3278658,
-   "home": "Merida AD",
-   "away": "Athletic Bilbao II",
-   "league": "İspanya · Primera Lig RFEF Grup 1",
-   "date": "08/11/2026",
-   "kickoff": "20:15",
-   "kickoff_iso": "2026-11-08T20:15:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.2709,
-   "probs": {
-    "1": 0.3705,
-    "X": 0.2695,
-    "2": 0.36
-   },
-   "odds": {
-    "1": 2.21,
-    "X": 2.91,
-    "2": 2.29,
-    "alt": 1.62,
-    "ust": 1.61
-   },
-   "pick_odd": 2.21,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.5226,
-    "odd": 1.61
-   },
-   "kg_var": 0.5906,
-   "xg": {
-    "home": 1.54,
-    "away": 1.39
-   },
-   "form": {
-    "home": {
-     "last5": "GGGBM",
-     "ppg": 1.3,
-     "gf": 1.6,
-     "ga": 1.4,
-     "n": 10
-    },
-    "away": {
-     "last5": "MBMMG",
-     "ppg": 1.5,
-     "gf": 1.7,
-     "ga": 1.3,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 12. vs 8. (20 takım, 13–15 puan)",
-    "🏟 İç saha 1.4 p/m (5 maç) vs dış saha 1.4 p/m (5 maç)"
-   ],
-   "corners": {
-    "expected": 9.5,
-    "line": 9.5,
-    "pick": "Alt",
-    "prob": 0.5245,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 9,
-    "hit": true
-   },
-   "cards": {
-    "expected": 5.2,
-    "line": 5.5,
-    "pick": "Alt",
-    "prob": 0.5816,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "2-0",
-    "outcome": "1",
-    "hit_1x2": true,
-    "hit_au": false
-   }
-  },
-  {
-   "match_id": 4493244,
-   "iddaa": 3279191,
-   "home": "Cultural Leonesa",
-   "away": "Ponferradina",
-   "league": "İspanya · Primera Lig RFEF Grup 1",
-   "date": "08/11/2026",
-   "kickoff": "20:15",
-   "kickoff_iso": "2026-11-08T20:15:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.3694,
-   "probs": {
-    "1": 0.4293,
-    "X": 0.2952,
-    "2": 0.2755
-   },
-   "odds": {
-    "1": 1.85,
-    "X": 2.7,
-    "2": 3.11,
-    "alt": 1.3,
-    "ust": 2.14
-   },
-   "pick_odd": 1.85,
-   "alt_ust": {
-    "pick": "Alt",
-    "p_over": 0.3533,
-    "odd": 1.3
-   },
-   "kg_var": 0.3813,
-   "xg": {
-    "home": 1.08,
-    "away": 0.86
-   },
-   "form": {
-    "home": {
-     "last5": "GBMGM",
-     "ppg": 1.4,
-     "gf": 1.1,
-     "ga": 1.0,
-     "n": 10
-    },
-    "away": {
-     "last5": "MBBBB",
-     "ppg": 1.2,
-     "gf": 0.6,
-     "ga": 0.7,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 15. vs 11. (20 takım, 12–14 puan)",
-    "🏟 İç saha 1.8 p/m (4 maç) vs dış saha 0.8 p/m (5 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 9.6,
-    "line": 9.5,
-    "pick": "Alt",
-    "prob": 0.5203,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 11,
-    "hit": false
-   },
-   "cards": {
-    "expected": 5.2,
-    "line": 5.5,
-    "pick": "Alt",
-    "prob": 0.5873,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "1-1",
-    "outcome": "X",
     "hit_1x2": false,
     "hit_au": true
    }
