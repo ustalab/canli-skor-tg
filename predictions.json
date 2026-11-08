@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-09T01:13:25+03:00",
+ "generated_at": "2026-11-09T01:53:25+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -9,44 +9,44 @@
  },
  "predictions": [],
  "stats": {
-  "settled": 6176,
-  "pending": 195,
+  "settled": 6179,
+  "pending": 192,
   "void": 429,
   "overall": {
-   "n": 12242,
-   "hits": 6785,
+   "n": 12248,
+   "hits": 6788,
    "rate": 0.5542,
-   "roi": -0.1621,
-   "profit": -1851.17,
-   "roi_n": 11420
+   "roi": -0.1622,
+   "profit": -1853.56,
+   "roi_n": 11426
   },
   "ms1x2": {
-   "n": 6176,
-   "hits": 3214,
-   "rate": 0.5204,
+   "n": 6179,
+   "hits": 3216,
+   "rate": 0.5205,
    "roi": -0.1527,
-   "profit": -943.05,
-   "roi_n": 6176
+   "profit": -943.65,
+   "roi_n": 6179
   },
   "alt_ust": {
-   "n": 6066,
-   "hits": 3571,
-   "rate": 0.5887,
-   "roi": -0.1732,
-   "profit": -908.12,
-   "roi_n": 5244
+   "n": 6069,
+   "hits": 3572,
+   "rate": 0.5886,
+   "roi": -0.1734,
+   "profit": -909.91,
+   "roi_n": 5247
   },
   "korner": {
-   "n": 2741,
-   "hits": 1491,
-   "rate": 0.544,
-   "roi": -0.1218,
-   "profit": -120.85,
-   "roi_n": 992
+   "n": 2743,
+   "hits": 1492,
+   "rate": 0.5439,
+   "roi": -0.1211,
+   "profit": -120.22,
+   "roi_n": 993
   },
   "kart": {
-   "n": 1765,
-   "hits": 965,
+   "n": 1767,
+   "hits": 966,
    "rate": 0.5467,
    "roi": -0.1862,
    "profit": -111.72,
@@ -64,12 +64,12 @@
    },
    {
     "label": "%45–55",
-    "n": 1464,
-    "hits": 908,
-    "rate": 0.6202,
-    "roi": -0.1336,
-    "profit": -195.53,
-    "roi_n": 1464
+    "n": 1466,
+    "hits": 909,
+    "rate": 0.6201,
+    "roi": -0.1338,
+    "profit": -196.21,
+    "roi_n": 1466
    },
    {
     "label": "%55–65",
@@ -82,22 +82,22 @@
    },
    {
     "label": "≥ %65",
-    "n": 153,
-    "hits": 106,
-    "rate": 0.6928,
-    "roi": -0.0184,
-    "profit": -2.82,
-    "roi_n": 153
+    "n": 154,
+    "hits": 107,
+    "rate": 0.6948,
+    "roi": -0.0178,
+    "profit": -2.74,
+    "roi_n": 154
    }
   ],
   "model": {
    "form": {
-    "n": 5317,
-    "hits": 2740,
+    "n": 5319,
+    "hits": 2741,
     "rate": 0.5153,
-    "roi": -0.1536,
-    "profit": -816.66,
-    "roi_n": 5317
+    "roi": -0.1537,
+    "profit": -817.34,
+    "roi_n": 5319
    },
    "oran": {
     "n": 512,
@@ -108,48 +108,48 @@
     "roi_n": 512
    },
    "app": {
-    "n": 347,
-    "hits": 223,
-    "rate": 0.6427,
-    "roi": -0.0634,
-    "profit": -21.99,
-    "roi_n": 347
+    "n": 348,
+    "hits": 224,
+    "rate": 0.6437,
+    "roi": -0.063,
+    "profit": -21.91,
+    "roi_n": 348
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 827,
-    "hits": 460,
-    "rate": 0.5562,
-    "roi": -0.0819,
-    "profit": -67.7,
-    "roi_n": 827
+    "n": 830,
+    "hits": 462,
+    "rate": 0.5566,
+    "roi": -0.0823,
+    "profit": -68.3,
+    "roi_n": 830
    },
    "alt_ust": {
-    "n": 827,
-    "hits": 500,
-    "rate": 0.6046,
-    "roi": -0.1546,
-    "profit": -116.25,
-    "roi_n": 752
+    "n": 830,
+    "hits": 501,
+    "rate": 0.6036,
+    "roi": -0.1563,
+    "profit": -118.04,
+    "roi_n": 755
    }
   },
   "channel": {
    "ms1x2": {
-    "n": 347,
-    "hits": 223,
-    "rate": 0.6427,
-    "roi": -0.0634,
-    "profit": -21.99,
-    "roi_n": 347
+    "n": 348,
+    "hits": 224,
+    "rate": 0.6437,
+    "roi": -0.063,
+    "profit": -21.91,
+    "roi_n": 348
    },
    "alt_ust": {
-    "n": 345,
-    "hits": 231,
-    "rate": 0.6696,
-    "roi": -0.0804,
-    "profit": -26.22,
-    "roi_n": 326
+    "n": 346,
+    "hits": 232,
+    "rate": 0.6705,
+    "roi": -0.0795,
+    "profit": -26.01,
+    "roi_n": 327
    },
    "korner": {
     "n": 247,
@@ -171,6 +171,332 @@
   }
  },
  "history": [
+  {
+   "match_id": 4517050,
+   "iddaa": 3279623,
+   "home": "Rio Ave",
+   "away": "Sporting Braga",
+   "league": "Portekiz · Premier Lig",
+   "date": "08/11/2026",
+   "kickoff": "23:30",
+   "kickoff_iso": "2026-11-08T23:30:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.5107,
+   "probs": {
+    "1": 0.2147,
+    "X": 0.2102,
+    "2": 0.5751
+   },
+   "odds": {
+    "1": 5.55,
+    "X": 4.02,
+    "2": 1.32,
+    "alt": 1.96,
+    "ust": 1.47
+   },
+   "pick_odd": 1.32,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5472,
+    "odd": 1.47
+   },
+   "kg_var": 0.5333,
+   "xg": {
+    "home": 1.21,
+    "away": 1.43
+   },
+   "form": {
+    "home": {
+     "last5": "MGGMM",
+     "ppg": 1.0,
+     "gf": 1.0,
+     "ga": 2.2,
+     "n": 10
+    },
+    "away": {
+     "last5": "GMBGB",
+     "ppg": 1.2,
+     "gf": 1.0,
+     "ga": 1.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 1G 2B 2M",
+    "⚽ H2H gol ort. 2.8",
+    "📈 Sıra: 16. vs 8. (18 takım, 7–14 puan)",
+    "🏟 İç saha 0.8 p/m (5 maç) vs dış saha 0.5 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.5,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5296,
+    "odd": 1.63,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 8,
+    "hit": true
+   },
+   "cards": {
+    "expected": 4.1,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.6086,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 3,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-1",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4517046,
+   "iddaa": 3279793,
+   "home": "Estrela",
+   "away": "Benfica",
+   "league": "Portekiz · Premier Lig",
+   "date": "08/11/2026",
+   "kickoff": "23:30",
+   "kickoff_iso": "2026-11-08T23:30:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.7362,
+   "probs": {
+    "1": null,
+    "X": null,
+    "2": null
+   },
+   "odds": {
+    "1": 9.76,
+    "X": 6.25,
+    "2": 1.08,
+    "alt": 2.77,
+    "ust": 1.21
+   },
+   "pick_odd": 1.08,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": null,
+    "odd": 1.21
+   },
+   "kg_var": 0.6363,
+   "xg": null,
+   "form": null,
+   "model": "app_legacy",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "veri yetersiz",
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4517046,
+     "iddaa": 3279793,
+     "home": "Estrela",
+     "away": "Benfica",
+     "league": "Portekiz · Premier Lig",
+     "match_date": "08/11/2026",
+     "kickoff": "23:30",
+     "kickoff_ts": 1794169800.0,
+     "pick": "2",
+     "confidence": 0.736209459373782,
+     "p1": 0.1175058109918484,
+     "px": 0.1462847296343696,
+     "p2": 0.736209459373782,
+     "odd_1": 9.76,
+     "odd_x": 6.25,
+     "odd_2": 1.08,
+     "pick_odd": 1.08,
+     "au_pick": "Üst",
+     "au_prob": 0.7630678249901635,
+     "odd_alt": 2.77,
+     "odd_ust": 1.21,
+     "au_odd": 1.21,
+     "kg_prob": 0.63632173272916,
+     "model": "app",
+     "source": "kanal",
+     "live": 0,
+     "created_at": 1794130627.6117518,
+     "updated_at": 1794130627.6117518,
+     "status": "bekliyor",
+     "home_goals": null,
+     "away_goals": null,
+     "result": null,
+     "hit_1x2": null,
+     "hit_au": null,
+     "settled_at": null,
+     "p_over": 0.7630678249901635,
+     "form_home": "MMGMM",
+     "form_away": "GGGGG",
+     "ppg_home": 1.2,
+     "ppg_away": 2.7,
+     "gf_home": 1.5,
+     "ga_home": 1.8,
+     "gf_away": 2.6,
+     "ga_away": 0.9,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 1.33,
+     "xg_away": 1.86,
+     "factors": "📊 H2H son 5 (ev açısından): 0G 0B 5M | ⚽ H2H gol ort. 3.6 | 📈 Sıra: 12. vs 2. (18 takım, 10–25 puan) | 🏟 İç saha 1.0 p/m (4 maç) vs dış saha 2.2 p/m (4 maç) | 🚑 Eksik: kayıtlı sakat/cezalı yok",
+     "kor_exp": null,
+     "kor_line": null,
+     "kor_pick": null,
+     "kor_prob": null,
+     "kor_odd": null,
+     "kor_src": null,
+     "kor_actual": null,
+     "kor_hit": null,
+     "kart_exp": null,
+     "kart_line": null,
+     "kart_pick": null,
+     "kart_prob": null,
+     "kart_odd": null,
+     "kart_src": null,
+     "kart_actual": null,
+     "kart_hit": null
+    },
+    "updated_at": 1794130627.6117518
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 0G 0B 5M",
+    "⚽ H2H gol ort. 3.6",
+    "📈 Sıra: 12. vs 2. (18 takım, 10–25 puan)",
+    "🏟 İç saha 1.0 p/m (4 maç) vs dış saha 2.2 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-3",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4501918,
+   "iddaa": 3270779,
+   "home": "Sport Boys",
+   "away": "UTC Cajamarca",
+   "league": "Peru · Premier Lig Clausura",
+   "date": "08/11/2026",
+   "kickoff": "23:30",
+   "kickoff_iso": "2026-11-08T23:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4805,
+   "probs": {
+    "1": 0.5589,
+    "X": 0.2286,
+    "2": 0.2125
+   },
+   "odds": {
+    "1": 1.45,
+    "X": 3.24,
+    "2": 4.25,
+    "alt": 1.74,
+    "ust": 1.52
+   },
+   "pick_odd": 1.45,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5954,
+    "odd": 1.52
+   },
+   "kg_var": 0.6416,
+   "xg": {
+    "home": 1.75,
+    "away": 1.5
+   },
+   "form": {
+    "home": {
+     "last5": "MMGGB",
+     "ppg": 1.1,
+     "gf": 1.3,
+     "ga": 2.0,
+     "n": 10
+    },
+    "away": {
+     "last5": "MMMGM",
+     "ppg": 0.4,
+     "gf": 1.4,
+     "ga": 2.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 3G 2B 0M",
+    "⚽ H2H gol ort. 4.0",
+    "📈 Sıra: 9. vs 18. (18 takım, 25–5 puan)",
+    "🏟 İç saha 1.5 p/m (4 maç) vs dış saha 0.8 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.1,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5789,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 14,
+    "hit": false
+   },
+   "cards": {
+    "expected": 5.7,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5148,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 6,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-0",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
   {
    "match_id": 4576944,
    "iddaa": 3342593,
@@ -2343,252 +2669,6 @@
    "result": {
     "score": "1-2",
     "outcome": "2",
-    "hit_1x2": true,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4484677,
-   "iddaa": 3279077,
-   "home": "Budapest Vasas",
-   "away": "Ferencvaros",
-   "league": "Macaristan · NB I",
-   "date": "08/11/2026",
-   "kickoff": "21:00",
-   "kickoff_iso": "2026-11-08T21:00:00+03:00",
-   "pick": "2",
-   "pick_label": "MS 2 (dep)",
-   "confidence": 0.5174,
-   "probs": {
-    "1": 0.2003,
-    "X": 0.1968,
-    "2": 0.6029
-   },
-   "odds": {
-    "1": 4.89,
-    "X": 3.99,
-    "2": 1.28,
-    "alt": 2.17,
-    "ust": 1.29
-   },
-   "pick_odd": 1.28,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.629,
-    "odd": 1.29
-   },
-   "kg_var": 0.6292,
-   "xg": {
-    "home": 1.33,
-    "away": 1.93
-   },
-   "form": {
-    "home": {
-     "last5": "BMMGB",
-     "ppg": 1.4,
-     "gf": 1.8,
-     "ga": 1.8,
-     "n": 10
-    },
-    "away": {
-     "last5": "BGGGG",
-     "ppg": 2.4,
-     "gf": 2.8,
-     "ga": 0.6,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 6. vs 3. (12 takım, 16–20 puan)",
-    "🏟 İç saha 1.0 p/m (4 maç) vs dış saha 2.2 p/m (5 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 10.1,
-    "line": 10.5,
-    "pick": "Alt",
-    "prob": 0.5699,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 9,
-    "hit": true
-   },
-   "cards": {
-    "expected": 4.7,
-    "line": 4.5,
-    "pick": "Alt",
-    "prob": 0.5128,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "0-2",
-    "outcome": "2",
-    "hit_1x2": true,
-    "hit_au": false
-   }
-  },
-  {
-   "match_id": 4485914,
-   "iddaa": 3279922,
-   "home": "Baltika FK Kaliningrad",
-   "away": "Makhachkala",
-   "league": "Rusya · Premier Lig",
-   "date": "08/11/2026",
-   "kickoff": "20:45",
-   "kickoff_iso": "2026-11-08T20:45:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.5321,
-   "probs": {
-    "1": 0.5989,
-    "X": 0.2362,
-    "2": 0.165
-   },
-   "odds": {
-    "1": 1.38,
-    "X": 3.4,
-    "2": 5.99,
-    "alt": 1.37,
-    "ust": 2.19
-   },
-   "pick_odd": 1.38,
-   "alt_ust": {
-    "pick": "Alt",
-    "p_over": 0.4286,
-    "odd": 1.37
-   },
-   "kg_var": 0.5113,
-   "xg": {
-    "home": 1.75,
-    "away": 0.97
-   },
-   "form": {
-    "home": {
-     "last5": "GBBMG",
-     "ppg": 1.1,
-     "gf": 1.1,
-     "ga": 1.1,
-     "n": 10
-    },
-    "away": {
-     "last5": "MMBMM",
-     "ppg": 0.4,
-     "gf": 0.8,
-     "ga": 2.3,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 8. vs 12. (16 takım, 17–13 puan)",
-    "🏟 İç saha 0.8 p/m (6 maç) vs dış saha 0.0 p/m (6 maç)"
-   ],
-   "corners": null,
-   "cards": null,
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "0-1",
-    "outcome": "2",
-    "hit_1x2": false,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4523679,
-   "iddaa": 3279516,
-   "home": "Egnatia Rrogozhine",
-   "away": "Vora",
-   "league": "Arnavutluk · Süperlig",
-   "date": "08/11/2026",
-   "kickoff": "20:30",
-   "kickoff_iso": "2026-11-08T20:30:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.5295,
-   "probs": {
-    "1": 0.6158,
-    "X": 0.2016,
-    "2": 0.1826
-   },
-   "odds": {
-    "1": 1.28,
-    "X": 3.75,
-    "2": 5.39,
-    "alt": 2.0,
-    "ust": 1.36
-   },
-   "pick_odd": 1.28,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.5663,
-    "odd": 1.36
-   },
-   "kg_var": 0.5412,
-   "xg": {
-    "home": 1.58,
-    "away": 1.14
-   },
-   "form": {
-    "home": {
-     "last5": "BMGGM",
-     "ppg": 1.7,
-     "gf": 1.4,
-     "ga": 1.1,
-     "n": 10
-    },
-    "away": {
-     "last5": "BGMGB",
-     "ppg": 1.2,
-     "gf": 1.3,
-     "ga": 1.6,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 1. vs 7. (10 takım, 24–12 puan)",
-    "🏟 İç saha 2.5 p/m (4 maç) vs dış saha 0.2 p/m (4 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": null,
-   "cards": null,
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "5-1",
-    "outcome": "1",
     "hit_1x2": true,
     "hit_au": true
    }
