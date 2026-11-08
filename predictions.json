@@ -1,8 +1,8 @@
 {
- "version": 1,
- "generated_at": "2026-11-08T22:29:50+03:00",
+ "version": 2,
+ "generated_at": "2026-11-08T22:33:25+03:00",
  "timezone": "Europe/Istanbul",
- "source": "Maçkolik (vd.mackolik.com oran/skor, arsiv.mackolik.com form + korner/kart istatistiği)",
+ "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
  "model": {
   "text": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson (k=5). 1X2 ≥%60, A/Ü ≥%58. Korner/kart deneysel; ana güvene dahil değil."
@@ -64,6 +64,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 3 (ev açısından): 0G 1B 2M",
@@ -161,6 +163,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 3. (30 takım, 41–52 puan)",
@@ -251,6 +255,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 3 (ev açısından): 2G 1B 0M",
@@ -343,6 +349,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -435,6 +443,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -527,6 +537,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 6. (30 takım, 43–47 puan)",
@@ -617,6 +629,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -709,6 +723,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 4. (30 takım, 51–51 puan)",
@@ -799,6 +815,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 7. (30 takım, 21–22 puan)",
@@ -889,6 +907,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 15. vs 5. (30 takım, 10–25 puan)",
@@ -979,6 +999,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -1048,6 +1070,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 3. (30 takım, 18–28 puan)",
@@ -1115,6 +1139,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 6. (30 takım, 33–22 puan)",
@@ -1183,6 +1209,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 12. (30 takım, 12–15 puan)",
@@ -1251,6 +1279,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 14. (30 takım, 20–12 puan)",
@@ -1341,6 +1371,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -1433,6 +1465,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 4B 1M",
@@ -1503,6 +1537,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 2. vs 9. (30 takım, 31–19 puan)",
@@ -1571,6 +1607,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 11. vs 8. (30 takım, 16–21 puan)",
@@ -1638,6 +1676,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 3. vs 5. (30 takım, 28–23 puan)",
@@ -1706,6 +1746,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 12. (30 takım, 23–15 puan)",
@@ -1773,6 +1815,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 14. vs 4. (30 takım, 11–23 puan)",
@@ -1840,6 +1884,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 0B 4M",
@@ -1909,6 +1955,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 5. (16 takım, 16–23 puan)",
@@ -1977,6 +2025,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -2047,6 +2097,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -2139,6 +2191,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -2235,6 +2289,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -2331,6 +2387,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -2400,6 +2458,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -2497,6 +2557,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 17. vs 8. (20 takım, 14–23 puan)",
@@ -2592,6 +2654,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 7. (20 takım, 24–27 puan)",
@@ -2687,6 +2751,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -2773,6 +2839,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 14. vs 11. (16 takım, 7–13 puan)",
@@ -2857,6 +2925,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 8. (16 takım, 11–16 puan)",
@@ -2941,6 +3011,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -3027,6 +3099,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -3124,6 +3198,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 3. vs 4. (4 takım, 1–1 puan) · erken sezon, etkisiz",
@@ -3197,6 +3273,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 11. (17 takım, 63–33 puan)",
@@ -3292,6 +3370,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 14. vs 6. (17 takım, 30–48 puan)",
@@ -3387,6 +3467,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 4. vs 3. (20 takım, 28–29 puan)",
@@ -3481,6 +3563,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -3577,6 +3661,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -3674,6 +3760,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 0B 5M",
@@ -3771,6 +3859,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 19. (20 takım, 23–11 puan)",
@@ -3866,6 +3956,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 17. vs 14. (20 takım, 15–18 puan)",
@@ -3961,6 +4053,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 3. (14 takım, 7–17 puan)",
@@ -4045,6 +4139,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -4136,6 +4232,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 0B 2M",
@@ -4227,6 +4325,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 6. (14 takım, 4–13 puan)",
@@ -4311,6 +4411,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 2B 3M",
@@ -4397,6 +4499,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -4494,6 +4598,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 20. (20 takım, 27–12 puan)",
@@ -4589,6 +4695,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 9. (12 takım, 0–2 puan) · erken sezon, etkisiz",
@@ -4684,6 +4792,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 2. (8 takım, 42–52 puan)",
@@ -4767,6 +4877,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 4. (8 takım, 39–51 puan)",
@@ -4851,6 +4963,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 3. (8 takım, 42–51 puan)",
@@ -4935,6 +5049,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 1. (8 takım, 50–53 puan)",
@@ -5018,6 +5134,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 15. vs 3. (18 takım, 14–32 puan)",
@@ -5101,6 +5219,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -5187,6 +5307,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 1G 1B 2M",
@@ -5284,6 +5406,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 10. (14 takım, 4–7 puan)",
@@ -5368,6 +5492,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 7. (17 takım, 34–42 puan)",
@@ -5463,6 +5589,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 7. (16 takım, 37–39 puan)",
@@ -5558,6 +5686,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 15. (16 takım, 40–22 puan)",
@@ -5653,6 +5783,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 2. vs 12. (16 takım, 49–31 puan)",
@@ -5748,6 +5880,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 4. vs 1. (16 takım, 44–52 puan)",
@@ -5843,6 +5977,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -5940,6 +6076,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 4. (14 takım, 12–16 puan)",
@@ -6024,6 +6162,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -6110,6 +6250,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 3B 1M",
@@ -6201,6 +6343,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 3. (6 takım, 32–43 puan) · erken sezon, etkisiz",
@@ -6290,6 +6434,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -6387,6 +6533,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -6473,6 +6621,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 9. (11 takım, 4–4 puan)",
@@ -6568,6 +6718,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -6665,6 +6817,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -6757,6 +6911,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 13. (16 takım, 17–14 puan)",
@@ -6852,6 +7008,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -6949,6 +7107,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 3 (ev açısından): 1G 0B 2M",
@@ -7035,6 +7195,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
@@ -7132,6 +7294,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 15. (16 takım, 19–9 puan)",
@@ -7205,6 +7369,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -7291,6 +7457,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 1B 4M",
@@ -7377,6 +7545,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 6. (10 takım, 6–8 puan)",
@@ -7472,6 +7642,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 2. vs 18. (18 takım, 18–4 puan)",
@@ -7562,6 +7734,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 3. (14 takım, 9–17 puan)",
@@ -7635,6 +7809,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 8. (10 takım, 51–42 puan)",
@@ -7724,6 +7900,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 3. vs 4. (10 takım, 52–52 puan)",
@@ -7818,6 +7996,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 0G 2B 2M",
@@ -7915,6 +8095,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 3 (ev açısından): 1G 0B 2M",
@@ -8001,6 +8183,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 12. (18 takım, 14–8 puan)",
@@ -8090,6 +8274,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -8160,6 +8346,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 0B 2M",
@@ -8257,6 +8445,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 3B 1M",
@@ -8354,6 +8544,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 5. (18 takım, 10–14 puan)",
@@ -8444,6 +8636,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 4. vs 12. (18 takım, 16–11 puan)",
@@ -8534,6 +8728,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 3 (ev açısından): 2G 0B 1M",
@@ -8608,6 +8804,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 3. (10 takım, 25–70 puan)",
@@ -8680,6 +8878,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 3B 0M",
@@ -8754,6 +8954,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -8829,6 +9031,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -8925,6 +9129,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 8. (16 takım, 15–17 puan)",
@@ -9019,6 +9225,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 10. (18 takım, 18–21 puan)",
@@ -9114,6 +9322,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 11. vs 8. (18 takım, 19–22 puan)",
@@ -9209,6 +9419,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 20. vs 17. (20 takım, 8–11 puan)",
@@ -9264,6 +9476,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [],
    "corners": null,
@@ -9333,6 +9547,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 19. vs 14. (20 takım, 7–11 puan)",
@@ -9406,6 +9622,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 18. (20 takım, 21–7 puan)",
@@ -9479,6 +9697,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 9. (18 takım, 14–12 puan)",
@@ -9547,6 +9767,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 11. vs 17. (18 takım, 12–6 puan)",
@@ -9615,6 +9837,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 7. (18 takım, 13–13 puan)",
@@ -9683,6 +9907,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 1G 3B 0M",
@@ -9752,6 +9978,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 8. (16 takım, 9–11 puan)",
@@ -9835,6 +10063,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 2B 3M",
@@ -9904,6 +10134,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 18. vs 3. (18 takım, 2–19 puan)",
@@ -9998,6 +10230,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -10095,6 +10329,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 9. (12 takım, 10–9 puan)",
@@ -10168,6 +10404,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 4. (11 takım, 7–10 puan)",
@@ -10241,6 +10479,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 16. vs 5. (16 takım, 1–13 puan)",
@@ -10314,6 +10554,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 11. vs 12. (16 takım, 9–8 puan)",
@@ -10386,6 +10628,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 9. (18 takım, 13–12 puan)",
@@ -10454,6 +10698,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 14. vs 11. (18 takım, 9–11 puan)",
@@ -10521,6 +10767,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 11. vs 5. (19 takım, 9–17 puan)",
@@ -10570,7 +10818,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4481587,
@@ -10715,6 +10965,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -10806,6 +11058,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 3. (18 takım, 21–22 puan)",
@@ -10900,6 +11154,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 2B 3M",
@@ -10997,6 +11253,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 1G 1B 2M",
@@ -11094,6 +11352,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 10. (18 takım, 10–12 puan)",
@@ -11184,6 +11444,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -11281,6 +11543,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -11366,6 +11630,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 13. (20 takım, 19–15 puan)",
@@ -11460,6 +11726,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 4. vs 10. (16 takım, 13–10 puan)",
@@ -11555,6 +11823,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -11635,6 +11905,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 2G 2B 0M",
@@ -11705,6 +11977,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -11775,6 +12049,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
@@ -11845,6 +12121,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -11915,6 +12193,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -11985,6 +12265,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 15. (16 takım, 30–26 puan)",
@@ -12058,6 +12340,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -12128,6 +12412,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 1B 4M",
@@ -12203,6 +12489,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 1G 0B 3M",
@@ -12273,6 +12561,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 15. (16 takım, 46–23 puan)",
@@ -12346,6 +12636,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -12443,6 +12735,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -12535,6 +12829,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 11. (14 takım, 20–11 puan)",
@@ -12625,6 +12921,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -12722,6 +13020,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 0G 2B 2M",
@@ -12797,6 +13097,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 5. (16 takım, 10–13 puan)",
@@ -12870,6 +13172,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 19. vs 9. (31 takım, 7–10 puan)",
@@ -12938,6 +13242,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 16. vs 13. (31 takım, 7–8 puan)",
@@ -13006,6 +13312,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 6. (18 takım, 12–13 puan)",
@@ -13079,6 +13387,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 0B 4M",
@@ -13153,6 +13463,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -13227,6 +13539,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 5. (10 takım, 9–13 puan)",
@@ -13300,6 +13614,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🏟 İç saha 2.6 p/m (5 maç) vs dış saha 0.8 p/m (5 maç)",
@@ -13378,6 +13694,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 2. (12 takım, 8–22 puan)",
@@ -13431,7 +13749,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4480767,
@@ -13575,6 +13895,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 15. (18 takım, 13–9 puan)",
@@ -13642,6 +13964,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 8. (15 takım, 11–12 puan)",
@@ -13715,6 +14039,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 10. (15 takım, 8–9 puan)",
@@ -13788,6 +14114,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 10. (14 takım, 8–7 puan)",
@@ -13861,6 +14189,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 2. vs 3. (14 takım, 14–13 puan)",
@@ -13933,6 +14263,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -14007,6 +14339,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -14081,6 +14415,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 7. (12 takım, 12–16 puan)",
@@ -14153,6 +14489,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -14228,6 +14566,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 0G 0B 4M",
@@ -14297,6 +14637,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -14366,6 +14708,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 2B 3M",
@@ -14463,6 +14807,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 13. (18 takım, 20–17 puan)",
@@ -14536,6 +14882,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 15. vs 2. (20 takım, 14–30 puan)",
@@ -14631,6 +14979,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -14728,6 +15078,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 8. (18 takım, 16–16 puan)",
@@ -14823,6 +15175,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -14874,6 +15228,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [],
    "corners": null,
@@ -14943,6 +15299,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 5. (16 takım, 8–13 puan)",
@@ -15010,6 +15368,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 4B 1M",
@@ -15084,6 +15444,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -15159,6 +15521,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -15256,6 +15620,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -15353,6 +15719,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 7. (14 takım, 32–32 puan)",
@@ -15425,6 +15793,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -15495,6 +15865,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -15569,6 +15941,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -15644,6 +16018,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 3B 2M",
@@ -15741,6 +16117,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 0B 5M",
@@ -15838,6 +16216,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 2B 3M",
@@ -15916,7 +16296,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4481102,
@@ -16040,7 +16422,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4481103,
@@ -16207,6 +16591,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 14. vs 9. (20 takım, 11–12 puan)",
@@ -16302,6 +16688,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 0B 2M",
@@ -16399,6 +16787,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -16468,6 +16858,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
@@ -16565,6 +16957,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 2. vs 13. (18 takım, 28–15 puan)",
@@ -16638,6 +17032,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 0B 2M",
@@ -16712,6 +17108,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 6. (12 takım, 7–7 puan)",
@@ -16785,6 +17183,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -16881,6 +17281,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 0B 4M",
@@ -16950,6 +17352,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 1G 0B 3M",
@@ -17025,6 +17429,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 14. (14 takım, 6–0 puan)",
@@ -17075,6 +17481,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🚑 Eksik: kayıtlı sakat/cezalı yok"
@@ -17141,6 +17549,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 6. (10 takım, 6–8 puan)",
@@ -17209,6 +17619,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🏟 İç saha 1.2 p/m (4 maç) vs dış saha 1.6 p/m (5 maç)"
@@ -17257,6 +17669,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [],
    "corners": {
@@ -17337,6 +17751,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -17433,6 +17849,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -17525,6 +17943,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 0B 4M",
@@ -17604,6 +18024,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🚑 Eksik: kayıtlı sakat/cezalı yok"
@@ -17675,6 +18097,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -17761,6 +18185,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -17818,6 +18244,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🚑 Eksik: kayıtlı sakat/cezalı yok"
@@ -17889,6 +18317,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -17963,6 +18393,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -18013,7 +18445,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4480768,
@@ -18158,6 +18592,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 3. (15 takım, 8–15 puan)",
@@ -18213,6 +18649,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🚑 Eksik: kayıtlı sakat/cezalı yok"
@@ -18284,6 +18722,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 3G 1B 0M",
@@ -18353,6 +18793,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 14. vs 10. (18 takım, 9–10 puan)",
@@ -18421,6 +18863,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 14. vs 12. (14 takım, 0–8 puan)",
@@ -18475,6 +18919,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [],
    "corners": null,
@@ -18544,6 +18990,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 15. vs 3. (18 takım, 8–17 puan)",
@@ -18611,6 +19059,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 16. vs 10. (20 takım, 10–15 puan)",
@@ -18684,6 +19134,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 18. vs 19. (20 takım, 9–8 puan)",
@@ -18756,6 +19208,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 3. vs 6. (20 takım, 17–15 puan)",
@@ -18828,6 +19282,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 1G 2B 1M",
@@ -18897,6 +19353,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -18972,6 +19430,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🏟 İç saha 3.0 p/m (5 maç) vs dış saha 0.6 p/m (5 maç)",
@@ -19039,6 +19499,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -19113,6 +19575,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -19210,6 +19674,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -19306,6 +19772,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -19403,6 +19871,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 0B 4M",
@@ -19500,6 +19970,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -19597,6 +20069,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 0B 4M",
@@ -19670,7 +20144,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4428353,
@@ -19815,6 +20291,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -19893,7 +20371,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4428357,
@@ -20033,6 +20513,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 4. (18 takım, 17–22 puan)",
@@ -20106,6 +20588,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 1B 4M",
@@ -20176,6 +20660,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 10. (18 takım, 14–13 puan)",
@@ -20244,6 +20730,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 18. vs 11. (18 takım, 5–11 puan)",
@@ -20312,6 +20800,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 16. (18 takım, 12–6 puan)",
@@ -20380,6 +20870,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 0B 4M",
@@ -20437,6 +20929,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🚑 Eksik: kayıtlı sakat/cezalı yok"
@@ -20503,6 +20997,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 3B 1M",
@@ -20577,6 +21073,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 4. vs 6. (20 takım, 24–23 puan)",
@@ -20672,6 +21170,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 2. vs 3. (16 takım, 28–22 puan)",
@@ -20739,6 +21239,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -20790,6 +21292,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🚑 Eksik: kayıtlı sakat/cezalı yok"
@@ -20856,6 +21360,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 13. (19 takım, 11–9 puan)",
@@ -20923,6 +21429,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 4 (ev açısından): 0G 1B 3M",
@@ -20998,6 +21506,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 15. vs 6. (16 takım, 4–9 puan)",
@@ -21071,6 +21581,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 2. (10 takım, 30–22 puan)",
@@ -21166,6 +21678,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 1B 4M",
@@ -21263,6 +21777,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -21360,6 +21876,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -21457,6 +21975,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 3B 2M",
@@ -21554,6 +22074,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 3 (ev açısından): 2G 0B 1M",
@@ -21651,6 +22173,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -21721,6 +22245,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 18. vs 12. (20 takım, 7–12 puan)",
@@ -21816,6 +22342,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 3B 2M",
@@ -21885,6 +22413,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 3B 2M",
@@ -21935,7 +22465,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4495507,
@@ -22080,6 +22612,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 6. (20 takım, 13–19 puan)",
@@ -22153,6 +22687,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 20. vs 16. (20 takım, 7–12 puan)",
@@ -22221,6 +22757,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 14. (20 takım, 19–13 puan)",
@@ -22294,6 +22832,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -22369,6 +22909,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 16. vs 10. (20 takım, 10–17 puan)",
@@ -22442,6 +22984,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 3. (10 takım, 33–19 puan)",
@@ -22515,6 +23059,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 3. vs 4. (6 takım, 8–6 puan)",
@@ -22582,6 +23128,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 17. vs 16. (19 takım, 5–5 puan)",
@@ -22650,6 +23198,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 1B 3M",
@@ -22720,6 +23270,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -22812,6 +23364,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 1. (16 takım, 7–17 puan)",
@@ -22907,6 +23461,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 0B 5M",
@@ -23003,6 +23559,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
@@ -23099,6 +23657,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
@@ -23196,6 +23756,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 7. (12 takım, 10–14 puan)",
@@ -23268,6 +23830,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 1. (18 takım, 28–43 puan)",
@@ -23346,6 +23910,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 3B 2M",
@@ -23437,6 +24003,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 5. (16 takım, 19–23 puan)",
@@ -23532,6 +24100,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 11. vs 10. (12 takım, 2–4 puan)",
@@ -23605,6 +24175,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -23661,6 +24233,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [],
    "corners": null,
@@ -23725,6 +24299,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 1. (19 takım, 14–22 puan)",
@@ -23793,6 +24369,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 15. vs 11. (20 takım, 12–14 puan)",
@@ -23888,6 +24466,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 8. (20 takım, 13–15 puan)",
@@ -23982,6 +24562,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 19. (20 takım, 17–9 puan)",
@@ -24077,6 +24659,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "🏟 İç saha 1.4 p/m (7 maç) vs dış saha 1.0 p/m (4 maç)",
@@ -24147,7 +24731,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4480770,
@@ -24285,6 +24871,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -24358,7 +24946,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4492378,
@@ -24498,6 +25088,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 15. (22 takım, 17–14 puan)",
@@ -24588,6 +25180,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 13. (22 takım, 22–15 puan)",
@@ -24656,6 +25250,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -24725,6 +25321,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 7. (10 takım, 24–12 puan)",
@@ -24798,6 +25396,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 12. (16 takım, 17–13 puan)",
@@ -24807,7 +25407,7 @@
    "cards": null,
    "status": "canli",
    "live": {
-    "minute": "83",
+    "minute": "87",
     "score": "0-1"
    },
    "result": null
@@ -24868,6 +25468,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -24960,6 +25562,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 6. vs 3. (12 takım, 16–20 puan)",
@@ -24992,7 +25596,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "73",
+    "minute": "77",
     "score": "0-1"
    },
    "result": null
@@ -25053,6 +25657,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 1. (18 takım, 9–30 puan)",
@@ -25085,7 +25691,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "69",
+    "minute": "73",
     "score": "0-1"
    },
    "result": null
@@ -25146,6 +25752,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 2. vs 7. (18 takım, 21–15 puan)",
@@ -25178,7 +25786,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "70",
+    "minute": "73",
     "score": "1-1"
    },
    "result": null
@@ -25220,7 +25828,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4542750,
@@ -25302,7 +25912,7 @@
    "cards": null,
    "status": "canli",
    "live": {
-    "minute": "71",
+    "minute": "74",
     "score": "2-0"
    },
    "result": null
@@ -25363,6 +25973,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -25386,7 +25998,7 @@
    "cards": null,
    "status": "canli",
    "live": {
-    "minute": "67",
+    "minute": "70",
     "score": "3-1"
    },
    "result": null
@@ -25447,6 +26059,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -25481,8 +26095,8 @@
    },
    "status": "canli",
    "live": {
-    "minute": "57",
-    "score": "1-0"
+    "minute": "61",
+    "score": "2-0"
    },
    "result": null
   },
@@ -25542,6 +26156,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 0B 2M",
@@ -25576,7 +26192,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "55",
+    "minute": "59",
     "score": "2-1"
    },
    "result": null
@@ -25637,6 +26253,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 2. (15 takım, 13–19 puan)",
@@ -25669,7 +26287,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "55",
+    "minute": "58",
     "score": "0-1"
    },
    "result": null
@@ -25730,6 +26348,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -25825,6 +26445,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 15. vs 12. (20 takım, 14–16 puan)",
@@ -25857,8 +26479,8 @@
    },
    "status": "canli",
    "live": {
-    "minute": "IY",
-    "score": "0-0"
+    "minute": "48",
+    "score": "0-1"
    },
    "result": null
   },
@@ -25918,6 +26540,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -26013,6 +26637,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 1B 4M",
@@ -26104,6 +26730,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 14. vs 8. (20 takım, 47–55 puan)",
@@ -26136,7 +26764,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "29",
+    "minute": "33",
     "score": "1-0"
    },
    "result": null
@@ -26197,6 +26825,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -26231,7 +26861,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "27",
+    "minute": "31",
     "score": "0-0"
    },
    "result": null
@@ -26292,6 +26922,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 2B 3M",
@@ -26325,7 +26957,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "28",
+    "minute": "31",
     "score": "0-0"
    },
    "result": null
@@ -26386,6 +27018,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 8. vs 4. (16 takım, 32–39 puan)",
@@ -26417,7 +27051,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "31",
+    "minute": "34",
     "score": "0-0"
    },
    "result": null
@@ -26478,6 +27112,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 0B 1M",
@@ -26512,7 +27148,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "10",
+    "minute": "14",
     "score": "0-0"
    },
    "result": null
@@ -26573,6 +27209,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
@@ -26606,7 +27244,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "10",
+    "minute": "13",
     "score": "0-0"
    },
    "result": null
@@ -26667,6 +27305,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 1B 2M",
@@ -26699,8 +27339,11 @@
     "actual": null,
     "hit": null
    },
-   "status": "bekliyor",
-   "live": null,
+   "status": "canli",
+   "live": {
+    "minute": "2",
+    "score": "0-0"
+   },
    "result": null
   },
   {
@@ -26759,6 +27402,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -26851,6 +27496,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 0B 3M",
@@ -26943,6 +27590,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 0B 4M",
@@ -27035,6 +27684,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 10. (10 takım, 8–5 puan)",
@@ -27106,6 +27757,8 @@
    "model_label": "Yalnız piyasa oranı",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [],
    "corners": {
@@ -27192,6 +27845,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 7. (16 takım, 9–10 puan)",
@@ -27282,6 +27937,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -27355,7 +28012,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4517046,
@@ -27495,6 +28154,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -27587,6 +28248,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 2. (6 takım, 5–9 puan)",
@@ -27624,8 +28287,8 @@
  ],
  "stats": {
   "settled": 6147,
-  "pending": 237,
-  "void": 416,
+  "pending": 232,
+  "void": 421,
   "overall": {
    "n": 12184,
    "hits": 6752,
@@ -27732,20 +28395,20 @@
   },
   "last7": {
    "ms1x2": {
-    "n": 818,
-    "hits": 457,
-    "rate": 0.5587,
-    "roi": -0.0778,
-    "profit": -63.61,
-    "roi_n": 818
+    "n": 817,
+    "hits": 456,
+    "rate": 0.5581,
+    "roi": -0.0787,
+    "profit": -64.3,
+    "roi_n": 817
    },
    "alt_ust": {
-    "n": 818,
-    "hits": 498,
-    "rate": 0.6088,
-    "roi": -0.1475,
-    "profit": -109.44,
-    "roi_n": 742
+    "n": 817,
+    "hits": 497,
+    "rate": 0.6083,
+    "roi": -0.1482,
+    "profit": -109.8,
+    "roi_n": 741
    }
   },
   "channel": {
@@ -27841,6 +28504,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 7. (10 takım, 24–12 puan)",
@@ -27914,6 +28579,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 5. vs 19. (20 takım, 17–9 puan)",
@@ -28009,6 +28676,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 12. vs 8. (20 takım, 13–15 puan)",
@@ -28103,6 +28772,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 15. vs 11. (20 takım, 12–14 puan)",
@@ -28198,6 +28869,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 1G 2B 2M",
@@ -28272,6 +28945,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 11. vs 10. (12 takım, 2–4 puan)",
@@ -28345,6 +29020,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 9. vs 5. (16 takım, 19–23 puan)",
@@ -28440,6 +29117,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 7. (12 takım, 10–14 puan)",
@@ -28512,6 +29191,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
@@ -28609,6 +29290,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
@@ -28705,6 +29388,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 0B 5M",
@@ -28801,6 +29486,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 10. vs 1. (16 takım, 7–17 puan)",
@@ -28896,6 +29583,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 3. (10 takım, 33–19 puan)",
@@ -28969,6 +29658,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 16. vs 10. (20 takım, 10–17 puan)",
@@ -29042,6 +29733,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 2B 0M",
@@ -29117,6 +29810,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 7. vs 14. (20 takım, 19–13 puan)",
@@ -29190,6 +29885,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 13. vs 6. (20 takım, 13–19 puan)",
@@ -29244,7 +29941,9 @@
    "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "veri yetersiz",
-   "first_published": true,
+   "first_published": false,
+   "publication_basis": "available_historical_channel_snapshot",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": {
     "record": {
      "match_id": 4495507,
@@ -29389,6 +30088,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 18. vs 12. (20 takım, 7–12 puan)",
@@ -29484,6 +30185,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 3 (ev açısından): 2G 0B 1M",
@@ -29581,6 +30284,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 3B 2M",
@@ -29678,6 +30383,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -29775,6 +30482,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 2G 2B 1M",
@@ -29872,6 +30581,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 1B 4M",
@@ -29969,6 +30680,8 @@
    "model_label": "Maçkolik form + oran",
    "data_status": "hazır",
    "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
    "latest_revision": null,
    "factors": [
     "📈 Sıra: 1. vs 2. (10 takım, 30–22 puan)",
