@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-09T00:53:25+03:00",
+ "generated_at": "2026-11-09T01:13:25+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -9,58 +9,58 @@
  },
  "predictions": [],
  "stats": {
-  "settled": 6171,
-  "pending": 200,
+  "settled": 6176,
+  "pending": 195,
   "void": 429,
   "overall": {
-   "n": 12232,
-   "hits": 6777,
-   "rate": 0.554,
-   "roi": -0.1625,
-   "profit": -1854.08,
-   "roi_n": 11410
+   "n": 12242,
+   "hits": 6785,
+   "rate": 0.5542,
+   "roi": -0.1621,
+   "profit": -1851.17,
+   "roi_n": 11420
   },
   "ms1x2": {
-   "n": 6171,
-   "hits": 3210,
-   "rate": 0.5202,
-   "roi": -0.1532,
-   "profit": -945.33,
-   "roi_n": 6171
+   "n": 6176,
+   "hits": 3214,
+   "rate": 0.5204,
+   "roi": -0.1527,
+   "profit": -943.05,
+   "roi_n": 6176
   },
   "alt_ust": {
-   "n": 6061,
-   "hits": 3567,
-   "rate": 0.5885,
-   "roi": -0.1735,
-   "profit": -908.75,
-   "roi_n": 5239
+   "n": 6066,
+   "hits": 3571,
+   "rate": 0.5887,
+   "roi": -0.1732,
+   "profit": -908.12,
+   "roi_n": 5244
   },
   "korner": {
-   "n": 2736,
-   "hits": 1490,
-   "rate": 0.5446,
-   "roi": -0.1207,
-   "profit": -119.34,
-   "roi_n": 989
+   "n": 2741,
+   "hits": 1491,
+   "rate": 0.544,
+   "roi": -0.1218,
+   "profit": -120.85,
+   "roi_n": 992
   },
   "kart": {
-   "n": 1762,
-   "hits": 964,
-   "rate": 0.5471,
-   "roi": -0.1845,
-   "profit": -110.16,
-   "roi_n": 597
+   "n": 1765,
+   "hits": 965,
+   "rate": 0.5467,
+   "roi": -0.1862,
+   "profit": -111.72,
+   "roi_n": 600
   },
   "bands": [
    {
     "label": "< %45",
-    "n": 3959,
-    "hits": 1760,
-    "rate": 0.4446,
-    "roi": -0.1695,
-    "profit": -670.88,
-    "roi_n": 3959
+    "n": 3964,
+    "hits": 1764,
+    "rate": 0.445,
+    "roi": -0.1687,
+    "profit": -668.6,
+    "roi_n": 3964
    },
    {
     "label": "%45–55",
@@ -92,12 +92,12 @@
   ],
   "model": {
    "form": {
-    "n": 5312,
-    "hits": 2736,
-    "rate": 0.5151,
-    "roi": -0.1542,
-    "profit": -818.94,
-    "roi_n": 5312
+    "n": 5317,
+    "hits": 2740,
+    "rate": 0.5153,
+    "roi": -0.1536,
+    "profit": -816.66,
+    "roi_n": 5317
    },
    "oran": {
     "n": 512,
@@ -118,20 +118,20 @@
   },
   "last7": {
    "ms1x2": {
-    "n": 823,
-    "hits": 456,
-    "rate": 0.5541,
-    "roi": -0.0862,
-    "profit": -70.98,
-    "roi_n": 823
+    "n": 827,
+    "hits": 460,
+    "rate": 0.5562,
+    "roi": -0.0819,
+    "profit": -67.7,
+    "roi_n": 827
    },
    "alt_ust": {
-    "n": 823,
-    "hits": 496,
-    "rate": 0.6027,
-    "roi": -0.1576,
-    "profit": -117.88,
-    "roi_n": 748
+    "n": 827,
+    "hits": 500,
+    "rate": 0.6046,
+    "roi": -0.1546,
+    "profit": -116.25,
+    "roi_n": 752
    }
   },
   "channel": {
@@ -171,6 +171,496 @@
   }
  },
  "history": [
+  {
+   "match_id": 4576944,
+   "iddaa": 3342593,
+   "home": "Raja Casablanca",
+   "away": "Ittihad Tanger",
+   "league": "Fas · Botola Pro",
+   "date": "08/11/2026",
+   "kickoff": "23:00",
+   "kickoff_iso": "2026-11-08T23:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4358,
+   "probs": {
+    "1": 0.5074,
+    "X": 0.2602,
+    "2": 0.2324
+   },
+   "odds": {
+    "1": 1.49,
+    "X": 3.03,
+    "2": 4.27,
+    "alt": 1.37,
+    "ust": 2.0
+   },
+   "pick_odd": 1.49,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4082,
+    "odd": 1.37
+   },
+   "kg_var": 0.468,
+   "xg": {
+    "home": 1.29,
+    "away": 1.04
+   },
+   "form": {
+    "home": {
+     "last5": "BGBMG",
+     "ppg": 1.9,
+     "gf": 1.3,
+     "ga": 0.7,
+     "n": 10
+    },
+    "away": {
+     "last5": "BMGMG",
+     "ppg": 1.9,
+     "gf": 1.4,
+     "ga": 1.0,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📈 Sıra: 9. vs 7. (16 takım, 9–10 puan)",
+    "🏟 İç saha 2.5 p/m (4 maç) vs dış saha 1.0 p/m (3 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.3,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5474,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 14,
+    "hit": false
+   },
+   "cards": {
+    "expected": 4.5,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.5446,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4516818,
+   "iddaa": 3279088,
+   "home": "Paços De Ferreira",
+   "away": "Trofense",
+   "league": "Portekiz · 3.Lig Grup A",
+   "date": "08/11/2026",
+   "kickoff": "23:00",
+   "kickoff_iso": "2026-11-08T23:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.4475,
+   "probs": {
+    "1": 0.5198,
+    "X": 0.2609,
+    "2": 0.2193
+   },
+   "odds": {
+    "1": 1.53,
+    "X": 3.04,
+    "2": 4.01,
+    "alt": 1.45,
+    "ust": 1.84
+   },
+   "pick_odd": 1.53,
+   "alt_ust": {
+    "pick": "Alt",
+    "p_over": 0.4467,
+    "odd": 1.45
+   },
+   "kg_var": 0.4865,
+   "xg": {
+    "home": 1.54,
+    "away": 0.97
+   },
+   "form": {
+    "home": {
+     "last5": "BBGGM",
+     "ppg": 0.9,
+     "gf": 0.8,
+     "ga": 1.4,
+     "n": 10
+    },
+    "away": {
+     "last5": "BMBMM",
+     "ppg": 0.5,
+     "gf": 0.5,
+     "ga": 2.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📈 Sıra: 9. vs 10. (10 takım, 8–5 puan)",
+    "🏟 İç saha 0.8 p/m (6 maç) vs dış saha 0.4 p/m (5 maç)"
+   ],
+   "corners": {
+    "expected": 10.6,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.5197,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 11,
+    "hit": false
+   },
+   "cards": {
+    "expected": 6.4,
+    "line": 6.5,
+    "pick": "Alt",
+    "prob": 0.5485,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "4-3",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": false
+   }
+  },
+  {
+   "match_id": 4492369,
+   "iddaa": 3279475,
+   "home": "Atletico Madrid",
+   "away": "Barcelona",
+   "league": "İspanya · LaLiga",
+   "date": "08/11/2026",
+   "kickoff": "23:00",
+   "kickoff_iso": "2026-11-08T23:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.4182,
+   "probs": {
+    "1": 0.3263,
+    "X": 0.2021,
+    "2": 0.4716
+   },
+   "odds": {
+    "1": 3.22,
+    "X": 3.89,
+    "2": 1.61,
+    "alt": 2.99,
+    "ust": 1.17
+   },
+   "pick_odd": 1.61,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.7146,
+    "odd": 1.17
+   },
+   "kg_var": 0.686,
+   "xg": {
+    "home": 1.71,
+    "away": 1.82
+   },
+   "form": {
+    "home": {
+     "last5": "GBGGM",
+     "ppg": 2.5,
+     "gf": 1.8,
+     "ga": 0.5,
+     "n": 10
+    },
+    "away": {
+     "last5": "GMMGG",
+     "ppg": 2.4,
+     "gf": 3.8,
+     "ga": 1.5,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 1G 0B 4M",
+    "⚽ H2H gol ort. 3.0",
+    "📈 Sıra: 3. vs 1. (20 takım, 28–30 puan)",
+    "🏟 İç saha 2.4 p/m (5 maç) vs dış saha 2.4 p/m (5 maç)",
+    "🚑 Eksik: ev 1 (1 sakat) · dep 5 (5 sakat)"
+   ],
+   "corners": {
+    "expected": 9.5,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.6381,
+    "odd": 1.49,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 6,
+    "hit": true
+   },
+   "cards": {
+    "expected": 4.7,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.516,
+    "odd": 1.85,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 5,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-2",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4476593,
+   "iddaa": 3278767,
+   "home": "Lens",
+   "away": "Marsilya",
+   "league": "Fransa · Ligue 1",
+   "date": "08/11/2026",
+   "kickoff": "22:45",
+   "kickoff_iso": "2026-11-08T22:45:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.2889,
+   "probs": {
+    "1": 0.3756,
+    "X": 0.2419,
+    "2": 0.3825
+   },
+   "odds": {
+    "1": 2.0,
+    "X": 3.24,
+    "2": 2.65,
+    "alt": 2.02,
+    "ust": 1.45
+   },
+   "pick_odd": 2.65,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.596,
+    "odd": 1.45
+   },
+   "kg_var": 0.6187,
+   "xg": {
+    "home": 1.46,
+    "away": 1.64
+   },
+   "form": {
+    "home": {
+     "last5": "GMGMM",
+     "ppg": 1.3,
+     "gf": 1.3,
+     "ga": 2.2,
+     "n": 10
+    },
+    "away": {
+     "last5": "GMGGG",
+     "ppg": 1.5,
+     "gf": 1.6,
+     "ga": 1.4,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 2G 0B 3M",
+    "⚽ H2H gol ort. 3.0",
+    "📈 Sıra: 9. vs 6. (18 takım, 13–15 puan)",
+    "🏟 İç saha 1.5 p/m (4 maç) vs dış saha 1.5 p/m (6 maç)",
+    "🚑 Eksik: ev 6 (5 sakat, 1 diğer) · dep 3 (2 sakat, 1 diğer)"
+   ],
+   "corners": {
+    "expected": 9.2,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5589,
+    "odd": 1.58,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 10,
+    "hit": false
+   },
+   "cards": {
+    "expected": 4.0,
+    "line": 3.5,
+    "pick": "Üst",
+    "prob": 0.5303,
+    "odd": 1.53,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 3,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-2",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4475143,
+   "iddaa": 3279456,
+   "home": "Fiorentina",
+   "away": "Juventus",
+   "league": "İtalya · Serie A",
+   "date": "08/11/2026",
+   "kickoff": "22:45",
+   "kickoff_iso": "2026-11-08T22:45:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.292,
+   "probs": {
+    "1": 0.3641,
+    "X": 0.2491,
+    "2": 0.3868
+   },
+   "odds": {
+    "1": 2.85,
+    "X": 2.98,
+    "2": 2.0,
+    "alt": 1.73,
+    "ust": 1.64
+   },
+   "pick_odd": 2.0,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.5453,
+    "odd": 1.64
+   },
+   "kg_var": 0.6252,
+   "xg": {
+    "home": 1.91,
+    "away": 1.32
+   },
+   "form": {
+    "home": {
+     "last5": "MMMBG",
+     "ppg": 1.4,
+     "gf": 2.7,
+     "ga": 1.6,
+     "n": 10
+    },
+    "away": {
+     "last5": "BGMGG",
+     "ppg": 1.7,
+     "gf": 1.3,
+     "ga": 1.1,
+     "n": 10
+    }
+   },
+   "model": "form",
+   "source": "oto",
+   "model_label": "Maçkolik form + oran",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 1G 2B 2M",
+    "⚽ H2H gol ort. 2.2",
+    "📈 Sıra: 15. vs 7. (20 takım, 8–17 puan)",
+    "🏟 İç saha 1.3 p/m (6 maç) vs dış saha 2.0 p/m (5 maç)",
+    "🚑 Eksik: ev 3 (3 sakat) · dep 7 (6 sakat, 1 diğer)"
+   ],
+   "corners": {
+    "expected": 9.6,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5141,
+    "odd": 1.62,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 17,
+    "hit": false
+   },
+   "cards": {
+    "expected": 4.2,
+    "line": 4.5,
+    "pick": "Alt",
+    "prob": 0.5935,
+    "odd": 1.44,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 4,
+    "hit": true
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-2",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": true
+   }
+  },
   {
    "match_id": 4493626,
    "iddaa": 3279556,
@@ -2101,510 +2591,6 @@
     "outcome": "1",
     "hit_1x2": true,
     "hit_au": true
-   }
-  },
-  {
-   "match_id": 4523171,
-   "iddaa": 3335733,
-   "home": "Benfica U23",
-   "away": "Farense U23",
-   "league": "Portekiz · U23 Ulusal Şampiyona",
-   "date": "08/11/2026",
-   "kickoff": "20:30",
-   "kickoff_iso": "2026-11-08T20:30:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.3831,
-   "probs": {
-    "1": 0.445,
-    "X": 0.2422,
-    "2": 0.3127
-   },
-   "odds": {
-    "1": 1.73,
-    "X": 3.3,
-    "2": 2.85,
-    "alt": 1.95,
-    "ust": 1.39
-   },
-   "pick_odd": 1.73,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.6046,
-    "odd": 1.39
-   },
-   "kg_var": 0.6165,
-   "xg": {
-    "home": 1.67,
-    "away": 1.43
-   },
-   "form": {
-    "home": {
-     "last5": "GGMBM",
-     "ppg": 1.1,
-     "gf": 1.5,
-     "ga": 1.7,
-     "n": 10
-    },
-    "away": {
-     "last5": "BMMBM",
-     "ppg": 1.2,
-     "gf": 1.5,
-     "ga": 1.7,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 2G 1B 2M",
-    "⚽ H2H gol ort. 3.4",
-    "📈 Sıra: 14. vs 13. (20 takım, 11–12 puan)",
-    "🏟 İç saha 1.0 p/m (5 maç) vs dış saha 1.4 p/m (5 maç)"
-   ],
-   "corners": null,
-   "cards": null,
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "2-0",
-    "outcome": "1",
-    "hit_1x2": true,
-    "hit_au": false
-   }
-  },
-  {
-   "match_id": 4492821,
-   "iddaa": 3279808,
-   "home": "Sporting Gijon",
-   "away": "Valladolid",
-   "league": "İspanya · 2.Lig",
-   "date": "08/11/2026",
-   "kickoff": "20:30",
-   "kickoff_iso": "2026-11-08T20:30:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.2908,
-   "probs": {
-    "1": 0.3854,
-    "X": 0.2804,
-    "2": 0.3342
-   },
-   "odds": {
-    "1": 2.26,
-    "X": 2.85,
-    "2": 2.54,
-    "alt": 1.53,
-    "ust": 1.88
-   },
-   "pick_odd": 2.26,
-   "alt_ust": {
-    "pick": "Alt",
-    "p_over": 0.4967,
-    "odd": 1.53
-   },
-   "kg_var": 0.6104,
-   "xg": {
-    "home": 1.54,
-    "away": 1.5
-   },
-   "form": {
-    "home": {
-     "last5": "GGMGG",
-     "ppg": 1.8,
-     "gf": 1.4,
-     "ga": 1.4,
-     "n": 10
-    },
-    "away": {
-     "last5": "GMMGG",
-     "ppg": 1.7,
-     "gf": 2.0,
-     "ga": 1.5,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 8. vs 13. (22 takım, 22–15 puan)",
-    "🏟 İç saha 1.5 p/m (4 maç) vs dış saha 1.2 p/m (4 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": null,
-   "cards": null,
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "1-2",
-    "outcome": "2",
-    "hit_1x2": false,
-    "hit_au": false
-   }
-  },
-  {
-   "match_id": 4492378,
-   "iddaa": 3279326,
-   "home": "Villarreal",
-   "away": "Getafe",
-   "league": "İspanya · LaLiga",
-   "date": "08/11/2026",
-   "kickoff": "20:30",
-   "kickoff_iso": "2026-11-08T20:30:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.6935,
-   "probs": {
-    "1": null,
-    "X": null,
-    "2": null
-   },
-   "odds": {
-    "1": 1.37,
-    "X": 3.79,
-    "2": 5.15,
-    "alt": 1.76,
-    "ust": 1.61
-   },
-   "pick_odd": 1.32,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": null,
-    "odd": 1.6
-   },
-   "kg_var": 0.42,
-   "xg": null,
-   "form": null,
-   "model": "app_legacy",
-   "source": "kanal",
-   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
-   "data_status": "veri yetersiz",
-   "first_published": false,
-   "publication_basis": "available_historical_channel_snapshot",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": {
-    "record": {
-     "match_id": 4492378,
-     "iddaa": 3279326,
-     "home": "Villarreal",
-     "away": "Getafe",
-     "league": "İspanya · LaLiga",
-     "match_date": "08/11/2026",
-     "kickoff": "20:30",
-     "kickoff_ts": 1794159000.0,
-     "pick": "1",
-     "confidence": 0.5109331785052064,
-     "p1": 0.575876112325792,
-     "px": 0.20885324017703735,
-     "p2": 0.21527064749717068,
-     "odd_1": 1.37,
-     "odd_x": 3.79,
-     "odd_2": 5.15,
-     "pick_odd": 1.37,
-     "au_pick": "Üst",
-     "au_prob": 0.5499197536304207,
-     "odd_alt": 1.76,
-     "odd_ust": 1.61,
-     "au_odd": 1.61,
-     "kg_prob": 0.6083594253112737,
-     "model": "form",
-     "source": "oto",
-     "live": 0,
-     "created_at": 1794130627.6064258,
-     "updated_at": 1794158423.1794024,
-     "status": "bekliyor",
-     "home_goals": null,
-     "away_goals": null,
-     "result": null,
-     "hit_1x2": null,
-     "hit_au": null,
-     "settled_at": null,
-     "p_over": 0.5499197536304207,
-     "form_home": "MGGMM",
-     "form_away": "MMGGM",
-     "ppg_home": 1.6,
-     "ppg_away": 1.1,
-     "gf_home": 1.9,
-     "ga_home": 1.6,
-     "gf_away": 1.1,
-     "ga_away": 1.9,
-     "n_home": 10,
-     "n_away": 10,
-     "xg_home": 1.91,
-     "xg_away": 1.25,
-     "factors": "📊 H2H son 5 (ev açısından): 2G 2B 1M | ⚽ H2H gol ort. 2.4 | 📈 Sıra: 11. vs 15. (20 takım, 12–12 puan) | 🏟 İç saha 1.4 p/m (5 maç) vs dış saha 0.8 p/m (5 maç) | 🚑 Eksik: ev 4 (4 sakat) · dep 3 (3 sakat)",
-     "kor_exp": 10.0,
-     "kor_line": 9.5,
-     "kor_pick": "Üst",
-     "kor_prob": 0.5298,
-     "kor_odd": 1.54,
-     "kor_src": "model+oran",
-     "kor_actual": null,
-     "kor_hit": null,
-     "kart_exp": 5.2,
-     "kart_line": 4.5,
-     "kart_pick": "Üst",
-     "kart_prob": 0.5665,
-     "kart_odd": 1.48,
-     "kart_src": "model+oran",
-     "kart_actual": null,
-     "kart_hit": null
-    },
-    "updated_at": 1794158423.1794024
-   },
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 2G 2B 1M",
-    "⚽ H2H gol ort. 2.4",
-    "📈 Sıra: 11. vs 15. (20 takım, 12–12 puan)",
-    "🏟 İç saha 1.4 p/m (5 maç) vs dış saha 0.8 p/m (5 maç)",
-    "🚑 Eksik: ev 4 (3 sakat, 1 diğer) · dep 3 (3 sakat)"
-   ],
-   "corners": null,
-   "cards": null,
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "2-0",
-    "outcome": "1",
-    "hit_1x2": true,
-    "hit_au": false
-   }
-  },
-  {
-   "match_id": 4492370,
-   "iddaa": 3279331,
-   "home": "Celta Vigo",
-   "away": "Levante",
-   "league": "İspanya · LaLiga",
-   "date": "08/11/2026",
-   "kickoff": "20:30",
-   "kickoff_iso": "2026-11-08T20:30:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.437,
-   "probs": {
-    "1": 0.4931,
-    "X": 0.2358,
-    "2": 0.2712
-   },
-   "odds": {
-    "1": 1.6,
-    "X": 3.26,
-    "2": 3.88,
-    "alt": 1.72,
-    "ust": 1.66
-   },
-   "pick_odd": 1.6,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.5192,
-    "odd": 1.66
-   },
-   "kg_var": 0.5669,
-   "xg": {
-    "home": 1.58,
-    "away": 1.25
-   },
-   "form": {
-    "home": {
-     "last5": "GGBMM",
-     "ppg": 1.2,
-     "gf": 1.2,
-     "ga": 1.1,
-     "n": 10
-    },
-    "away": {
-     "last5": "BBGMM",
-     "ppg": 1.0,
-     "gf": 1.6,
-     "ga": 1.8,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 2G 2B 1M",
-    "⚽ H2H gol ort. 2.6",
-    "📈 Sıra: 12. vs 18. (20 takım, 12–10 puan)",
-    "🏟 İç saha 1.3 p/m (6 maç) vs dış saha 0.6 p/m (5 maç)",
-    "🚑 Eksik: ev 5 (5 sakat) · dep 2 (2 sakat)"
-   ],
-   "corners": {
-    "expected": 8.6,
-    "line": 8.5,
-    "pick": "Alt",
-    "prob": 0.5126,
-    "odd": 1.6,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 7,
-    "hit": true
-   },
-   "cards": {
-    "expected": 3.9,
-    "line": 3.5,
-    "pick": "Üst",
-    "prob": 0.5259,
-    "odd": 1.51,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 3,
-    "hit": false
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "0-0",
-    "outcome": "X",
-    "hit_1x2": false,
-    "hit_au": false
-   }
-  },
-  {
-   "match_id": 4480770,
-   "iddaa": 3279915,
-   "home": "Union Saint-Gilloise",
-   "away": "Genk",
-   "league": "Belçika · Pro Lig",
-   "date": "08/11/2026",
-   "kickoff": "20:30",
-   "kickoff_iso": "2026-11-08T20:30:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.7966,
-   "probs": {
-    "1": null,
-    "X": null,
-    "2": null
-   },
-   "odds": {
-    "1": 1.41,
-    "X": 3.9,
-    "2": 4.57,
-    "alt": 2.13,
-    "ust": 1.4
-   },
-   "pick_odd": 1.43,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": null,
-    "odd": 1.41
-   },
-   "kg_var": 0.5351,
-   "xg": null,
-   "form": null,
-   "model": "app_legacy",
-   "source": "kanal",
-   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
-   "data_status": "veri yetersiz",
-   "first_published": false,
-   "publication_basis": "available_historical_channel_snapshot",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": {
-    "record": {
-     "match_id": 4480770,
-     "iddaa": 3279915,
-     "home": "Union Saint-Gilloise",
-     "away": "Genk",
-     "league": "Belçika · Pro Lig",
-     "match_date": "08/11/2026",
-     "kickoff": "20:30",
-     "kickoff_ts": 1794159000.0,
-     "pick": "1",
-     "confidence": 0.5325031093565759,
-     "p1": 0.5987682511332262,
-     "px": 0.20578853585279389,
-     "p2": 0.19544321301397996,
-     "odd_1": 1.41,
-     "odd_x": 3.9,
-     "odd_2": 4.57,
-     "pick_odd": 1.41,
-     "au_pick": "Üst",
-     "au_prob": 0.6022214251633144,
-     "odd_alt": 2.13,
-     "odd_ust": 1.4,
-     "au_odd": 1.4,
-     "kg_prob": 0.5788262360922954,
-     "model": "form",
-     "source": "oto",
-     "live": 0,
-     "created_at": 1794130627.6029122,
-     "updated_at": 1794158423.1835563,
-     "status": "bekliyor",
-     "home_goals": null,
-     "away_goals": null,
-     "result": null,
-     "hit_1x2": null,
-     "hit_au": null,
-     "settled_at": null,
-     "p_over": 0.6022214251633144,
-     "form_home": "GGGGG",
-     "form_away": "MGGGM",
-     "ppg_home": 2.6,
-     "ppg_away": 1.5,
-     "gf_home": 2.8,
-     "ga_home": 0.6,
-     "gf_away": 1.7,
-     "ga_away": 1.2,
-     "n_home": 10,
-     "n_away": 10,
-     "xg_home": 2.0,
-     "xg_away": 1.11,
-     "factors": "📈 Sıra: 3. vs 7. (18 takım, 26–15 puan) | 🏟 İç saha 2.3 p/m (6 maç) vs dış saha 1.0 p/m (5 maç) | 🚑 Eksik: kayıtlı sakat/cezalı yok",
-     "kor_exp": 9.7,
-     "kor_line": 9.5,
-     "kor_pick": "Alt",
-     "kor_prob": 0.5022,
-     "kor_odd": 1.67,
-     "kor_src": "model+oran",
-     "kor_actual": null,
-     "kor_hit": null,
-     "kart_exp": 3.8,
-     "kart_line": 3.5,
-     "kart_pick": "Alt",
-     "kart_prob": 0.5052,
-     "kart_odd": null,
-     "kart_src": "model",
-     "kart_actual": null,
-     "kart_hit": null
-    },
-    "updated_at": 1794158423.1835563
-   },
-   "factors": [
-    "📈 Sıra: 3. vs 7. (18 takım, 26–15 puan)",
-    "🏟 İç saha 2.3 p/m (6 maç) vs dış saha 1.0 p/m (5 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": null,
-   "cards": null,
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "1-0",
-    "outcome": "1",
-    "hit_1x2": true,
-    "hit_au": false
    }
   }
  ],
