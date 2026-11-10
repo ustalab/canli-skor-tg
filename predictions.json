@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-10T16:03:25+03:00",
+ "generated_at": "2026-11-10T16:33:25+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -9,32 +9,32 @@
  },
  "predictions": [],
  "stats": {
-  "settled": 6181,
-  "pending": 40,
+  "settled": 6182,
+  "pending": 39,
   "void": 579,
   "overall": {
-   "n": 12252,
-   "hits": 6789,
+   "n": 12254,
+   "hits": 6790,
    "rate": 0.5541,
    "roi": -0.1624,
-   "profit": -1856.04,
-   "roi_n": 11430
+   "profit": -1856.54,
+   "roi_n": 11432
   },
   "ms1x2": {
-   "n": 6181,
+   "n": 6182,
    "hits": 3216,
-   "rate": 0.5203,
-   "roi": -0.153,
-   "profit": -945.65,
-   "roi_n": 6181
+   "rate": 0.5202,
+   "roi": -0.1531,
+   "profit": -946.65,
+   "roi_n": 6182
   },
   "alt_ust": {
-   "n": 6071,
-   "hits": 3573,
-   "rate": 0.5885,
-   "roi": -0.1734,
-   "profit": -910.39,
-   "roi_n": 5249
+   "n": 6072,
+   "hits": 3574,
+   "rate": 0.5886,
+   "roi": -0.1733,
+   "profit": -909.89,
+   "roi_n": 5250
   },
   "korner": {
    "n": 2744,
@@ -55,12 +55,12 @@
   "bands": [
    {
     "label": "< %45",
-    "n": 3966,
+    "n": 3967,
     "hits": 1764,
-    "rate": 0.4448,
-    "roi": -0.1691,
-    "profit": -670.6,
-    "roi_n": 3966
+    "rate": 0.4447,
+    "roi": -0.1693,
+    "profit": -671.6,
+    "roi_n": 3967
    },
    {
     "label": "%45–55",
@@ -92,12 +92,12 @@
   ],
   "model": {
    "form": {
-    "n": 5321,
+    "n": 5322,
     "hits": 2741,
-    "rate": 0.5151,
-    "roi": -0.154,
-    "profit": -819.34,
-    "roi_n": 5321
+    "rate": 0.515,
+    "roi": -0.1541,
+    "profit": -820.34,
+    "roi_n": 5322
    },
    "oran": {
     "n": 512,
@@ -118,20 +118,20 @@
   },
   "last7": {
    "ms1x2": {
-    "n": 716,
+    "n": 717,
     "hits": 389,
-    "rate": 0.5433,
-    "roi": -0.104,
-    "profit": -74.47,
-    "roi_n": 716
+    "rate": 0.5425,
+    "roi": -0.1053,
+    "profit": -75.47,
+    "roi_n": 717
    },
    "alt_ust": {
-    "n": 716,
-    "hits": 428,
-    "rate": 0.5978,
-    "roi": -0.1653,
-    "profit": -107.77,
-    "roi_n": 652
+    "n": 717,
+    "hits": 429,
+    "rate": 0.5983,
+    "roi": -0.1643,
+    "profit": -107.27,
+    "roi_n": 653
    }
   },
   "channel": {
