@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-10T22:47:40+03:00",
+ "generated_at": "2026-11-10T23:05:25+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -10,8 +10,8 @@
  "predictions": [],
  "stats": {
   "settled": 6189,
-  "pending": 2,
-  "void": 609,
+  "pending": 1,
+  "void": 610,
   "overall": {
    "n": 12268,
    "hits": 6802,
@@ -118,20 +118,20 @@
   },
   "last7": {
    "ms1x2": {
-    "n": 696,
-    "hits": 378,
-    "rate": 0.5431,
-    "roi": -0.1052,
-    "profit": -73.2,
-    "roi_n": 696
+    "n": 687,
+    "hits": 372,
+    "rate": 0.5415,
+    "roi": -0.1069,
+    "profit": -73.42,
+    "roi_n": 687
    },
    "alt_ust": {
-    "n": 696,
-    "hits": 421,
-    "rate": 0.6049,
-    "roi": -0.1553,
-    "profit": -98.01,
-    "roi_n": 631
+    "n": 687,
+    "hits": 415,
+    "rate": 0.6041,
+    "roi": -0.1549,
+    "profit": -96.5,
+    "roi_n": 623
    }
   },
   "channel": {
