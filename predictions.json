@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-10T17:03:51+03:00",
+ "generated_at": "2026-11-10T17:53:25+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -9,32 +9,32 @@
  },
  "predictions": [],
  "stats": {
-  "settled": 6185,
-  "pending": 32,
-  "void": 583,
+  "settled": 6189,
+  "pending": 27,
+  "void": 584,
   "overall": {
-   "n": 12260,
-   "hits": 6795,
-   "rate": 0.5542,
-   "roi": -0.1622,
-   "profit": -1854.66,
-   "roi_n": 11437
+   "n": 12268,
+   "hits": 6802,
+   "rate": 0.5545,
+   "roi": -0.1619,
+   "profit": -1852.55,
+   "roi_n": 11445
   },
   "ms1x2": {
-   "n": 6185,
-   "hits": 3218,
-   "rate": 0.5203,
-   "roi": -0.1529,
-   "profit": -945.72,
-   "roi_n": 6185
+   "n": 6189,
+   "hits": 3221,
+   "rate": 0.5204,
+   "roi": -0.1527,
+   "profit": -944.97,
+   "roi_n": 6189
   },
   "alt_ust": {
-   "n": 6075,
-   "hits": 3577,
-   "rate": 0.5888,
-   "roi": -0.1731,
-   "profit": -908.94,
-   "roi_n": 5252
+   "n": 6079,
+   "hits": 3581,
+   "rate": 0.5891,
+   "roi": -0.1727,
+   "profit": -907.58,
+   "roi_n": 5256
   },
   "korner": {
    "n": 2744,
@@ -55,12 +55,12 @@
   "bands": [
    {
     "label": "< %45",
-    "n": 3970,
-    "hits": 1766,
-    "rate": 0.4448,
-    "roi": -0.1689,
-    "profit": -670.67,
-    "roi_n": 3970
+    "n": 3973,
+    "hits": 1768,
+    "rate": 0.445,
+    "roi": -0.1686,
+    "profit": -670.04,
+    "roi_n": 3973
    },
    {
     "label": "%45–55",
@@ -82,22 +82,22 @@
    },
    {
     "label": "≥ %65",
-    "n": 154,
-    "hits": 107,
-    "rate": 0.6948,
-    "roi": -0.0178,
-    "profit": -2.74,
-    "roi_n": 154
+    "n": 155,
+    "hits": 108,
+    "rate": 0.6968,
+    "roi": -0.0169,
+    "profit": -2.62,
+    "roi_n": 155
    }
   ],
   "model": {
    "form": {
-    "n": 5325,
-    "hits": 2743,
-    "rate": 0.5151,
-    "roi": -0.1539,
-    "profit": -819.41,
-    "roi_n": 5325
+    "n": 5328,
+    "hits": 2745,
+    "rate": 0.5152,
+    "roi": -0.1537,
+    "profit": -818.78,
+    "roi_n": 5328
    },
    "oran": {
     "n": 512,
@@ -108,48 +108,48 @@
     "roi_n": 512
    },
    "app": {
-    "n": 348,
-    "hits": 224,
-    "rate": 0.6437,
-    "roi": -0.063,
-    "profit": -21.91,
-    "roi_n": 348
+    "n": 349,
+    "hits": 225,
+    "rate": 0.6447,
+    "roi": -0.0624,
+    "profit": -21.79,
+    "roi_n": 349
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 720,
-    "hits": 391,
-    "rate": 0.5431,
-    "roi": -0.1035,
-    "profit": -74.54,
-    "roi_n": 720
+    "n": 724,
+    "hits": 394,
+    "rate": 0.5442,
+    "roi": -0.1019,
+    "profit": -73.79,
+    "roi_n": 724
    },
    "alt_ust": {
-    "n": 720,
-    "hits": 432,
-    "rate": 0.6,
-    "roi": -0.1623,
-    "profit": -106.32,
-    "roi_n": 655
+    "n": 724,
+    "hits": 436,
+    "rate": 0.6022,
+    "roi": -0.1593,
+    "profit": -104.96,
+    "roi_n": 659
    }
   },
   "channel": {
    "ms1x2": {
-    "n": 348,
-    "hits": 224,
-    "rate": 0.6437,
-    "roi": -0.063,
-    "profit": -21.91,
-    "roi_n": 348
+    "n": 349,
+    "hits": 225,
+    "rate": 0.6447,
+    "roi": -0.0624,
+    "profit": -21.79,
+    "roi_n": 349
    },
    "alt_ust": {
-    "n": 346,
-    "hits": 232,
-    "rate": 0.6705,
-    "roi": -0.0795,
-    "profit": -26.01,
-    "roi_n": 327
+    "n": 347,
+    "hits": 233,
+    "rate": 0.6715,
+    "roi": -0.0787,
+    "profit": -25.81,
+    "roi_n": 328
    },
    "korner": {
     "n": 247,
