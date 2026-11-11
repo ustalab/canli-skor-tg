@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-11T15:24:49+03:00",
+ "generated_at": "2026-11-11T15:47:12+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
