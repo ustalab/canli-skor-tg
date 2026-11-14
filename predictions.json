@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-14T23:54:45+03:00",
+ "generated_at": "2026-11-15T00:22:00+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -2718,7 +2718,7 @@
   }
  ],
  "simulation": {
-  "day": "2026-11-14",
+  "day": "2026-11-15",
   "runs": 10000,
   "model": "Bağımsız Poisson; seçimdeki aynı gol beklentileri",
   "assumption": "Maçlar bağımsız varsayılır. Kupon yalnız MS 1X2 seçimlerini içerir; garanti değildir.",
