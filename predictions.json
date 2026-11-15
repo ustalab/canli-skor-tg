@@ -1,96 +1,13 @@
 {
  "version": 2,
- "generated_at": "2026-11-15T23:52:19+03:00",
+ "generated_at": "2026-11-16T00:02:00+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
  "model": {
   "text": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson (k=5). 1X2 ≥%60, A/Ü ≥%58. Korner/kart deneysel; ana güvene dahil değil."
  },
- "predictions": [
-  {
-   "match_id": 4444928,
-   "iddaa": 3299190,
-   "home": "Fransa",
-   "away": "Türkiye",
-   "league": "UEFA Uluslar Ligi · A Ligi Grup 1",
-   "date": "15/11/2026",
-   "kickoff": "22:45",
-   "kickoff_iso": "2026-11-15T22:45:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.6115,
-   "probs": {
-    "1": 0.6115,
-    "X": 0.204,
-    "2": 0.1846
-   },
-   "odds": {
-    "1": 1.06,
-    "X": 7.68,
-    "2": 12.1,
-    "alt": 3.5,
-    "ust": 1.11
-   },
-   "pick_odd": 1.06,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.616,
-    "odd": 1.11
-   },
-   "kg_var": 0.5777,
-   "xg": {
-    "home": 2.1087000000000002,
-    "away": 1.0716
-   },
-   "form": null,
-   "model": "app",
-   "source": "oto",
-   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 3G 1B 1M",
-    "⚽ H2H gol ort. 2.8",
-    "📈 Sıra: 2. vs 4. (4 takım, 10–0 puan)",
-    "🏟 İç saha 1.7 p/m (6 maç) vs dış saha 0.8 p/m (4 maç)",
-    "🚑 Eksik: ev 10 (9 sakat, 1 diğer) · dep 5 (4 sakat, 1 cezalı)"
-   ],
-   "corners": {
-    "expected": 9.7,
-    "line": 9.5,
-    "pick": "Alt",
-    "prob": 0.5049,
-    "odd": 1.63,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "cards": {
-    "expected": 3.8,
-    "line": 3.5,
-    "pick": "Üst",
-    "prob": 0.5023,
-    "odd": 1.58,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "status": "canli",
-   "live": {
-    "minute": "49",
-    "score": "0-0"
-   },
-   "result": null
-  }
- ],
+ "predictions": [],
  "stats": {
   "settled": 6190,
   "pending": 1,
@@ -2801,50 +2718,13 @@
   }
  ],
  "simulation": {
-  "day": "2026-11-15",
+  "day": "2026-11-16",
   "runs": 10000,
   "model": "Bağımsız Poisson; seçimdeki aynı gol beklentileri",
   "assumption": "Maçlar bağımsız varsayılır. Kupon yalnız MS 1X2 seçimlerini içerir; garanti değildir.",
-  "matches": [
-   {
-    "match_id": 4444928,
-    "home": "Fransa",
-    "away": "Türkiye",
-    "pick": "1",
-    "top_scores": [
-     {
-      "score": "1-1",
-      "prob": 0.0973
-     },
-     {
-      "score": "2-1",
-      "prob": 0.0939
-     },
-     {
-      "score": "2-0",
-      "prob": 0.0893
-     }
-    ],
-    "probs": {
-     "1": 0.6029,
-     "X": 0.2085,
-     "2": 0.1886
-    },
-    "p_over25": 0.613,
-    "p_under25": 0.387,
-    "kg_var": 0.5779
-   }
-  ],
+  "matches": [],
   "missing": [],
-  "coupon": {
-   "legs": 1,
-   "market": "1X2",
-   "all_hit": 0.6029,
-   "hit_distribution": {
-    "0": 0.3971,
-    "1": 0.6029
-   }
-  }
+  "coupon": null
  },
  "historical_note": "Eski kanal A/Ü olasılıkları saklanmadığından güvenilir eşik backtesti yapılamaz; geçmiş ilk sürümler geri kurulamaz."
 }
