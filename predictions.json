@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-16T00:24:51+03:00",
+ "generated_at": "2026-11-16T00:52:00+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -9,48 +9,48 @@
  },
  "predictions": [],
  "stats": {
-  "settled": 6190,
-  "pending": 1,
+  "settled": 6191,
+  "pending": 0,
   "void": 611,
   "overall": {
-   "n": 12270,
-   "hits": 6804,
-   "rate": 0.5545,
+   "n": 12272,
+   "hits": 6806,
+   "rate": 0.5546,
    "roi": -0.1618,
-   "profit": -1852.15,
-   "roi_n": 11447
+   "profit": -1851.98,
+   "roi_n": 11449
   },
   "ms1x2": {
-   "n": 6190,
-   "hits": 3222,
-   "rate": 0.5205,
+   "n": 6191,
+   "hits": 3223,
+   "rate": 0.5206,
    "roi": -0.1526,
-   "profit": -944.85,
-   "roi_n": 6190
+   "profit": -944.79,
+   "roi_n": 6191
   },
   "alt_ust": {
-   "n": 6080,
-   "hits": 3582,
-   "rate": 0.5891,
-   "roi": -0.1726,
-   "profit": -907.3,
-   "roi_n": 5257
+   "n": 6081,
+   "hits": 3583,
+   "rate": 0.5892,
+   "roi": -0.1725,
+   "profit": -907.19,
+   "roi_n": 5258
   },
   "korner": {
-   "n": 2745,
+   "n": 2746,
    "hits": 1493,
-   "rate": 0.5439,
-   "roi": -0.122,
-   "profit": -121.22,
-   "roi_n": 994
+   "rate": 0.5437,
+   "roi": -0.1228,
+   "profit": -122.22,
+   "roi_n": 995
   },
   "kart": {
-   "n": 1769,
+   "n": 1770,
    "hits": 967,
-   "rate": 0.5466,
-   "roi": -0.1852,
-   "profit": -111.29,
-   "roi_n": 601
+   "rate": 0.5463,
+   "roi": -0.1865,
+   "profit": -112.29,
+   "roi_n": 602
   },
   "bands": [
    {
@@ -73,12 +73,12 @@
    },
    {
     "label": "%55–65",
-    "n": 595,
-    "hits": 436,
-    "rate": 0.7328,
-    "roi": -0.1279,
-    "profit": -76.1,
-    "roi_n": 595
+    "n": 596,
+    "hits": 437,
+    "rate": 0.7332,
+    "roi": -0.1276,
+    "profit": -76.04,
+    "roi_n": 596
    },
    {
     "label": "≥ %65",
@@ -108,30 +108,30 @@
     "roi_n": 512
    },
    "app": {
-    "n": 350,
-    "hits": 226,
-    "rate": 0.6457,
-    "roi": -0.0619,
-    "profit": -21.67,
-    "roi_n": 350
+    "n": 351,
+    "hits": 227,
+    "rate": 0.6467,
+    "roi": -0.0616,
+    "profit": -21.61,
+    "roi_n": 351
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 1,
-    "hits": 1,
+    "n": 2,
+    "hits": 2,
     "rate": 1.0,
-    "roi": 0.12,
-    "profit": 0.12,
-    "roi_n": 1
+    "roi": 0.09,
+    "profit": 0.18,
+    "roi_n": 2
    },
    "alt_ust": {
-    "n": 1,
-    "hits": 1,
+    "n": 2,
+    "hits": 2,
     "rate": 1.0,
-    "roi": 0.28,
-    "profit": 0.28,
-    "roi_n": 1
+    "roi": 0.195,
+    "profit": 0.39,
+    "roi_n": 2
    }
   },
   "channel": {
@@ -171,6 +171,90 @@
   }
  },
  "history": [
+  {
+   "match_id": 4444928,
+   "iddaa": 3299190,
+   "home": "Fransa",
+   "away": "Türkiye",
+   "league": "UEFA Uluslar Ligi · A Ligi Grup 1",
+   "date": "15/11/2026",
+   "kickoff": "22:45",
+   "kickoff_iso": "2026-11-15T22:45:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6115,
+   "probs": {
+    "1": 0.6115,
+    "X": 0.204,
+    "2": 0.1846
+   },
+   "odds": {
+    "1": 1.06,
+    "X": 7.68,
+    "2": 12.1,
+    "alt": 3.5,
+    "ust": 1.11
+   },
+   "pick_odd": 1.06,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.616,
+    "odd": 1.11
+   },
+   "kg_var": 0.5777,
+   "xg": {
+    "home": 2.1087000000000002,
+    "away": 1.0716
+   },
+   "form": null,
+   "model": "app",
+   "source": "oto",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 3G 1B 1M",
+    "⚽ H2H gol ort. 2.8",
+    "📈 Sıra: 2. vs 4. (4 takım, 10–0 puan)",
+    "🏟 İç saha 1.7 p/m (6 maç) vs dış saha 0.8 p/m (4 maç)",
+    "🚑 Eksik: ev 10 (9 sakat, 1 diğer) · dep 5 (4 sakat, 1 cezalı)"
+   ],
+   "corners": {
+    "expected": 9.7,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5049,
+    "odd": 1.63,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 13,
+    "hit": false
+   },
+   "cards": {
+    "expected": 3.8,
+    "line": 3.5,
+    "pick": "Üst",
+    "prob": 0.5023,
+    "odd": 1.58,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 3,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
   {
    "match_id": 4445141,
    "iddaa": 3288736,
@@ -2616,103 +2700,6 @@
     "score": "3-0",
     "outcome": "1",
     "hit_1x2": true,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4517349,
-   "iddaa": 3279009,
-   "home": "Sporting CP II",
-   "away": "Tondela",
-   "league": "Portekiz · 2.Lig",
-   "date": "08/11/2026",
-   "kickoff": "21:00",
-   "kickoff_iso": "2026-11-08T21:00:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.2806,
-   "probs": {
-    "1": 0.3837,
-    "X": 0.2747,
-    "2": 0.3416
-   },
-   "odds": {
-    "1": 2.36,
-    "X": 2.82,
-    "2": 2.2,
-    "alt": 1.47,
-    "ust": 1.8
-   },
-   "pick_odd": 2.36,
-   "alt_ust": {
-    "pick": "Alt",
-    "p_over": 0.4567,
-    "odd": 1.47
-   },
-   "kg_var": 0.5173,
-   "xg": {
-    "home": 1.37,
-    "away": 1.18
-   },
-   "form": {
-    "home": {
-     "last5": "GMGGG",
-     "ppg": 2.1,
-     "gf": 1.5,
-     "ga": 0.8,
-     "n": 10
-    },
-    "away": {
-     "last5": "GGGMG",
-     "ppg": 1.8,
-     "gf": 1.7,
-     "ga": 1.0,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 2. vs 7. (18 takım, 21–15 puan)",
-    "🏟 İç saha 2.2 p/m (4 maç) vs dış saha 1.2 p/m (5 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 8.6,
-    "line": 8.5,
-    "pick": "Alt",
-    "prob": 0.513,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 11,
-    "hit": false
-   },
-   "cards": {
-    "expected": 6.1,
-    "line": 6.5,
-    "pick": "Alt",
-    "prob": 0.5949,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "1-1",
-    "outcome": "X",
-    "hit_1x2": false,
     "hit_au": true
    }
   }
