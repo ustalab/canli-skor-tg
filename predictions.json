@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-15T22:42:01+03:00",
+ "generated_at": "2026-11-15T22:52:00+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -26,17 +26,17 @@
     "2": 0.1846
    },
    "odds": {
-    "1": 1.08,
-    "X": 7.23,
-    "2": 10.7,
-    "alt": 3.43,
-    "ust": 1.12
+    "1": 1.06,
+    "X": 7.68,
+    "2": 12.1,
+    "alt": 3.5,
+    "ust": 1.11
    },
-   "pick_odd": 1.08,
+   "pick_odd": 1.06,
    "alt_ust": {
     "pick": "Üst",
     "p_over": 0.616,
-    "odd": 1.12
+    "odd": 1.11
    },
    "kg_var": 0.5777,
    "xg": {
@@ -56,7 +56,8 @@
     "📊 H2H son 5 (ev açısından): 3G 1B 1M",
     "⚽ H2H gol ort. 2.8",
     "📈 Sıra: 2. vs 4. (4 takım, 10–0 puan)",
-    "🏟 İç saha 1.7 p/m (6 maç) vs dış saha 0.8 p/m (4 maç)"
+    "🏟 İç saha 1.7 p/m (6 maç) vs dış saha 0.8 p/m (4 maç)",
+    "🚑 Eksik: ev 10 (9 sakat, 1 diğer) · dep 5 (4 sakat, 1 cezalı)"
    ],
    "corners": {
     "expected": 9.7,
@@ -84,7 +85,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "5",
+    "minute": "6",
     "score": "0-0"
    },
    "result": null
