@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-20T21:16:05+03:00",
+ "generated_at": "2026-11-20T21:36:03+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -26,13 +26,13 @@
     "2": 0.212
    },
    "odds": {
-    "1": 1.67,
-    "X": 3.7,
-    "2": 2.74,
+    "1": 1.63,
+    "X": 3.76,
+    "2": 2.82,
     "alt": 3.24,
     "ust": 1.08
    },
-   "pick_odd": 1.67,
+   "pick_odd": 1.63,
    "alt_ust": {
     "pick": "Üst",
     "p_over": 0.7852,
