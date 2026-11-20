@@ -1,16 +1,96 @@
 {
  "version": 2,
- "generated_at": "2026-11-20T20:56:02+03:00",
+ "generated_at": "2026-11-20T21:16:05+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
  "model": {
   "text": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson (k=5). 1X2 ≥%60, A/Ü ≥%58. Korner/kart deneysel; ana güvene dahil değil."
  },
- "predictions": [],
+ "predictions": [
+  {
+   "match_id": 4481940,
+   "iddaa": 3309639,
+   "home": "Volendam",
+   "away": "Ajax II",
+   "league": "Hollanda · Eerste Divisie",
+   "date": "20/11/2026",
+   "kickoff": "22:00",
+   "kickoff_iso": "2026-11-20T22:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6094,
+   "probs": {
+    "1": 0.6094,
+    "X": 0.1786,
+    "2": 0.212
+   },
+   "odds": {
+    "1": 1.67,
+    "X": 3.7,
+    "2": 2.74,
+    "alt": 3.24,
+    "ust": 1.08
+   },
+   "pick_odd": 1.67,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.7852,
+    "odd": 1.08
+   },
+   "kg_var": 0.7286,
+   "xg": {
+    "home": 2.6272619738689134,
+    "away": 1.5386199384515713
+   },
+   "form": null,
+   "model": "app",
+   "source": "oto",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 1B 0M",
+    "⚽ H2H gol ort. 4.4",
+    "📈 Sıra: 8. vs 15. (20 takım, 22–16 puan)",
+    "🏟 İç saha 2.2 p/m (4 maç) vs dış saha 1.6 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 10.9,
+    "line": 10.5,
+    "pick": "Üst",
+    "prob": 0.5203,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 3.7,
+    "line": 3.5,
+    "pick": "Alt",
+    "prob": 0.5234,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  }
+ ],
  "stats": {
   "settled": 6191,
-  "pending": 0,
+  "pending": 1,
   "void": 611,
   "overall": {
    "n": 12272,
@@ -2709,9 +2789,46 @@
   "runs": 10000,
   "model": "Bağımsız Poisson; seçimdeki aynı gol beklentileri",
   "assumption": "Maçlar bağımsız varsayılır. Kupon yalnız MS 1X2 seçimlerini içerir; garanti değildir.",
-  "matches": [],
+  "matches": [
+   {
+    "match_id": 4481940,
+    "home": "Volendam",
+    "away": "Ajax II",
+    "pick": "1",
+    "top_scores": [
+     {
+      "score": "2-1",
+      "prob": 0.0833
+     },
+     {
+      "score": "3-1",
+      "prob": 0.0741
+     },
+     {
+      "score": "1-1",
+      "prob": 0.0621
+     }
+    ],
+    "probs": {
+     "1": 0.6118,
+     "X": 0.175,
+     "2": 0.2132
+    },
+    "p_over25": 0.7871,
+    "p_under25": 0.21289999999999998,
+    "kg_var": 0.7295
+   }
+  ],
   "missing": [],
-  "coupon": null
+  "coupon": {
+   "legs": 1,
+   "market": "1X2",
+   "all_hit": 0.6118,
+   "hit_distribution": {
+    "0": 0.3882,
+    "1": 0.6118
+   }
+  }
  },
  "historical_note": "Eski kanal A/Ü olasılıkları saklanmadığından güvenilir eşik backtesti yapılamaz; geçmiş ilk sürümler geri kurulamaz."
 }
