@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-21T17:49:06+03:00",
+ "generated_at": "2026-11-21T18:08:09+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -116,9 +116,14 @@
    ],
    "corners": null,
    "cards": null,
-   "status": "bekliyor",
+   "status": "bitti",
    "live": null,
-   "result": null
+   "result": {
+    "score": "2-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": false
+   }
   },
   {
    "match_id": 4542758,
@@ -229,12 +234,14 @@
    ],
    "corners": null,
    "cards": null,
-   "status": "canli",
-   "live": {
-    "minute": "90",
-    "score": "2-1"
-   },
-   "result": null
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
   },
   {
    "match_id": 4488871,
@@ -250,8 +257,8 @@
    "confidence": 0.6306,
    "probs": {
     "1": 0.6306,
-    "X": 0.1868,
-    "2": 0.1826
+    "X": 0.187,
+    "2": 0.1824
    },
    "odds": {
     "1": 1.11,
@@ -263,13 +270,13 @@
    "pick_odd": 1.11,
    "alt_ust": {
     "pick": "Üst",
-    "p_over": 0.6968,
+    "p_over": 0.6955,
     "odd": 1.28
    },
-   "kg_var": 0.6393,
+   "kg_var": 0.6382,
    "xg": {
-    "home": 2.377507407407408,
-    "away": 1.2196851851851853
+    "home": 2.373773952641166,
+    "away": 1.2165195810564662
    },
    "form": null,
    "model": "app",
@@ -413,32 +420,32 @@
   }
  ],
  "stats": {
-  "settled": 6192,
-  "pending": 4,
+  "settled": 6194,
+  "pending": 2,
   "void": 611,
   "overall": {
-   "n": 12274,
-   "hits": 6807,
-   "rate": 0.5546,
+   "n": 12278,
+   "hits": 6810,
+   "rate": 0.5547,
    "roi": -0.1618,
-   "profit": -1852.9,
-   "roi_n": 11451
+   "profit": -1853.44,
+   "roi_n": 11455
   },
   "ms1x2": {
-   "n": 6192,
-   "hits": 3223,
-   "rate": 0.5205,
+   "n": 6194,
+   "hits": 3225,
+   "rate": 0.5207,
    "roi": -0.1527,
-   "profit": -945.79,
-   "roi_n": 6192
+   "profit": -945.52,
+   "roi_n": 6194
   },
   "alt_ust": {
-   "n": 6082,
-   "hits": 3584,
+   "n": 6084,
+   "hits": 3585,
    "rate": 0.5893,
-   "roi": -0.1725,
-   "profit": -907.11,
-   "roi_n": 5259
+   "roi": -0.1726,
+   "profit": -907.92,
+   "roi_n": 5261
   },
   "korner": {
    "n": 2747,
@@ -477,21 +484,21 @@
    },
    {
     "label": "%55–65",
-    "n": 597,
-    "hits": 437,
-    "rate": 0.732,
-    "roi": -0.129,
-    "profit": -77.04,
-    "roi_n": 597
+    "n": 598,
+    "hits": 438,
+    "rate": 0.7324,
+    "roi": -0.1287,
+    "profit": -76.98,
+    "roi_n": 598
    },
    {
     "label": "≥ %65",
-    "n": 156,
-    "hits": 109,
-    "rate": 0.6987,
-    "roi": -0.016,
-    "profit": -2.5,
-    "roi_n": 156
+    "n": 157,
+    "hits": 110,
+    "rate": 0.7006,
+    "roi": -0.0146,
+    "profit": -2.29,
+    "roi_n": 157
    }
   ],
   "model": {
@@ -512,48 +519,48 @@
     "roi_n": 512
    },
    "app": {
-    "n": 352,
-    "hits": 227,
-    "rate": 0.6449,
-    "roi": -0.0642,
-    "profit": -22.61,
-    "roi_n": 352
+    "n": 354,
+    "hits": 229,
+    "rate": 0.6469,
+    "roi": -0.0631,
+    "profit": -22.34,
+    "roi_n": 354
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 2,
-    "hits": 1,
-    "rate": 0.5,
-    "roi": -0.47,
-    "profit": -0.94,
-    "roi_n": 2
+    "n": 4,
+    "hits": 3,
+    "rate": 0.75,
+    "roi": -0.1675,
+    "profit": -0.67,
+    "roi_n": 4
    },
    "alt_ust": {
-    "n": 2,
-    "hits": 2,
-    "rate": 1.0,
-    "roi": 0.095,
-    "profit": 0.19,
-    "roi_n": 2
+    "n": 4,
+    "hits": 3,
+    "rate": 0.75,
+    "roi": -0.155,
+    "profit": -0.62,
+    "roi_n": 4
    }
   },
   "channel": {
    "ms1x2": {
-    "n": 351,
-    "hits": 226,
-    "rate": 0.6439,
-    "roi": -0.0646,
-    "profit": -22.67,
-    "roi_n": 351
+    "n": 353,
+    "hits": 228,
+    "rate": 0.6459,
+    "roi": -0.0635,
+    "profit": -22.4,
+    "roi_n": 353
    },
    "alt_ust": {
-    "n": 349,
-    "hits": 235,
-    "rate": 0.6734,
-    "roi": -0.0771,
-    "profit": -25.45,
-    "roi_n": 330
+    "n": 351,
+    "hits": 236,
+    "rate": 0.6724,
+    "roi": -0.0791,
+    "profit": -26.26,
+    "roi_n": 332
    },
    "korner": {
     "n": 249,
@@ -571,10 +578,245 @@
     "profit": -23.94,
     "roi_n": 142
    },
-   "days": 38
+   "days": 39
   }
  },
  "history": [
+  {
+   "match_id": 4542758,
+   "iddaa": 3314007,
+   "home": "Galatasaray",
+   "away": "Samsunspor",
+   "league": "Türkiye · Süper Lig",
+   "date": "21/11/2026",
+   "kickoff": "16:00",
+   "kickoff_iso": "2026-11-21T16:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6052,
+   "probs": {
+    "1": 0.6052,
+    "X": 0.1929,
+    "2": 0.202
+   },
+   "odds": {
+    "1": 1.06,
+    "X": 6.66,
+    "2": 10.6,
+    "alt": 2.91,
+    "ust": 1.19
+   },
+   "pick_odd": 1.06,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6985,
+    "odd": 1.19
+   },
+   "kg_var": 0.6527,
+   "xg": {
+    "home": 2.320520404040405,
+    "away": 1.2867491443359211
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4542758,
+     "iddaa": 3314007,
+     "home": "Galatasaray",
+     "away": "Samsunspor",
+     "league": "Türkiye · Süper Lig",
+     "match_date": "21/11/2026",
+     "kickoff": "16:00",
+     "kickoff_ts": 1795266000.0,
+     "pick": "1",
+     "confidence": 0.6051740343351154,
+     "p1": 0.6051740343351154,
+     "px": 0.1928728236670274,
+     "p2": 0.20195314199785716,
+     "odd_1": 1.13,
+     "odd_x": 5.81,
+     "odd_2": 7.85,
+     "pick_odd": 1.13,
+     "au_pick": "Üst",
+     "au_prob": 0.6985382061492429,
+     "odd_alt": 3.01,
+     "odd_ust": 1.17,
+     "au_odd": 1.19,
+     "kg_prob": 0.6527362498288233,
+     "model": "app",
+     "source": "oto",
+     "live": 0,
+     "p_over": 0.6985382061492429,
+     "factors": "📊 H2H son 5 (ev açısından): 5G 0B 0M | ⚽ H2H gol ort. 4.0 | 📈 Sıra: 1. vs 17. (18 takım, 28–7 puan) | 🏟 İç saha 2.4 p/m (5 maç) vs dış saha 0.6 p/m (5 maç) | 🚑 Eksik: ev 4 (4 sakat) · dep 4 (2 sakat, 2 diğer)",
+     "form_home": "GGGGG",
+     "form_away": "MMMMG",
+     "ppg_home": 2.2,
+     "ppg_away": 0.6,
+     "gf_home": 2.4,
+     "ga_home": 1.8,
+     "gf_away": 0.8,
+     "ga_away": 2.3,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.320520404040405,
+     "xg_away": 1.2867491443359211,
+     "kor_exp": 10.3,
+     "kor_line": 10.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.5486,
+     "kor_odd": 1.57,
+     "kor_src": "model+oran",
+     "kart_exp": 4.6,
+     "kart_line": 4.5,
+     "kart_pick": "Alt",
+     "kart_prob": 0.5314,
+     "kart_odd": null,
+     "kart_src": "model"
+    },
+    "updated_at": 1795264716.4254863
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 5G 0B 0M",
+    "⚽ H2H gol ort. 4.0",
+    "📈 Sıra: 1. vs 17. (18 takım, 28–7 puan)",
+    "🏟 İç saha 2.4 p/m (5 maç) vs dış saha 0.6 p/m (5 maç)",
+    "🚑 Eksik: ev 4 (4 sakat) · dep 4 (2 sakat, 2 diğer)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4488868,
+   "iddaa": 3314236,
+   "home": "Southampton",
+   "away": "Derby County",
+   "league": "İngiltere · Championship",
+   "date": "21/11/2026",
+   "kickoff": "15:30",
+   "kickoff_iso": "2026-11-21T15:30:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6609,
+   "probs": {
+    "1": 0.6609,
+    "X": 0.1813,
+    "2": 0.1578
+   },
+   "odds": {
+    "1": 1.21,
+    "X": 4.6,
+    "2": 6.74,
+    "alt": 2.08,
+    "ust": 1.41
+   },
+   "pick_odd": 1.21,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.676,
+    "odd": 1.41
+   },
+   "kg_var": 0.6038,
+   "xg": {
+    "home": 2.3904290123456793,
+    "away": 1.0926
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4488868,
+     "iddaa": 3314236,
+     "home": "Southampton",
+     "away": "Derby County",
+     "league": "İngiltere · Championship",
+     "match_date": "21/11/2026",
+     "kickoff": "15:30",
+     "kickoff_ts": 1795264200.0,
+     "pick": "1",
+     "confidence": 0.660907916351524,
+     "p1": 0.660907916351524,
+     "px": 0.18127219546910273,
+     "p2": 0.1578198881793733,
+     "odd_1": 1.28,
+     "odd_x": 4.25,
+     "odd_2": 5.75,
+     "pick_odd": 1.28,
+     "au_pick": "Üst",
+     "au_prob": 0.6760024465692465,
+     "odd_alt": 2.01,
+     "odd_ust": 1.45,
+     "au_odd": 1.41,
+     "kg_prob": 0.6037803878959241,
+     "model": "app",
+     "source": "oto",
+     "live": 0,
+     "p_over": 0.6760024465692465,
+     "factors": "📊 H2H son 5 (ev açısından): 2G 2B 1M | ⚽ H2H gol ort. 3.2 | 📈 Sıra: 7. vs 23. (24 takım, 24–10 puan) | 🏟 İç saha 2.6 p/m (5 maç) vs dış saha 0.5 p/m (4 maç) | 🚑 Eksik: kayıtlı sakat/cezalı yok",
+     "form_home": "BGGBM",
+     "form_away": "MBMMG",
+     "ppg_home": 2.0,
+     "ppg_away": 0.6,
+     "gf_home": 1.8,
+     "ga_home": 0.9,
+     "gf_away": 0.9,
+     "ga_away": 2.0,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.3904290123456793,
+     "xg_away": 1.0926,
+     "kor_exp": 10.4,
+     "kor_line": 10.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.5436,
+     "kor_odd": 1.67,
+     "kor_src": "model+oran",
+     "kart_exp": 4.2,
+     "kart_line": 3.5,
+     "kart_pick": "Üst",
+     "kart_prob": 0.5659,
+     "kart_odd": 1.53,
+     "kart_src": "model+oran"
+    },
+    "updated_at": 1795262816.6188426
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 2G 2B 1M",
+    "⚽ H2H gol ort. 3.2",
+    "📈 Sıra: 7. vs 23. (24 takım, 24–10 puan)",
+    "🏟 İç saha 2.6 p/m (5 maç) vs dış saha 0.5 p/m (4 maç)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": false
+   }
+  },
   {
    "match_id": 4481940,
    "iddaa": 3309639,
@@ -2927,193 +3169,6 @@
    "live": null,
    "result": {
     "score": "4-1",
-    "outcome": "1",
-    "hit_1x2": true,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4428350,
-   "iddaa": 3279846,
-   "home": "Fredrikstad",
-   "away": "Brann",
-   "league": "Norveç · Eliteserien",
-   "date": "08/11/2026",
-   "kickoff": "21:15",
-   "kickoff_iso": "2026-11-08T21:15:00+03:00",
-   "pick": "2",
-   "pick_label": "MS 2 (dep)",
-   "confidence": 0.3735,
-   "probs": {
-    "1": 0.3463,
-    "X": 0.233,
-    "2": 0.4208
-   },
-   "odds": {
-    "1": 2.47,
-    "X": 3.48,
-    "2": 2.02,
-    "alt": 2.47,
-    "ust": 1.28
-   },
-   "pick_odd": 2.02,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.6573,
-    "odd": 1.28
-   },
-   "kg_var": 0.6544,
-   "xg": {
-    "home": 1.71,
-    "away": 1.61
-   },
-   "form": {
-    "home": {
-     "last5": "BMMGM",
-     "ppg": 1.2,
-     "gf": 1.7,
-     "ga": 1.9,
-     "n": 10
-    },
-    "away": {
-     "last5": "GMGGB",
-     "ppg": 1.6,
-     "gf": 1.8,
-     "ga": 1.6,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 2G 0B 3M",
-    "⚽ H2H gol ort. 2.8",
-    "📈 Sıra: 11. vs 8. (16 takım, 29–32 puan)",
-    "🏟 İç saha 0.5 p/m (4 maç) vs dış saha 1.2 p/m (6 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 10.3,
-    "line": 10.5,
-    "pick": "Alt",
-    "prob": 0.5512,
-    "odd": 1.64,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 12,
-    "hit": false
-   },
-   "cards": {
-    "expected": 4.2,
-    "line": 4.5,
-    "pick": "Alt",
-    "prob": 0.5945,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 6,
-    "hit": false
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "2-2",
-    "outcome": "X",
-    "hit_1x2": false,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4576943,
-   "iddaa": 3342630,
-   "home": "FAR Rabat",
-   "away": "Difaa El Jadida",
-   "league": "Fas · Botola Pro",
-   "date": "08/11/2026",
-   "kickoff": "21:00",
-   "kickoff_iso": "2026-11-08T21:00:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.5504,
-   "probs": {
-    "1": 0.6412,
-    "X": 0.1935,
-    "2": 0.1653
-   },
-   "odds": {
-    "1": 1.17,
-    "X": 4.16,
-    "2": 7.09,
-    "alt": 1.72,
-    "ust": 1.54
-   },
-   "pick_odd": 1.17,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.5243,
-    "odd": 1.54
-   },
-   "kg_var": 0.5615,
-   "xg": {
-    "home": 1.67,
-    "away": 1.18
-   },
-   "form": {
-    "home": {
-     "last5": "BGGBM",
-     "ppg": 1.9,
-     "gf": 1.2,
-     "ga": 0.7,
-     "n": 10
-    },
-    "away": {
-     "last5": "MGGBB",
-     "ppg": 1.1,
-     "gf": 1.8,
-     "ga": 2.0,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 3G 1B 1M",
-    "⚽ H2H gol ort. 2.2",
-    "📈 Sıra: 9. vs 11. (16 takım, 8–8 puan)",
-    "🏟 İç saha 2.3 p/m (7 maç) vs dış saha 1.5 p/m (4 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 9.7,
-    "line": 9.5,
-    "pick": "Alt",
-    "prob": 0.5091,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 14,
-    "hit": false
-   },
-   "cards": null,
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "3-1",
     "outcome": "1",
     "hit_1x2": true,
     "hit_au": true
