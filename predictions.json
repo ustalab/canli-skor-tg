@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-21T21:38:09+03:00",
+ "generated_at": "2026-11-21T22:08:12+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -431,41 +431,43 @@
    ],
    "corners": null,
    "cards": null,
-   "status": "canli",
-   "live": {
-    "minute": "67",
-    "score": "3-0"
-   },
-   "result": null
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "3-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
   }
  ],
  "stats": {
-  "settled": 6195,
-  "pending": 1,
+  "settled": 6196,
+  "pending": 0,
   "void": 611,
   "overall": {
-   "n": 12280,
-   "hits": 6810,
+   "n": 12282,
+   "hits": 6812,
    "rate": 0.5546,
    "roi": -0.1619,
-   "profit": -1855.44,
-   "roi_n": 11457
+   "profit": -1854.84,
+   "roi_n": 11459
   },
   "ms1x2": {
-   "n": 6195,
-   "hits": 3225,
-   "rate": 0.5206,
-   "roi": -0.1528,
-   "profit": -946.52,
-   "roi_n": 6195
+   "n": 6196,
+   "hits": 3226,
+   "rate": 0.5207,
+   "roi": -0.1527,
+   "profit": -946.29,
+   "roi_n": 6196
   },
   "alt_ust": {
-   "n": 6085,
-   "hits": 3585,
+   "n": 6086,
+   "hits": 3586,
    "rate": 0.5892,
-   "roi": -0.1727,
-   "profit": -908.92,
-   "roi_n": 5262
+   "roi": -0.1726,
+   "profit": -908.55,
+   "roi_n": 5263
   },
   "korner": {
    "n": 2748,
@@ -513,12 +515,12 @@
    },
    {
     "label": "≥ %65",
-    "n": 157,
-    "hits": 110,
-    "rate": 0.7006,
-    "roi": -0.0146,
-    "profit": -2.29,
-    "roi_n": 157
+    "n": 158,
+    "hits": 111,
+    "rate": 0.7025,
+    "roi": -0.013,
+    "profit": -2.06,
+    "roi_n": 158
    }
   ],
   "model": {
@@ -539,48 +541,48 @@
     "roi_n": 512
    },
    "app": {
-    "n": 355,
-    "hits": 229,
-    "rate": 0.6451,
-    "roi": -0.0657,
-    "profit": -23.34,
-    "roi_n": 355
+    "n": 356,
+    "hits": 230,
+    "rate": 0.6461,
+    "roi": -0.0649,
+    "profit": -23.11,
+    "roi_n": 356
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 5,
-    "hits": 3,
-    "rate": 0.6,
-    "roi": -0.334,
-    "profit": -1.67,
-    "roi_n": 5
+    "n": 6,
+    "hits": 4,
+    "rate": 0.6667,
+    "roi": -0.24,
+    "profit": -1.44,
+    "roi_n": 6
    },
    "alt_ust": {
-    "n": 5,
-    "hits": 3,
-    "rate": 0.6,
-    "roi": -0.324,
-    "profit": -1.62,
-    "roi_n": 5
+    "n": 6,
+    "hits": 4,
+    "rate": 0.6667,
+    "roi": -0.2083,
+    "profit": -1.25,
+    "roi_n": 6
    }
   },
   "channel": {
    "ms1x2": {
-    "n": 353,
-    "hits": 228,
-    "rate": 0.6459,
-    "roi": -0.0635,
-    "profit": -22.4,
-    "roi_n": 353
+    "n": 354,
+    "hits": 229,
+    "rate": 0.6469,
+    "roi": -0.0626,
+    "profit": -22.17,
+    "roi_n": 354
    },
    "alt_ust": {
-    "n": 351,
-    "hits": 236,
-    "rate": 0.6724,
-    "roi": -0.0791,
-    "profit": -26.26,
-    "roi_n": 332
+    "n": 352,
+    "hits": 237,
+    "rate": 0.6733,
+    "roi": -0.0777,
+    "profit": -25.89,
+    "roi_n": 333
    },
    "korner": {
     "n": 249,
@@ -602,6 +604,121 @@
   }
  },
  "history": [
+  {
+   "match_id": 4480774,
+   "iddaa": 3313833,
+   "home": "Genk",
+   "away": "La Louvière",
+   "league": "Belçika · Pro Lig",
+   "date": "21/11/2026",
+   "kickoff": "20:15",
+   "kickoff_iso": "2026-11-21T20:15:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6708,
+   "probs": {
+    "1": 0.6708,
+    "X": 0.1758,
+    "2": 0.1534
+   },
+   "odds": {
+    "1": 1.23,
+    "X": 4.58,
+    "2": 6.34,
+    "alt": 2.19,
+    "ust": 1.37
+   },
+   "pick_odd": 1.23,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6943,
+    "odd": 1.37
+   },
+   "kg_var": 0.6146,
+   "xg": {
+    "home": 2.4705900000000005,
+    "away": 1.1126818181818183
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4480774,
+     "iddaa": 3313833,
+     "home": "Genk",
+     "away": "La Louvière",
+     "league": "Belçika · Pro Lig",
+     "match_date": "21/11/2026",
+     "kickoff": "20:15",
+     "kickoff_ts": 1795281300.0,
+     "pick": "1",
+     "confidence": 0.6708085086861212,
+     "p1": 0.6708085086861212,
+     "px": 0.17577063534992238,
+     "p2": 0.15342085596395644,
+     "odd_1": 1.27,
+     "odd_x": 4.44,
+     "odd_2": 5.88,
+     "pick_odd": 1.27,
+     "au_pick": "Üst",
+     "au_prob": 0.6942802853590299,
+     "odd_alt": 2.14,
+     "odd_ust": 1.39,
+     "au_odd": 1.37,
+     "kg_prob": 0.6145733465029923,
+     "model": "app",
+     "source": "oto",
+     "live": 0,
+     "p_over": 0.6942802853590299,
+     "factors": "📈 Sıra: 7. vs 17. (18 takım, 15–7 puan) | 🏟 İç saha 2.0 p/m (5 maç) vs dış saha 0.8 p/m (4 maç) | 🚑 Eksik: kayıtlı sakat/cezalı yok",
+     "form_home": "GGGMM",
+     "form_away": "MGGMM",
+     "ppg_home": 1.4,
+     "ppg_away": 1.3,
+     "gf_home": 1.3,
+     "ga_home": 0.9,
+     "gf_away": 1.9,
+     "ga_away": 1.8,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.4705900000000005,
+     "xg_away": 1.1126818181818183,
+     "kor_exp": 10.2,
+     "kor_line": 9.5,
+     "kor_pick": "Üst",
+     "kor_prob": 0.5464,
+     "kor_odd": 1.53,
+     "kor_src": "model+oran",
+     "kart_exp": 4.8,
+     "kart_line": 4.5,
+     "kart_pick": "Üst",
+     "kart_prob": 0.502,
+     "kart_odd": null,
+     "kart_src": "model"
+    },
+    "updated_at": 1795280985.390382
+   },
+   "factors": [
+    "📈 Sıra: 7. vs 17. (18 takım, 15–7 puan)",
+    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 0.8 p/m (4 maç)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "3-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
   {
    "match_id": 4488871,
    "iddaa": 3314223,
@@ -3077,103 +3194,6 @@
     "score": "2-1",
     "outcome": "1",
     "hit_1x2": true,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4491022,
-   "iddaa": 3270808,
-   "home": "Lokeren-Temse",
-   "away": "Dender EH",
-   "league": "Belçika · Challenger Pro Lig",
-   "date": "08/11/2026",
-   "kickoff": "21:15",
-   "kickoff_iso": "2026-11-08T21:15:00+03:00",
-   "pick": "2",
-   "pick_label": "MS 2 (dep)",
-   "confidence": 0.2765,
-   "probs": {
-    "1": 0.3683,
-    "X": 0.2533,
-    "2": 0.3784
-   },
-   "odds": {
-    "1": 2.12,
-    "X": 3.11,
-    "2": 2.27,
-    "alt": 2.04,
-    "ust": 1.34
-   },
-   "pick_odd": 2.27,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.5846,
-    "odd": 1.34
-   },
-   "kg_var": 0.5822,
-   "xg": {
-    "home": 1.42,
-    "away": 1.46
-   },
-   "form": {
-    "home": {
-     "last5": "BGMGM",
-     "ppg": 1.6,
-     "gf": 2.1,
-     "ga": 1.5,
-     "n": 10
-    },
-    "away": {
-     "last5": "GGGMB",
-     "ppg": 2.2,
-     "gf": 1.8,
-     "ga": 0.5,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 7. vs 2. (15 takım, 13–19 puan)",
-    "🏟 İç saha 2.0 p/m (5 maç) vs dış saha 1.8 p/m (5 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 11.1,
-    "line": 11.5,
-    "pick": "Alt",
-    "prob": 0.5715,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 14,
-    "hit": false
-   },
-   "cards": {
-    "expected": 4.0,
-    "line": 3.5,
-    "pick": "Üst",
-    "prob": 0.533,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "2-2",
-    "outcome": "X",
-    "hit_1x2": false,
     "hit_au": true
    }
   }
