@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-21T19:58:10+03:00",
+ "generated_at": "2026-11-21T20:09:32+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -378,10 +378,10 @@
      "p1": 0.6708085086861212,
      "px": 0.17577063534992238,
      "p2": 0.15342085596395644,
-     "odd_1": 1.25,
-     "odd_x": 4.51,
-     "odd_2": 6.13,
-     "pick_odd": 1.25,
+     "odd_1": 1.27,
+     "odd_x": 4.44,
+     "odd_2": 5.88,
+     "pick_odd": 1.27,
      "au_pick": "Üst",
      "au_prob": 0.6942802853590299,
      "odd_alt": 2.14,
@@ -418,7 +418,7 @@
      "kart_odd": null,
      "kart_src": "model"
     },
-    "updated_at": 1795277274.5166807
+    "updated_at": 1795280353.3399858
    },
    "factors": [
     "📈 Sıra: 7. vs 17. (18 takım, 15–7 puan)",
@@ -432,32 +432,32 @@
   }
  ],
  "stats": {
-  "settled": 6194,
-  "pending": 2,
+  "settled": 6195,
+  "pending": 1,
   "void": 611,
   "overall": {
-   "n": 12278,
+   "n": 12280,
    "hits": 6810,
-   "rate": 0.5547,
-   "roi": -0.1618,
-   "profit": -1853.44,
-   "roi_n": 11455
+   "rate": 0.5546,
+   "roi": -0.1619,
+   "profit": -1855.44,
+   "roi_n": 11457
   },
   "ms1x2": {
-   "n": 6194,
+   "n": 6195,
    "hits": 3225,
-   "rate": 0.5207,
-   "roi": -0.1527,
-   "profit": -945.52,
-   "roi_n": 6194
+   "rate": 0.5206,
+   "roi": -0.1528,
+   "profit": -946.52,
+   "roi_n": 6195
   },
   "alt_ust": {
-   "n": 6084,
+   "n": 6085,
    "hits": 3585,
-   "rate": 0.5893,
-   "roi": -0.1726,
-   "profit": -907.92,
-   "roi_n": 5261
+   "rate": 0.5892,
+   "roi": -0.1727,
+   "profit": -908.92,
+   "roi_n": 5262
   },
   "korner": {
    "n": 2747,
@@ -496,12 +496,12 @@
    },
    {
     "label": "%55–65",
-    "n": 598,
+    "n": 599,
     "hits": 438,
-    "rate": 0.7324,
-    "roi": -0.1287,
-    "profit": -76.98,
-    "roi_n": 598
+    "rate": 0.7312,
+    "roi": -0.1302,
+    "profit": -77.98,
+    "roi_n": 599
    },
    {
     "label": "≥ %65",
@@ -531,30 +531,30 @@
     "roi_n": 512
    },
    "app": {
-    "n": 354,
+    "n": 355,
     "hits": 229,
-    "rate": 0.6469,
-    "roi": -0.0631,
-    "profit": -22.34,
-    "roi_n": 354
+    "rate": 0.6451,
+    "roi": -0.0657,
+    "profit": -23.34,
+    "roi_n": 355
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 4,
+    "n": 5,
     "hits": 3,
-    "rate": 0.75,
-    "roi": -0.1675,
-    "profit": -0.67,
-    "roi_n": 4
+    "rate": 0.6,
+    "roi": -0.334,
+    "profit": -1.67,
+    "roi_n": 5
    },
    "alt_ust": {
-    "n": 4,
+    "n": 5,
     "hits": 3,
-    "rate": 0.75,
-    "roi": -0.155,
-    "profit": -0.62,
-    "roi_n": 4
+    "rate": 0.6,
+    "roi": -0.324,
+    "profit": -1.62,
+    "roi_n": 5
    }
   },
   "channel": {
@@ -594,6 +594,88 @@
   }
  },
  "history": [
+  {
+   "match_id": 4488871,
+   "iddaa": 3314223,
+   "home": "West Ham United",
+   "away": "Preston North End",
+   "league": "İngiltere · Championship",
+   "date": "21/11/2026",
+   "kickoff": "18:00",
+   "kickoff_iso": "2026-11-21T18:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6306,
+   "probs": {
+    "1": 0.6306,
+    "X": 0.187,
+    "2": 0.1824
+   },
+   "odds": {
+    "1": 1.11,
+    "X": 5.68,
+    "2": 8.85,
+    "alt": 2.46,
+    "ust": 1.28
+   },
+   "pick_odd": 1.11,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6955,
+    "odd": 1.28
+   },
+   "kg_var": 0.6382,
+   "xg": {
+    "home": 2.373773952641166,
+    "away": 1.2165195810564662
+   },
+   "form": null,
+   "model": "app",
+   "source": "oto",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📈 Sıra: 9. vs 24. (24 takım, 23–8 puan)",
+    "🏟 İç saha 0.8 p/m (5 maç) vs dış saha 0.2 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 11.2,
+    "line": 11.5,
+    "pick": "Alt",
+    "prob": 0.5587,
+    "odd": 1.53,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 3.6,
+    "line": 3.5,
+    "pick": "Alt",
+    "prob": 0.5392,
+    "odd": 1.43,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-1",
+    "outcome": "X",
+    "hit_1x2": false,
+    "hit_au": false
+   }
+  },
   {
    "match_id": 4542758,
    "iddaa": 3314007,
@@ -3084,105 +3166,6 @@
     "score": "2-2",
     "outcome": "X",
     "hit_1x2": false,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4480769,
-   "iddaa": 3279215,
-   "home": "St. Truidense",
-   "away": "SV Zulte Waregem",
-   "league": "Belçika · Pro Lig",
-   "date": "08/11/2026",
-   "kickoff": "21:15",
-   "kickoff_iso": "2026-11-08T21:15:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.4752,
-   "probs": {
-    "1": 0.5361,
-    "X": 0.2186,
-    "2": 0.2453
-   },
-   "odds": {
-    "1": 1.49,
-    "X": 3.72,
-    "2": 4.01,
-    "alt": 2.29,
-    "ust": 1.34
-   },
-   "pick_odd": 1.49,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.6445,
-    "odd": 1.34
-   },
-   "kg_var": 0.6108,
-   "xg": {
-    "home": 1.79,
-    "away": 1.32
-   },
-   "form": {
-    "home": {
-     "last5": "GGMMB",
-     "ppg": 1.3,
-     "gf": 1.8,
-     "ga": 1.5,
-     "n": 10
-    },
-    "away": {
-     "last5": "MMGMM",
-     "ppg": 1.0,
-     "gf": 1.4,
-     "ga": 1.7,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 3G 0B 2M",
-    "⚽ H2H gol ort. 3.8",
-    "📈 Sıra: 16. vs 11. (18 takım, 8–11 puan)",
-    "🏟 İç saha 1.7 p/m (6 maç) vs dış saha 0.8 p/m (5 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 10.3,
-    "line": 10.5,
-    "pick": "Alt",
-    "prob": 0.5458,
-    "odd": 1.54,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 9,
-    "hit": true
-   },
-   "cards": {
-    "expected": 3.9,
-    "line": 3.5,
-    "pick": "Üst",
-    "prob": 0.5148,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "4-1",
-    "outcome": "1",
-    "hit_1x2": true,
     "hit_au": true
    }
   }
