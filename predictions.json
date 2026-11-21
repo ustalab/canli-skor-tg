@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-21T16:48:51+03:00",
+ "generated_at": "2026-11-21T17:08:09+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -231,9 +231,86 @@
    "cards": null,
    "status": "canli",
    "live": {
-    "minute": "IY",
+    "minute": "49",
     "score": "1-0"
    },
+   "result": null
+  },
+  {
+   "match_id": 4488871,
+   "iddaa": 3314223,
+   "home": "West Ham United",
+   "away": "Preston North End",
+   "league": "İngiltere · Championship",
+   "date": "21/11/2026",
+   "kickoff": "18:00",
+   "kickoff_iso": "2026-11-21T18:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6306,
+   "probs": {
+    "1": 0.6306,
+    "X": 0.1868,
+    "2": 0.1826
+   },
+   "odds": {
+    "1": 1.11,
+    "X": 5.68,
+    "2": 8.85,
+    "alt": 2.46,
+    "ust": 1.28
+   },
+   "pick_odd": 1.11,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6968,
+    "odd": 1.28
+   },
+   "kg_var": 0.6393,
+   "xg": {
+    "home": 2.377507407407408,
+    "away": 1.2196851851851853
+   },
+   "form": null,
+   "model": "app",
+   "source": "oto",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📈 Sıra: 9. vs 24. (24 takım, 23–8 puan)",
+    "🏟 İç saha 0.8 p/m (5 maç) vs dış saha 0.2 p/m (5 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 11.2,
+    "line": 11.5,
+    "pick": "Alt",
+    "prob": 0.5587,
+    "odd": 1.53,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 3.6,
+    "line": 3.5,
+    "pick": "Alt",
+    "prob": 0.5392,
+    "odd": 1.43,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
    "result": null
   },
   {
@@ -337,7 +414,7 @@
  ],
  "stats": {
   "settled": 6192,
-  "pending": 3,
+  "pending": 4,
   "void": 611,
   "overall": {
    "n": 12274,
