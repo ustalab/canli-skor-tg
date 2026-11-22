@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T20:55:10+03:00",
+ "generated_at": "2026-11-22T22:04:46+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -544,8 +544,8 @@
     "source": "model+oran",
     "experimental": true,
     "label": "deneysel",
-    "actual": null,
-    "hit": null
+    "actual": 15,
+    "hit": false
    },
    "cards": {
     "expected": 3.9,
@@ -556,54 +556,59 @@
     "source": "model",
     "experimental": true,
     "label": "deneysel",
-    "actual": null,
-    "hit": null
+    "actual": 2,
+    "hit": false
    },
-   "status": "bekliyor",
+   "status": "bitti",
    "live": null,
-   "result": null
+   "result": {
+    "score": "1-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": false
+   }
   }
  ],
  "stats": {
-  "settled": 6199,
-  "pending": 1,
+  "settled": 6200,
+  "pending": 0,
   "void": 611,
   "overall": {
-   "n": 12288,
-   "hits": 6817,
+   "n": 12290,
+   "hits": 6818,
    "rate": 0.5548,
-   "roi": -0.1618,
-   "profit": -1855.55,
-   "roi_n": 11465
+   "roi": -0.1619,
+   "profit": -1856.55,
+   "roi_n": 11467
   },
   "ms1x2": {
-   "n": 6199,
-   "hits": 3229,
-   "rate": 0.5209,
+   "n": 6200,
+   "hits": 3230,
+   "rate": 0.521,
    "roi": -0.1526,
    "profit": -946.08,
-   "roi_n": 6199
+   "roi_n": 6200
   },
   "alt_ust": {
-   "n": 6089,
+   "n": 6090,
    "hits": 3588,
-   "rate": 0.5893,
-   "roi": -0.1727,
-   "profit": -909.47,
-   "roi_n": 5266
+   "rate": 0.5892,
+   "roi": -0.1729,
+   "profit": -910.47,
+   "roi_n": 5267
   },
   "korner": {
-   "n": 2751,
+   "n": 2752,
    "hits": 1497,
-   "rate": 0.5442,
-   "roi": -0.1213,
-   "profit": -121.17,
-   "roi_n": 999
+   "rate": 0.544,
+   "roi": -0.1222,
+   "profit": -122.17,
+   "roi_n": 1000
   },
   "kart": {
-   "n": 1775,
+   "n": 1776,
    "hits": 969,
-   "rate": 0.5459,
+   "rate": 0.5456,
    "roi": -0.1857,
    "profit": -112.35,
    "roi_n": 605
@@ -638,12 +643,12 @@
    },
    {
     "label": "≥ %65",
-    "n": 159,
-    "hits": 112,
-    "rate": 0.7044,
-    "roi": -0.013,
+    "n": 160,
+    "hits": 113,
+    "rate": 0.7063,
+    "roi": -0.0129,
     "profit": -2.06,
-    "roi_n": 159
+    "roi_n": 160
    }
   ],
   "model": {
@@ -664,61 +669,61 @@
     "roi_n": 512
    },
    "app": {
-    "n": 359,
-    "hits": 233,
-    "rate": 0.649,
-    "roi": -0.0638,
+    "n": 360,
+    "hits": 234,
+    "rate": 0.65,
+    "roi": -0.0636,
     "profit": -22.9,
-    "roi_n": 359
+    "roi_n": 360
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 9,
-    "hits": 7,
-    "rate": 0.7778,
-    "roi": -0.1367,
+    "n": 10,
+    "hits": 8,
+    "rate": 0.8,
+    "roi": -0.123,
     "profit": -1.23,
-    "roi_n": 9
+    "roi_n": 10
    },
    "alt_ust": {
-    "n": 9,
+    "n": 10,
     "hits": 6,
-    "rate": 0.6667,
-    "roi": -0.2411,
-    "profit": -2.17,
-    "roi_n": 9
+    "rate": 0.6,
+    "roi": -0.317,
+    "profit": -3.17,
+    "roi_n": 10
    }
   },
   "channel": {
    "ms1x2": {
-    "n": 357,
-    "hits": 232,
-    "rate": 0.6499,
-    "roi": -0.0615,
+    "n": 358,
+    "hits": 233,
+    "rate": 0.6508,
+    "roi": -0.0613,
     "profit": -21.96,
-    "roi_n": 357
+    "roi_n": 358
    },
    "alt_ust": {
-    "n": 355,
+    "n": 356,
     "hits": 239,
-    "rate": 0.6732,
-    "roi": -0.0798,
-    "profit": -26.81,
-    "roi_n": 336
+    "rate": 0.6713,
+    "roi": -0.0825,
+    "profit": -27.81,
+    "roi_n": 337
    },
    "korner": {
-    "n": 252,
+    "n": 253,
     "hits": 138,
-    "rate": 0.5476,
-    "roi": -0.1431,
-    "profit": -29.2,
-    "roi_n": 204
+    "rate": 0.5455,
+    "roi": -0.1473,
+    "profit": -30.2,
+    "roi_n": 205
    },
    "kart": {
-    "n": 232,
+    "n": 233,
     "hits": 123,
-    "rate": 0.5302,
+    "rate": 0.5279,
     "roi": -0.1597,
     "profit": -23.0,
     "roi_n": 144
@@ -727,6 +732,146 @@
   }
  },
  "history": [
+  {
+   "match_id": 4542752,
+   "iddaa": 3319509,
+   "home": "Trabzonspor",
+   "away": "Eyüpspor",
+   "league": "Türkiye · Süper Lig",
+   "date": "22/11/2026",
+   "kickoff": "19:00",
+   "kickoff_iso": "2026-11-22T19:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.7993,
+   "probs": {
+    "1": 0.7993,
+    "X": 0.1262,
+    "2": 0.0745
+   },
+   "odds": {
+    "1": 1.0,
+    "X": 8.51,
+    "2": 17.35,
+    "alt": 2.91,
+    "ust": 1.19
+   },
+   "pick_odd": 1.0,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.7113,
+    "odd": 1.19
+   },
+   "kg_var": 0.5185,
+   "xg": {
+    "home": 2.883956504854369,
+    "away": 0.7967184466019417
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4542752,
+     "iddaa": 3319509,
+     "home": "Trabzonspor",
+     "away": "Eyüpspor",
+     "league": "Türkiye · Süper Lig",
+     "match_date": "22/11/2026",
+     "kickoff": "19:00",
+     "kickoff_ts": 1795363200.0,
+     "pick": "1",
+     "confidence": 0.7992678418762884,
+     "p1": 0.7992678418762884,
+     "px": 0.12622270168053146,
+     "p2": 0.07450945644318015,
+     "odd_1": 1.0,
+     "odd_x": 9.89,
+     "odd_2": 17.35,
+     "pick_odd": 1.0,
+     "au_pick": "Üst",
+     "au_prob": 0.7112819276349966,
+     "odd_alt": 3.6,
+     "odd_ust": 1.1,
+     "au_odd": 1.19,
+     "kg_prob": 0.5184869690618782,
+     "model": "app",
+     "source": "oto",
+     "live": 0,
+     "p_over": 0.7112819276349966,
+     "factors": "📊 H2H son 4 (ev açısından): 3G 1B 0M | ⚽ H2H gol ort. 1.0 | 📈 Sıra: 2. vs 18. (18 takım, 25–3 puan) | 🏟 İç saha 1.8 p/m (5 maç) vs dış saha 0.6 p/m (5 maç) | 🚑 Eksik: ev 8 (4 sakat, 1 cezalı, 3 diğer) · dep 3 (3 sakat)",
+     "form_home": "GGMGM",
+     "form_away": "MMMGM",
+     "ppg_home": 2.1,
+     "ppg_away": 0.6,
+     "gf_home": 1.9,
+     "ga_home": 1.0,
+     "gf_away": 0.7,
+     "ga_away": 3.0,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.883956504854369,
+     "xg_away": 0.7967184466019417,
+     "kor_exp": 9.7,
+     "kor_line": 9.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.5068,
+     "kor_odd": 1.8,
+     "kor_src": "model+oran",
+     "kart_exp": 3.9,
+     "kart_line": 3.5,
+     "kart_pick": "Üst",
+     "kart_prob": 0.5247,
+     "kart_odd": null,
+     "kart_src": "model"
+    },
+    "updated_at": 1795361822.206524
+   },
+   "factors": [
+    "📊 H2H son 4 (ev açısından): 3G 1B 0M",
+    "⚽ H2H gol ort. 1.0",
+    "📈 Sıra: 2. vs 18. (18 takım, 25–3 puan)",
+    "🏟 İç saha 1.8 p/m (5 maç) vs dış saha 0.6 p/m (5 maç)",
+    "🚑 Eksik: ev 8 (4 sakat, 1 cezalı, 3 diğer) · dep 3 (3 sakat)"
+   ],
+   "corners": {
+    "expected": 9.7,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5068,
+    "odd": 1.8,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 15,
+    "hit": false
+   },
+   "cards": {
+    "expected": 3.9,
+    "line": 3.5,
+    "pick": "Üst",
+    "prob": 0.5247,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 2,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "1-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": false
+   }
+  },
   {
    "match_id": 4480777,
    "iddaa": 3319514,
@@ -3346,103 +3491,6 @@
     "outcome": "2",
     "hit_1x2": true,
     "hit_au": true
-   }
-  },
-  {
-   "match_id": 4454049,
-   "iddaa": 3274987,
-   "home": "Athletic Club",
-   "away": "Atletico Goianiense",
-   "league": "Brezilya · Serie B",
-   "date": "08/11/2026",
-   "kickoff": "22:00",
-   "kickoff_iso": "2026-11-08T22:00:00+03:00",
-   "pick": "2",
-   "pick_label": "MS 2 (dep)",
-   "confidence": 0.4008,
-   "probs": {
-    "1": 0.2679,
-    "X": 0.2663,
-    "2": 0.4658
-   },
-   "odds": {
-    "1": 3.44,
-    "X": 3.01,
-    "2": 1.64,
-    "alt": 1.57,
-    "ust": 1.67
-   },
-   "pick_odd": 1.64,
-   "alt_ust": {
-    "pick": "Alt",
-    "p_over": 0.4601,
-    "odd": 1.57
-   },
-   "kg_var": 0.475,
-   "xg": {
-    "home": 1.13,
-    "away": 1.21
-   },
-   "form": {
-    "home": {
-     "last5": "MBBMG",
-     "ppg": 1.0,
-     "gf": 1.1,
-     "ga": 1.4,
-     "n": 10
-    },
-    "away": {
-     "last5": "MBBMB",
-     "ppg": 1.5,
-     "gf": 1.2,
-     "ga": 0.8,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📈 Sıra: 14. vs 8. (20 takım, 47–55 puan)",
-    "🏟 İç saha 1.2 p/m (4 maç) vs dış saha 1.0 p/m (5 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 11.2,
-    "line": 11.5,
-    "pick": "Alt",
-    "prob": 0.5557,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 12,
-    "hit": false
-   },
-   "cards": {
-    "expected": 4.4,
-    "line": 4.5,
-    "pick": "Alt",
-    "prob": 0.5597,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 4,
-    "hit": true
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "2-3",
-    "outcome": "2",
-    "hit_1x2": true,
-    "hit_au": false
    }
   }
  ],
