@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T16:25:12+03:00",
+ "generated_at": "2026-11-22T16:37:40+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -124,8 +124,8 @@
     "source": "model+oran",
     "experimental": true,
     "label": "deneysel",
-    "actual": null,
-    "hit": null
+    "actual": 6,
+    "hit": true
    },
    "cards": {
     "expected": 3.4,
@@ -136,12 +136,17 @@
     "source": "model+oran",
     "experimental": true,
     "label": "deneysel",
-    "actual": null,
-    "hit": null
+    "actual": 5,
+    "hit": true
    },
-   "status": "bekliyor",
+   "status": "bitti",
    "live": null,
-   "result": null
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
   },
   {
    "match_id": 4492381,
@@ -276,7 +281,7 @@
    },
    "status": "canli",
    "live": {
-    "minute": "22",
+    "minute": "35",
     "score": "0-2"
    },
    "result": null
@@ -581,20 +586,20 @@
    "roi_n": 5264
   },
   "korner": {
-   "n": 2748,
-   "hits": 1494,
-   "rate": 0.5437,
-   "roi": -0.1237,
-   "profit": -123.22,
-   "roi_n": 996
+   "n": 2749,
+   "hits": 1495,
+   "rate": 0.5438,
+   "roi": -0.1228,
+   "profit": -122.45,
+   "roi_n": 997
   },
   "kart": {
-   "n": 1772,
-   "hits": 967,
-   "rate": 0.5457,
-   "roi": -0.1879,
-   "profit": -113.29,
-   "roi_n": 603
+   "n": 1773,
+   "hits": 968,
+   "rate": 0.546,
+   "roi": -0.1868,
+   "profit": -112.84,
+   "roi_n": 604
   },
   "bands": [
    {
@@ -696,20 +701,20 @@
     "roi_n": 334
    },
    "korner": {
-    "n": 249,
-    "hits": 135,
-    "rate": 0.5422,
-    "roi": -0.1555,
-    "profit": -31.25,
-    "roi_n": 201
+    "n": 250,
+    "hits": 136,
+    "rate": 0.544,
+    "roi": -0.1509,
+    "profit": -30.48,
+    "roi_n": 202
    },
    "kart": {
-    "n": 229,
-    "hits": 121,
-    "rate": 0.5284,
-    "roi": -0.1686,
-    "profit": -23.94,
-    "roi_n": 142
+    "n": 230,
+    "hits": 122,
+    "rate": 0.5304,
+    "roi": -0.1643,
+    "profit": -23.49,
+    "roi_n": 143
    },
    "days": 40
   }
@@ -831,8 +836,8 @@
     "source": "model+oran",
     "experimental": true,
     "label": "deneysel",
-    "actual": null,
-    "hit": null
+    "actual": 6,
+    "hit": true
    },
    "cards": {
     "expected": 3.4,
@@ -843,8 +848,8 @@
     "source": "model+oran",
     "experimental": true,
     "label": "deneysel",
-    "actual": null,
-    "hit": null
+    "actual": 5,
+    "hit": true
    },
    "status": "bitti",
    "live": null,
