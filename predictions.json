@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T15:14:46+03:00",
+ "generated_at": "2026-11-22T16:04:50+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -141,8 +141,8 @@
    },
    "status": "canli",
    "live": {
-    "minute": "IY",
-    "score": "0-0"
+    "minute": "89",
+    "score": "2-1"
    },
    "result": null
   },
@@ -204,13 +204,13 @@
      "p1": 0.6377176775290949,
      "px": 0.17845530537816637,
      "p2": 0.1838270170927386,
-     "odd_1": 1.06,
-     "odd_x": 7.42,
-     "odd_2": 9.24,
-     "pick_odd": 1.06,
+     "odd_1": 1.0,
+     "odd_x": 7.72,
+     "odd_2": 10.15,
+     "pick_odd": 1.0,
      "au_pick": "Üst",
      "au_prob": 0.741296368284367,
-     "odd_alt": 5.1,
+     "odd_alt": 5.34,
      "odd_ust": 1.0,
      "au_odd": 1.0,
      "kg_prob": 0.6761666916519598,
@@ -218,7 +218,7 @@
      "source": "oto",
      "live": 0,
      "p_over": 0.741296368284367,
-     "factors": "📊 H2H son 5 (ev açısından): 3G 0B 2M | ⚽ H2H gol ort. 6.2 | 📈 Sıra: 1. vs 9. (20 takım, 33–15 puan) | 🏟 İç saha 2.4 p/m (5 maç) vs dış saha 1.5 p/m (4 maç) | 🚑 Eksik: ev 6 (5 sakat, 1 diğer) · dep 4 (4 sakat)",
+     "factors": "📊 H2H son 5 (ev açısından): 3G 0B 2M | ⚽ H2H gol ort. 6.2 | 📈 Sıra: 1. vs 9. (20 takım, 33–15 puan) | 🏟 İç saha 2.4 p/m (5 maç) vs dış saha 1.5 p/m (4 maç) | 🚑 Eksik: ev 4 (4 sakat) · dep 4 (4 sakat)",
      "form_home": "MMGGG",
      "form_away": "GGMMG",
      "ppg_home": 2.4,
@@ -244,7 +244,7 @@
      "kart_odd": 1.49,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795349682.658717
+    "updated_at": 1795351730.529633
    },
    "factors": [
     "📊 H2H son 5 (ev açısından): 3G 0B 2M",
@@ -277,8 +277,11 @@
     "actual": null,
     "hit": null
    },
-   "status": "bekliyor",
-   "live": null,
+   "status": "canli",
+   "live": {
+    "minute": "1",
+    "score": "0-0"
+   },
    "result": null
   },
   {
