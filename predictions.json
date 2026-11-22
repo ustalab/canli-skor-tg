@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T19:56:48+03:00",
+ "generated_at": "2026-11-22T20:04:46+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -404,8 +404,8 @@
     "source": "model+oran",
     "experimental": true,
     "label": "deneysel",
-    "actual": null,
-    "hit": null
+    "actual": 9,
+    "hit": true
    },
    "cards": {
     "expected": 5.1,
@@ -416,15 +416,17 @@
     "source": "model",
     "experimental": true,
     "label": "deneysel",
-    "actual": null,
-    "hit": null
+    "actual": 6,
+    "hit": false
    },
-   "status": "canli",
-   "live": {
-    "minute": "90",
-    "score": "0-1"
-   },
-   "result": null
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-1",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": false
+   }
   },
   {
    "match_id": 4542752,
@@ -559,52 +561,52 @@
    },
    "status": "canli",
    "live": {
-    "minute": "IY",
+    "minute": "46",
     "score": "1-0"
    },
    "result": null
   }
  ],
  "stats": {
-  "settled": 6198,
-  "pending": 2,
+  "settled": 6199,
+  "pending": 1,
   "void": 611,
   "overall": {
-   "n": 12286,
-   "hits": 6816,
+   "n": 12288,
+   "hits": 6817,
    "rate": 0.5548,
    "roi": -0.1618,
-   "profit": -1854.76,
-   "roi_n": 11463
+   "profit": -1855.55,
+   "roi_n": 11465
   },
   "ms1x2": {
-   "n": 6198,
-   "hits": 3228,
-   "rate": 0.5208,
-   "roi": -0.1527,
-   "profit": -946.29,
-   "roi_n": 6198
+   "n": 6199,
+   "hits": 3229,
+   "rate": 0.5209,
+   "roi": -0.1526,
+   "profit": -946.08,
+   "roi_n": 6199
   },
   "alt_ust": {
-   "n": 6088,
+   "n": 6089,
    "hits": 3588,
-   "rate": 0.5894,
-   "roi": -0.1725,
-   "profit": -908.47,
-   "roi_n": 5265
+   "rate": 0.5893,
+   "roi": -0.1727,
+   "profit": -909.47,
+   "roi_n": 5266
   },
   "korner": {
-   "n": 2750,
-   "hits": 1496,
-   "rate": 0.544,
-   "roi": -0.1222,
-   "profit": -121.91,
-   "roi_n": 998
+   "n": 2751,
+   "hits": 1497,
+   "rate": 0.5442,
+   "roi": -0.1213,
+   "profit": -121.17,
+   "roi_n": 999
   },
   "kart": {
-   "n": 1774,
+   "n": 1775,
    "hits": 969,
-   "rate": 0.5462,
+   "rate": 0.5459,
    "roi": -0.1857,
    "profit": -112.35,
    "roi_n": 605
@@ -630,12 +632,12 @@
    },
    {
     "label": "%55–65",
-    "n": 600,
-    "hits": 439,
-    "rate": 0.7317,
-    "roi": -0.13,
-    "profit": -77.98,
-    "roi_n": 600
+    "n": 601,
+    "hits": 440,
+    "rate": 0.7321,
+    "roi": -0.1294,
+    "profit": -77.77,
+    "roi_n": 601
    },
    {
     "label": "≥ %65",
@@ -665,61 +667,61 @@
     "roi_n": 512
    },
    "app": {
-    "n": 358,
-    "hits": 232,
-    "rate": 0.648,
-    "roi": -0.0646,
-    "profit": -23.11,
-    "roi_n": 358
+    "n": 359,
+    "hits": 233,
+    "rate": 0.649,
+    "roi": -0.0638,
+    "profit": -22.9,
+    "roi_n": 359
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 8,
-    "hits": 6,
-    "rate": 0.75,
-    "roi": -0.18,
-    "profit": -1.44,
-    "roi_n": 8
+    "n": 9,
+    "hits": 7,
+    "rate": 0.7778,
+    "roi": -0.1367,
+    "profit": -1.23,
+    "roi_n": 9
    },
    "alt_ust": {
-    "n": 8,
+    "n": 9,
     "hits": 6,
-    "rate": 0.75,
-    "roi": -0.1462,
-    "profit": -1.17,
-    "roi_n": 8
+    "rate": 0.6667,
+    "roi": -0.2411,
+    "profit": -2.17,
+    "roi_n": 9
    }
   },
   "channel": {
    "ms1x2": {
-    "n": 356,
-    "hits": 231,
-    "rate": 0.6489,
-    "roi": -0.0623,
-    "profit": -22.17,
-    "roi_n": 356
+    "n": 357,
+    "hits": 232,
+    "rate": 0.6499,
+    "roi": -0.0615,
+    "profit": -21.96,
+    "roi_n": 357
    },
    "alt_ust": {
-    "n": 354,
+    "n": 355,
     "hits": 239,
-    "rate": 0.6751,
-    "roi": -0.077,
-    "profit": -25.81,
-    "roi_n": 335
+    "rate": 0.6732,
+    "roi": -0.0798,
+    "profit": -26.81,
+    "roi_n": 336
    },
    "korner": {
-    "n": 251,
-    "hits": 137,
-    "rate": 0.5458,
-    "roi": -0.1475,
-    "profit": -29.94,
-    "roi_n": 203
+    "n": 252,
+    "hits": 138,
+    "rate": 0.5476,
+    "roi": -0.1431,
+    "profit": -29.2,
+    "roi_n": 204
    },
    "kart": {
-    "n": 231,
+    "n": 232,
     "hits": 123,
-    "rate": 0.5325,
+    "rate": 0.5302,
     "roi": -0.1597,
     "profit": -23.0,
     "roi_n": 144
@@ -728,6 +730,146 @@
   }
  },
  "history": [
+  {
+   "match_id": 4480777,
+   "iddaa": 3319514,
+   "home": "Kortrijk",
+   "away": "Union Saint-Gilloise",
+   "league": "Belçika · Pro Lig",
+   "date": "22/11/2026",
+   "kickoff": "18:00",
+   "kickoff_iso": "2026-11-22T18:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.6256,
+   "probs": {
+    "1": 0.1813,
+    "X": 0.1931,
+    "2": 0.6256
+   },
+   "odds": {
+    "1": 6.89,
+    "X": 4.76,
+    "2": 1.21,
+    "alt": 2.15,
+    "ust": 1.38
+   },
+   "pick_odd": 1.21,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6632,
+    "odd": 1.38
+   },
+   "kg_var": 0.612,
+   "xg": {
+    "home": 1.1478846153846152,
+    "away": 2.267626748251748
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4480777,
+     "iddaa": 3319514,
+     "home": "Kortrijk",
+     "away": "Union Saint-Gilloise",
+     "league": "Belçika · Pro Lig",
+     "match_date": "22/11/2026",
+     "kickoff": "18:00",
+     "kickoff_ts": 1795359600.0,
+     "pick": "2",
+     "confidence": 0.6255978892407366,
+     "p1": 0.18133971957767636,
+     "px": 0.19306239118158708,
+     "p2": 0.6255978892407366,
+     "odd_1": 7.55,
+     "odd_x": 5.01,
+     "odd_2": 1.17,
+     "pick_odd": 1.17,
+     "au_pick": "Üst",
+     "au_prob": 0.6632426594455326,
+     "odd_alt": 2.16,
+     "odd_ust": 1.38,
+     "au_odd": 1.38,
+     "kg_prob": 0.6119946552503136,
+     "model": "app",
+     "source": "oto",
+     "live": 0,
+     "p_over": 0.6632426594455326,
+     "factors": "📊 H2H son 5 (ev açısından): 0G 0B 5M | ⚽ H2H gol ort. 3.8 | 📈 Sıra: 18. vs 2. (18 takım, 4–29 puan) | 🏟 İç saha 0.8 p/m (4 maç) vs dış saha 3.0 p/m (4 maç) | 🚑 Eksik: kayıtlı sakat/cezalı yok",
+     "form_home": "BMBMM",
+     "form_away": "GGGGG",
+     "ppg_home": 0.5,
+     "ppg_away": 2.6,
+     "gf_home": 0.6,
+     "ga_home": 1.9,
+     "gf_away": 2.4,
+     "ga_away": 0.6,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 1.1478846153846152,
+     "xg_away": 2.267626748251748,
+     "kor_exp": 9.5,
+     "kor_line": 9.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.5313,
+     "kor_odd": 1.74,
+     "kor_src": "model+oran",
+     "kart_exp": 5.1,
+     "kart_line": 5.5,
+     "kart_pick": "Alt",
+     "kart_prob": 0.5994,
+     "kart_odd": null,
+     "kart_src": "model"
+    },
+    "updated_at": 1795359877.902681
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 0G 0B 5M",
+    "⚽ H2H gol ort. 3.8",
+    "📈 Sıra: 18. vs 2. (18 takım, 4–29 puan)",
+    "🏟 İç saha 0.8 p/m (4 maç) vs dış saha 3.0 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.5,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5313,
+    "odd": 1.74,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 9,
+    "hit": true
+   },
+   "cards": {
+    "expected": 5.1,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5994,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": 6,
+    "hit": false
+   },
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "0-1",
+    "outcome": "2",
+    "hit_1x2": true,
+    "hit_au": false
+   }
+  },
   {
    "match_id": 4492381,
    "iddaa": 3318482,
@@ -3301,105 +3443,6 @@
    "live": null,
    "result": {
     "score": "2-3",
-    "outcome": "2",
-    "hit_1x2": true,
-    "hit_au": false
-   }
-  },
-  {
-   "match_id": 4534782,
-   "iddaa": 3278820,
-   "home": "Vicenza",
-   "away": "Cremonese",
-   "league": "İtalya · Serie B",
-   "date": "08/11/2026",
-   "kickoff": "21:30",
-   "kickoff_iso": "2026-11-08T21:30:00+03:00",
-   "pick": "2",
-   "pick_label": "MS 2 (dep)",
-   "confidence": 0.4053,
-   "probs": {
-    "1": 0.2674,
-    "X": 0.2766,
-    "2": 0.456
-   },
-   "odds": {
-    "1": 2.99,
-    "X": 2.85,
-    "2": 2.0,
-    "alt": 1.6,
-    "ust": 1.77
-   },
-   "pick_odd": 2.0,
-   "alt_ust": {
-    "pick": "Alt",
-    "p_over": 0.475,
-    "odd": 1.6
-   },
-   "kg_var": 0.535,
-   "xg": {
-    "home": 1.17,
-    "away": 1.5
-   },
-   "form": {
-    "home": {
-     "last5": "MBGMM",
-     "ppg": 0.6,
-     "gf": 1.1,
-     "ga": 2.0,
-     "n": 10
-    },
-    "away": {
-     "last5": "BMMGG",
-     "ppg": 1.8,
-     "gf": 1.4,
-     "ga": 0.9,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 2G 1B 2M",
-    "⚽ H2H gol ort. 2.2",
-    "📈 Sıra: 18. vs 13. (20 takım, 9–12 puan)",
-    "🏟 İç saha 0.3 p/m (3 maç) vs dış saha 1.8 p/m (6 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 9.6,
-    "line": 9.5,
-    "pick": "Alt",
-    "prob": 0.5167,
-    "odd": 1.55,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 7,
-    "hit": true
-   },
-   "cards": {
-    "expected": 4.7,
-    "line": 4.5,
-    "pick": "Alt",
-    "prob": 0.5143,
-    "odd": 1.64,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 3,
-    "hit": true
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "1-4",
     "outcome": "2",
     "hit_1x2": true,
     "hit_au": false
