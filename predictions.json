@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T16:54:48+03:00",
+ "generated_at": "2026-11-22T17:04:46+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -355,7 +355,7 @@
      "au_odd": 1.38,
      "kg_prob": 0.6119946552503136,
      "model": "app",
-     "source": "kanal",
+     "source": "oto",
      "live": 0,
      "p_over": 0.6632426594455326,
      "factors": "📊 H2H son 5 (ev açısından): 0G 0B 5M | ⚽ H2H gol ort. 3.8 | 📈 Sıra: 18. vs 2. (18 takım, 4–29 puan) | 🏟 İç saha 0.8 p/m (4 maç) vs dış saha 3.0 p/m (4 maç) | 🚑 Eksik: kayıtlı sakat/cezalı yok",
@@ -384,7 +384,7 @@
      "kart_odd": null,
      "kart_src": "model"
     },
-    "updated_at": 1795338244.5454185
+    "updated_at": 1795356276.8405807
    },
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 0B 5M",
