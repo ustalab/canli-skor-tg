@@ -1,16 +1,152 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T12:00:18+03:00",
+ "generated_at": "2026-11-22T12:08:09+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
  "model": {
   "text": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson (k=5). 1X2 ≥%60, A/Ü ≥%58. Korner/kart deneysel; ana güvene dahil değil."
  },
- "predictions": [],
+ "predictions": [
+  {
+   "match_id": 4480777,
+   "iddaa": 3319514,
+   "home": "Kortrijk",
+   "away": "Union Saint-Gilloise",
+   "league": "Belçika · Pro Lig",
+   "date": "22/11/2026",
+   "kickoff": "18:00",
+   "kickoff_iso": "2026-11-22T18:00:00+03:00",
+   "pick": "2",
+   "pick_label": "MS 2 (dep)",
+   "confidence": 0.6256,
+   "probs": {
+    "1": 0.1813,
+    "X": 0.1931,
+    "2": 0.6256
+   },
+   "odds": {
+    "1": 6.89,
+    "X": 4.76,
+    "2": 1.21,
+    "alt": 2.15,
+    "ust": 1.38
+   },
+   "pick_odd": 1.21,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6632,
+    "odd": 1.38
+   },
+   "kg_var": 0.612,
+   "xg": {
+    "home": 1.1478846153846152,
+    "away": 2.267626748251748
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4480777,
+     "iddaa": 3319514,
+     "home": "Kortrijk",
+     "away": "Union Saint-Gilloise",
+     "league": "Belçika · Pro Lig",
+     "match_date": "22/11/2026",
+     "kickoff": "18:00",
+     "kickoff_ts": 1795359600.0,
+     "pick": "2",
+     "confidence": 0.6255978892407366,
+     "p1": 0.18133971957767636,
+     "px": 0.19306239118158708,
+     "p2": 0.6255978892407366,
+     "odd_1": 6.89,
+     "odd_x": 4.76,
+     "odd_2": 1.21,
+     "pick_odd": 1.21,
+     "au_pick": "Üst",
+     "au_prob": 0.6632426594455326,
+     "odd_alt": 2.15,
+     "odd_ust": 1.38,
+     "au_odd": 1.38,
+     "kg_prob": 0.6119946552503136,
+     "model": "app",
+     "source": "kanal",
+     "live": 0,
+     "p_over": 0.6632426594455326,
+     "factors": "📊 H2H son 5 (ev açısından): 0G 0B 5M | ⚽ H2H gol ort. 3.8 | 📈 Sıra: 18. vs 2. (18 takım, 4–29 puan) | 🏟 İç saha 0.8 p/m (4 maç) vs dış saha 3.0 p/m (4 maç) | 🚑 Eksik: kayıtlı sakat/cezalı yok",
+     "form_home": "BMBMM",
+     "form_away": "GGGGG",
+     "ppg_home": 0.5,
+     "ppg_away": 2.6,
+     "gf_home": 0.6,
+     "ga_home": 1.9,
+     "gf_away": 2.4,
+     "ga_away": 0.6,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 1.1478846153846152,
+     "xg_away": 2.267626748251748,
+     "kor_exp": 9.5,
+     "kor_line": 9.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.5313,
+     "kor_odd": 1.74,
+     "kor_src": "model+oran",
+     "kart_exp": 5.1,
+     "kart_line": 5.5,
+     "kart_pick": "Alt",
+     "kart_prob": 0.5994,
+     "kart_odd": null,
+     "kart_src": "model"
+    },
+    "updated_at": 1795338244.5454185
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 0G 0B 5M",
+    "⚽ H2H gol ort. 3.8",
+    "📈 Sıra: 18. vs 2. (18 takım, 4–29 puan)",
+    "🏟 İç saha 0.8 p/m (4 maç) vs dış saha 3.0 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": {
+    "expected": 9.5,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5313,
+    "odd": 1.74,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 5.1,
+    "line": 5.5,
+    "pick": "Alt",
+    "prob": 0.5994,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  }
+ ],
  "stats": {
   "settled": 6196,
-  "pending": 0,
+  "pending": 1,
   "void": 611,
   "overall": {
    "n": 12282,
@@ -2770,9 +2906,46 @@
   "runs": 10000,
   "model": "Bağımsız Poisson; seçimdeki aynı gol beklentileri",
   "assumption": "Maçlar bağımsız varsayılır. Kupon yalnız MS 1X2 seçimlerini içerir; garanti değildir.",
-  "matches": [],
+  "matches": [
+   {
+    "match_id": 4480777,
+    "home": "Kortrijk",
+    "away": "Union Saint-Gilloise",
+    "pick": "2",
+    "top_scores": [
+     {
+      "score": "1-2",
+      "prob": 0.0971
+     },
+     {
+      "score": "0-2",
+      "prob": 0.0908
+     },
+     {
+      "score": "1-1",
+      "prob": 0.0864
+     }
+    ],
+    "probs": {
+     "1": 0.1775,
+     "X": 0.1987,
+     "2": 0.6238
+    },
+    "p_over25": 0.6557,
+    "p_under25": 0.34430000000000005,
+    "kg_var": 0.6097
+   }
+  ],
   "missing": [],
-  "coupon": null
+  "coupon": {
+   "legs": 1,
+   "market": "1X2",
+   "all_hit": 0.6238,
+   "hit_distribution": {
+    "0": 0.3762,
+    "1": 0.6238
+   }
+  }
  },
  "historical_note": "Eski kanal A/Ü olasılıkları saklanmadığından güvenilir eşik backtesti yapılamaz; geçmiş ilk sürümler geri kurulamaz."
 }
