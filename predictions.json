@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T14:04:46+03:00",
+ "generated_at": "2026-11-22T14:17:18+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -67,7 +67,7 @@
      "px": 0.1597288513681832,
      "p2": 0.16333100130776854,
      "odd_1": 1.0,
-     "odd_x": 11.4,
+     "odd_x": 11.7,
      "odd_2": 17.35,
      "pick_odd": 1.0,
      "au_pick": "Üst",
@@ -106,7 +106,7 @@
      "kart_odd": 1.45,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795345462.241907
+    "updated_at": 1795346019.8494954
    },
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
