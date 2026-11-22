@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T12:38:09+03:00",
+ "generated_at": "2026-11-22T12:47:54+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -8,6 +8,85 @@
   "text": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson (k=5). 1X2 ≥%60, A/Ü ≥%58. Korner/kart deneysel; ana güvene dahil değil."
  },
  "predictions": [
+  {
+   "match_id": 4481593,
+   "iddaa": 3320031,
+   "home": "Twente",
+   "away": "Willem II",
+   "league": "Hollanda · Eredivisie",
+   "date": "22/11/2026",
+   "kickoff": "14:15",
+   "kickoff_iso": "2026-11-22T14:15:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6769,
+   "probs": {
+    "1": 0.6769,
+    "X": 0.1597,
+    "2": 0.1633
+   },
+   "odds": {
+    "1": 1.0,
+    "X": 10.3,
+    "2": 17.35,
+    "alt": 3.79,
+    "ust": 1.08
+   },
+   "pick_odd": 1.0,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.7978,
+    "odd": 1.08
+   },
+   "kg_var": 0.7103,
+   "xg": {
+    "home": 2.862344690265487,
+    "away": 1.399792135961384
+   },
+   "form": null,
+   "model": "app",
+   "source": "oto",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 4G 1B 0M",
+    "⚽ H2H gol ort. 3.0",
+    "📈 Sıra: 4. vs 18. (18 takım, 24–3 puan)",
+    "🏟 İç saha 2.2 p/m (6 maç) vs dış saha 0.7 p/m (6 maç)",
+    "🚑 Eksik: ev 4 (1 sakat, 3 diğer) · dep 3 (2 sakat, 1 diğer)"
+   ],
+   "corners": {
+    "expected": 10.7,
+    "line": 10.5,
+    "pick": "Alt",
+    "prob": 0.508,
+    "odd": 1.77,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 3.4,
+    "line": 2.5,
+    "pick": "Üst",
+    "prob": 0.6215,
+    "odd": 1.45,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
   {
    "match_id": 4480777,
    "iddaa": 3319514,
@@ -146,7 +225,7 @@
  ],
  "stats": {
   "settled": 6196,
-  "pending": 1,
+  "pending": 2,
   "void": 611,
   "overall": {
    "n": 12282,
