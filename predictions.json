@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-22T12:47:54+03:00",
+ "generated_at": "2026-11-22T12:57:54+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -45,13 +45,69 @@
    },
    "form": null,
    "model": "app",
-   "source": "oto",
+   "source": "kanal",
    "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
    "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
+   "first_published": true,
+   "publication_basis": "first_published",
    "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
+   "latest_revision": {
+    "record": {
+     "match_id": 4481593,
+     "iddaa": 3320031,
+     "home": "Twente",
+     "away": "Willem II",
+     "league": "Hollanda · Eredivisie",
+     "match_date": "22/11/2026",
+     "kickoff": "14:15",
+     "kickoff_ts": 1795346100.0,
+     "pick": "1",
+     "confidence": 0.6769401473240483,
+     "p1": 0.6769401473240483,
+     "px": 0.1597288513681832,
+     "p2": 0.16333100130776854,
+     "odd_1": 1.0,
+     "odd_x": 10.3,
+     "odd_2": 17.35,
+     "pick_odd": 1.0,
+     "au_pick": "Üst",
+     "au_prob": 0.7978474057554483,
+     "odd_alt": 3.79,
+     "odd_ust": 1.08,
+     "au_odd": 1.08,
+     "kg_prob": 0.7103092897546252,
+     "model": "app",
+     "source": "oto",
+     "live": 0,
+     "p_over": 0.7978474057554483,
+     "factors": "📊 H2H son 5 (ev açısından): 4G 1B 0M | ⚽ H2H gol ort. 3.0 | 📈 Sıra: 4. vs 18. (18 takım, 24–3 puan) | 🏟 İç saha 2.2 p/m (6 maç) vs dış saha 0.7 p/m (6 maç) | 🚑 Eksik: ev 4 (1 sakat, 3 diğer) · dep 3 (2 sakat, 1 diğer)",
+     "form_home": "GGGGB",
+     "form_away": "MMGMB",
+     "ppg_home": 2.3,
+     "ppg_away": 0.5,
+     "gf_home": 3.3,
+     "ga_home": 0.9,
+     "gf_away": 1.1,
+     "ga_away": 3.3,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.862344690265487,
+     "xg_away": 1.399792135961384,
+     "kor_exp": 10.7,
+     "kor_line": 10.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.508,
+     "kor_odd": 1.77,
+     "kor_src": "model+oran",
+     "kart_exp": 3.4,
+     "kart_line": 2.5,
+     "kart_pick": "Üst",
+     "kart_prob": 0.6215,
+     "kart_odd": 1.45,
+     "kart_src": "model+oran"
+    },
+    "updated_at": 1795341399.9424527
+   },
    "factors": [
     "📊 H2H son 5 (ev açısından): 4G 1B 0M",
     "⚽ H2H gol ort. 3.0",
@@ -77,6 +133,141 @@
     "pick": "Üst",
     "prob": 0.6215,
     "odd": 1.45,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
+  {
+   "match_id": 4492381,
+   "iddaa": 3318482,
+   "home": "Barcelona",
+   "away": "Villarreal",
+   "league": "İspanya · LaLiga",
+   "date": "22/11/2026",
+   "kickoff": "16:00",
+   "kickoff_iso": "2026-11-22T16:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6377,
+   "probs": {
+    "1": 0.6377,
+    "X": 0.1785,
+    "2": 0.1838
+   },
+   "odds": {
+    "1": 1.0,
+    "X": 7.42,
+    "2": 9.72,
+    "alt": 4.67,
+    "ust": 1.0
+   },
+   "pick_odd": 1.0,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.7413,
+    "odd": 1.0
+   },
+   "kg_var": 0.6762,
+   "xg": {
+    "home": 2.5394693548387104,
+    "away": 1.3246074046920817
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4492381,
+     "iddaa": 3318482,
+     "home": "Barcelona",
+     "away": "Villarreal",
+     "league": "İspanya · LaLiga",
+     "match_date": "22/11/2026",
+     "kickoff": "16:00",
+     "kickoff_ts": 1795352400.0,
+     "pick": "1",
+     "confidence": 0.6377176775290949,
+     "p1": 0.6377176775290949,
+     "px": 0.17845530537816637,
+     "p2": 0.1838270170927386,
+     "odd_1": 1.0,
+     "odd_x": 7.42,
+     "odd_2": 9.72,
+     "pick_odd": 1.0,
+     "au_pick": "Üst",
+     "au_prob": 0.741296368284367,
+     "odd_alt": 4.67,
+     "odd_ust": 1.0,
+     "au_odd": 1.0,
+     "kg_prob": 0.6761666916519598,
+     "model": "app",
+     "source": "kanal",
+     "live": 0,
+     "p_over": 0.741296368284367,
+     "factors": "📊 H2H son 5 (ev açısından): 3G 0B 2M | ⚽ H2H gol ort. 6.2 | 📈 Sıra: 1. vs 9. (20 takım, 33–15 puan) | 🏟 İç saha 2.4 p/m (5 maç) vs dış saha 1.5 p/m (4 maç) | 🚑 Eksik: ev 6 (5 sakat, 1 diğer) · dep 4 (4 sakat)",
+     "form_home": "MMGGG",
+     "form_away": "GGMMG",
+     "ppg_home": 2.4,
+     "ppg_away": 1.6,
+     "gf_home": 3.6,
+     "ga_home": 1.4,
+     "gf_away": 1.8,
+     "ga_away": 1.5,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.5394693548387104,
+     "xg_away": 1.3246074046920817,
+     "kor_exp": 11.1,
+     "kor_line": 11.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.5714,
+     "kor_odd": 1.54,
+     "kor_src": "model+oran",
+     "kart_exp": 4.5,
+     "kart_line": 3.5,
+     "kart_pick": "Üst",
+     "kart_prob": 0.6096,
+     "kart_odd": 1.49,
+     "kart_src": "model+oran"
+    },
+    "updated_at": 1795341018.7084868
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 3G 0B 2M",
+    "⚽ H2H gol ort. 6.2",
+    "📈 Sıra: 1. vs 9. (20 takım, 33–15 puan)",
+    "🏟 İç saha 2.4 p/m (5 maç) vs dış saha 1.5 p/m (4 maç)",
+    "🚑 Eksik: ev 6 (5 sakat, 1 diğer) · dep 4 (4 sakat)"
+   ],
+   "corners": {
+    "expected": 11.1,
+    "line": 11.5,
+    "pick": "Alt",
+    "prob": 0.5714,
+    "odd": 1.54,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 4.5,
+    "line": 3.5,
+    "pick": "Üst",
+    "prob": 0.6096,
+    "odd": 1.49,
     "source": "model+oran",
     "experimental": true,
     "label": "deneysel",
@@ -221,11 +412,146 @@
    "status": "bekliyor",
    "live": null,
    "result": null
+  },
+  {
+   "match_id": 4542752,
+   "iddaa": 3319509,
+   "home": "Trabzonspor",
+   "away": "Eyüpspor",
+   "league": "Türkiye · Süper Lig",
+   "date": "22/11/2026",
+   "kickoff": "19:00",
+   "kickoff_iso": "2026-11-22T19:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.7993,
+   "probs": {
+    "1": 0.7993,
+    "X": 0.1262,
+    "2": 0.0745
+   },
+   "odds": {
+    "1": 1.0,
+    "X": 8.51,
+    "2": 17.35,
+    "alt": 2.91,
+    "ust": 1.19
+   },
+   "pick_odd": 1.0,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.7113,
+    "odd": 1.19
+   },
+   "kg_var": 0.5185,
+   "xg": {
+    "home": 2.883956504854369,
+    "away": 0.7967184466019417
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4542752,
+     "iddaa": 3319509,
+     "home": "Trabzonspor",
+     "away": "Eyüpspor",
+     "league": "Türkiye · Süper Lig",
+     "match_date": "22/11/2026",
+     "kickoff": "19:00",
+     "kickoff_ts": 1795363200.0,
+     "pick": "1",
+     "confidence": 0.7992678418762884,
+     "p1": 0.7992678418762884,
+     "px": 0.12622270168053146,
+     "p2": 0.07450945644318015,
+     "odd_1": 1.0,
+     "odd_x": 8.51,
+     "odd_2": 17.35,
+     "pick_odd": 1.0,
+     "au_pick": "Üst",
+     "au_prob": 0.7112819276349966,
+     "odd_alt": 2.91,
+     "odd_ust": 1.19,
+     "au_odd": 1.19,
+     "kg_prob": 0.5184869690618782,
+     "model": "app",
+     "source": "kanal",
+     "live": 0,
+     "p_over": 0.7112819276349966,
+     "factors": "📊 H2H son 4 (ev açısından): 3G 1B 0M | ⚽ H2H gol ort. 1.0 | 📈 Sıra: 2. vs 18. (18 takım, 25–3 puan) | 🏟 İç saha 1.8 p/m (5 maç) vs dış saha 0.6 p/m (5 maç) | 🚑 Eksik: ev 8 (4 sakat, 1 cezalı, 3 diğer) · dep 3 (3 sakat)",
+     "form_home": "GGMGM",
+     "form_away": "MMMGM",
+     "ppg_home": 2.1,
+     "ppg_away": 0.6,
+     "gf_home": 1.9,
+     "ga_home": 1.0,
+     "gf_away": 0.7,
+     "ga_away": 3.0,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.883956504854369,
+     "xg_away": 0.7967184466019417,
+     "kor_exp": 9.7,
+     "kor_line": 9.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.5068,
+     "kor_odd": 1.8,
+     "kor_src": "model+oran",
+     "kart_exp": 3.9,
+     "kart_line": 3.5,
+     "kart_pick": "Üst",
+     "kart_prob": 0.5247,
+     "kart_odd": null,
+     "kart_src": "model"
+    },
+    "updated_at": 1795341018.712094
+   },
+   "factors": [
+    "📊 H2H son 4 (ev açısından): 3G 1B 0M",
+    "⚽ H2H gol ort. 1.0",
+    "📈 Sıra: 2. vs 18. (18 takım, 25–3 puan)",
+    "🏟 İç saha 1.8 p/m (5 maç) vs dış saha 0.6 p/m (5 maç)",
+    "🚑 Eksik: ev 8 (4 sakat, 1 cezalı, 3 diğer) · dep 3 (3 sakat)"
+   ],
+   "corners": {
+    "expected": 9.7,
+    "line": 9.5,
+    "pick": "Alt",
+    "prob": 0.5068,
+    "odd": 1.8,
+    "source": "model+oran",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "cards": {
+    "expected": 3.9,
+    "line": 3.5,
+    "pick": "Üst",
+    "prob": 0.5247,
+    "odd": null,
+    "source": "model",
+    "experimental": true,
+    "label": "deneysel",
+    "actual": null,
+    "hit": null
+   },
+   "status": "bekliyor",
+   "live": null,
+   "result": null
   }
  ],
  "stats": {
   "settled": 6196,
-  "pending": 2,
+  "pending": 4,
   "void": 611,
   "overall": {
    "n": 12282,
@@ -2987,6 +3313,62 @@
   "assumption": "Maçlar bağımsız varsayılır. Kupon yalnız MS 1X2 seçimlerini içerir; garanti değildir.",
   "matches": [
    {
+    "match_id": 4481593,
+    "home": "Twente",
+    "away": "Willem II",
+    "pick": "1",
+    "top_scores": [
+     {
+      "score": "2-1",
+      "prob": 0.089
+     },
+     {
+      "score": "3-1",
+      "prob": 0.0786
+     },
+     {
+      "score": "1-1",
+      "prob": 0.0582
+     }
+    ],
+    "probs": {
+     "1": 0.674,
+     "X": 0.1623,
+     "2": 0.1637
+    },
+    "p_over25": 0.8023,
+    "p_under25": 0.1977,
+    "kg_var": 0.7155
+   },
+   {
+    "match_id": 4492381,
+    "home": "Barcelona",
+    "away": "Villarreal",
+    "pick": "1",
+    "top_scores": [
+     {
+      "score": "2-1",
+      "prob": 0.0871
+     },
+     {
+      "score": "3-1",
+      "prob": 0.0717
+     },
+     {
+      "score": "1-1",
+      "prob": 0.0697
+     }
+    ],
+    "probs": {
+     "1": 0.6399,
+     "X": 0.1801,
+     "2": 0.18
+    },
+    "p_over25": 0.7397,
+    "p_under25": 0.2603,
+    "kg_var": 0.6701
+   },
+   {
     "match_id": 4480777,
     "home": "Kortrijk",
     "away": "Union Saint-Gilloise",
@@ -2994,35 +3376,66 @@
     "top_scores": [
      {
       "score": "1-2",
-      "prob": 0.0971
+      "prob": 0.0902
      },
      {
       "score": "0-2",
-      "prob": 0.0908
+      "prob": 0.0866
      },
      {
       "score": "1-1",
-      "prob": 0.0864
+      "prob": 0.0813
      }
     ],
     "probs": {
-     "1": 0.1775,
-     "X": 0.1987,
-     "2": 0.6238
+     "1": 0.1836,
+     "X": 0.1921,
+     "2": 0.6243
     },
-    "p_over25": 0.6557,
-    "p_under25": 0.34430000000000005,
-    "kg_var": 0.6097
+    "p_over25": 0.6616,
+    "p_under25": 0.33840000000000003,
+    "kg_var": 0.6027
+   },
+   {
+    "match_id": 4542752,
+    "home": "Trabzonspor",
+    "away": "Eyüpspor",
+    "pick": "1",
+    "top_scores": [
+     {
+      "score": "3-0",
+      "prob": 0.1021
+     },
+     {
+      "score": "2-0",
+      "prob": 0.1004
+     },
+     {
+      "score": "2-1",
+      "prob": 0.0826
+     }
+    ],
+    "probs": {
+     "1": 0.7988,
+     "X": 0.1277,
+     "2": 0.0735
+    },
+    "p_over25": 0.7087,
+    "p_under25": 0.2913,
+    "kg_var": 0.5186
    }
   ],
   "missing": [],
   "coupon": {
-   "legs": 1,
+   "legs": 4,
    "market": "1X2",
-   "all_hit": 0.6238,
+   "all_hit": 0.2123,
    "hit_distribution": {
-    "0": 0.3762,
-    "1": 0.6238
+    "0": 0.0087,
+    "1": 0.081,
+    "2": 0.2872,
+    "3": 0.4108,
+    "4": 0.2123
    }
   }
  },
