@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-24T22:35:12+03:00",
+ "generated_at": "2026-11-24T22:46:31+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -106,7 +106,7 @@
      "kart_odd": 1.37,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795547972.126437
+    "updated_at": 1795548977.6179445
    },
    "factors": [
     "📊 H2H son 5 (ev açısından): 0G 3B 2M",
@@ -241,7 +241,7 @@
      "kart_odd": 1.67,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795547972.130878
+    "updated_at": 1795548977.6247218
    },
    "factors": [
     "📈 Sıra: 30. vs 33. (36 takım, 3–3 puan)",
