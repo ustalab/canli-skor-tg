@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-26T20:15:12+03:00",
+ "generated_at": "2026-11-26T20:37:38+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -66,13 +66,13 @@
      "p1": 0.6427728311730606,
      "px": 0.18474337091725238,
      "p2": 0.17248379790968707,
-     "odd_1": 1.15,
-     "odd_x": 5.51,
-     "odd_2": 7.65,
-     "pick_odd": 1.15,
+     "odd_1": 1.21,
+     "odd_x": 4.94,
+     "odd_2": 6.16,
+     "pick_odd": 1.21,
      "au_pick": "Üst",
      "au_prob": 0.6883417231089994,
-     "odd_alt": 2.67,
+     "odd_alt": 2.66,
      "odd_ust": 1.23,
      "au_odd": 1.23,
      "kg_prob": 0.6253886821880618,
@@ -106,7 +106,7 @@
      "kart_odd": 1.42,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795712873.557995
+    "updated_at": 1795713352.7000034
    },
    "factors": [
     "📈 Sıra: 8. vs 33. (36 takım, 7–1 puan)",
@@ -176,10 +176,10 @@
      "p1": 0.6634386753573058,
      "px": 0.18170015973145454,
      "p2": 0.15486116491123972,
-     "odd_1": 1.21,
-     "odd_x": 4.84,
-     "odd_2": 6.71,
-     "pick_odd": 1.21,
+     "odd_1": 1.19,
+     "odd_x": 4.88,
+     "odd_2": 6.98,
+     "pick_odd": 1.19,
      "au_pick": "Üst",
      "au_prob": 0.6674546147151049,
      "odd_alt": 2.23,
@@ -216,7 +216,7 @@
      "kart_odd": 1.44,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795712873.5608811
+    "updated_at": 1795713352.7038624
    },
    "factors": [
     "📈 Sıra: 4. vs 35. (36 takım, 10–1 puan)",
