@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-26T23:05:08+03:00",
+ "generated_at": "2026-11-26T23:24:46+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -114,12 +114,14 @@
    ],
    "corners": null,
    "cards": null,
-   "status": "canli",
-   "live": {
-    "minute": "86",
-    "score": "1-0"
-   },
-   "result": null
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
   },
   {
    "match_id": 4549626,
@@ -345,39 +347,39 @@
    "cards": null,
    "status": "canli",
    "live": {
-    "minute": "4",
+    "minute": "24",
     "score": "0-0"
    },
    "result": null
   }
  ],
  "stats": {
-  "settled": 6203,
-  "pending": 2,
+  "settled": 6204,
+  "pending": 1,
   "void": 611,
   "overall": {
-   "n": 12296,
-   "hits": 6822,
-   "rate": 0.5548,
+   "n": 12298,
+   "hits": 6824,
+   "rate": 0.5549,
    "roi": -0.1619,
-   "profit": -1857.63,
-   "roi_n": 11473
+   "profit": -1857.29,
+   "roi_n": 11475
   },
   "ms1x2": {
-   "n": 6203,
-   "hits": 3231,
-   "rate": 0.5209,
+   "n": 6204,
+   "hits": 3232,
+   "rate": 0.521,
    "roi": -0.1528,
-   "profit": -947.87,
-   "roi_n": 6203
+   "profit": -947.76,
+   "roi_n": 6204
   },
   "alt_ust": {
-   "n": 6093,
-   "hits": 3591,
+   "n": 6094,
+   "hits": 3592,
    "rate": 0.5894,
    "roi": -0.1726,
-   "profit": -909.76,
-   "roi_n": 5270
+   "profit": -909.53,
+   "roi_n": 5271
   },
   "korner": {
    "n": 2754,
@@ -416,12 +418,12 @@
    },
    {
     "label": "%55–65",
-    "n": 603,
-    "hits": 441,
-    "rate": 0.7313,
-    "roi": -0.1303,
-    "profit": -78.56,
-    "roi_n": 603
+    "n": 604,
+    "hits": 442,
+    "rate": 0.7318,
+    "roi": -0.1299,
+    "profit": -78.45,
+    "roi_n": 604
    },
    {
     "label": "≥ %65",
@@ -451,48 +453,48 @@
     "roi_n": 512
    },
    "app": {
-    "n": 363,
-    "hits": 235,
-    "rate": 0.6474,
-    "roi": -0.068,
-    "profit": -24.69,
-    "roi_n": 363
+    "n": 364,
+    "hits": 236,
+    "rate": 0.6484,
+    "roi": -0.0675,
+    "profit": -24.58,
+    "roi_n": 364
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 12,
-    "hits": 8,
-    "rate": 0.6667,
-    "roi": -0.2567,
-    "profit": -3.08,
-    "roi_n": 12
+    "n": 13,
+    "hits": 9,
+    "rate": 0.6923,
+    "roi": -0.2285,
+    "profit": -2.97,
+    "roi_n": 13
    },
    "alt_ust": {
-    "n": 12,
-    "hits": 8,
-    "rate": 0.6667,
-    "roi": -0.2142,
-    "profit": -2.57,
-    "roi_n": 12
+    "n": 13,
+    "hits": 9,
+    "rate": 0.6923,
+    "roi": -0.18,
+    "profit": -2.34,
+    "roi_n": 13
    }
   },
   "channel": {
    "ms1x2": {
-    "n": 361,
-    "hits": 234,
-    "rate": 0.6482,
-    "roi": -0.0658,
-    "profit": -23.75,
-    "roi_n": 361
+    "n": 362,
+    "hits": 235,
+    "rate": 0.6492,
+    "roi": -0.0653,
+    "profit": -23.64,
+    "roi_n": 362
    },
    "alt_ust": {
-    "n": 359,
-    "hits": 242,
-    "rate": 0.6741,
-    "roi": -0.0797,
-    "profit": -27.1,
-    "roi_n": 340
+    "n": 360,
+    "hits": 243,
+    "rate": 0.675,
+    "roi": -0.0788,
+    "profit": -26.87,
+    "roi_n": 341
    },
    "korner": {
     "n": 255,
@@ -627,6 +629,121 @@
     "score": "2-2",
     "outcome": "X",
     "hit_1x2": false,
+    "hit_au": true
+   }
+  },
+  {
+   "match_id": 4549545,
+   "iddaa": 3326581,
+   "home": "Beşiktaş",
+   "away": "Hapoel Beer Sheva",
+   "league": "UEFA Avrupa Ligi · Lig Aşaması",
+   "date": "26/11/2026",
+   "kickoff": "20:45",
+   "kickoff_iso": "2026-11-26T20:45:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6428,
+   "probs": {
+    "1": 0.6428,
+    "X": 0.1847,
+    "2": 0.1725
+   },
+   "odds": {
+    "1": 1.11,
+    "X": 5.84,
+    "2": 8.62,
+    "alt": 2.67,
+    "ust": 1.23
+   },
+   "pick_odd": 1.11,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6883,
+    "odd": 1.23
+   },
+   "kg_var": 0.6254,
+   "xg": {
+    "home": 2.3822027777777786,
+    "away": 1.1680180555555555
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4549545,
+     "iddaa": 3326581,
+     "home": "Beşiktaş",
+     "away": "Hapoel Beer Sheva",
+     "league": "UEFA Avrupa Ligi · Lig Aşaması",
+     "match_date": "26/11/2026",
+     "kickoff": "20:45",
+     "kickoff_ts": 1795715100.0,
+     "pick": "1",
+     "confidence": 0.6427728311730606,
+     "p1": 0.6427728311730606,
+     "px": 0.18474337091725238,
+     "p2": 0.17248379790968707,
+     "odd_1": 1.21,
+     "odd_x": 4.94,
+     "odd_2": 6.16,
+     "pick_odd": 1.21,
+     "au_pick": "Üst",
+     "au_prob": 0.6883417231089994,
+     "odd_alt": 2.66,
+     "odd_ust": 1.23,
+     "au_odd": 1.23,
+     "kg_prob": 0.6253886821880618,
+     "model": "app",
+     "source": "oto",
+     "live": 0,
+     "p_over": 0.6883417231089994,
+     "factors": "📈 Sıra: 8. vs 33. (36 takım, 7–1 puan) | 🏟 İç saha 2.5 p/m (4 maç) vs dış saha 1.8 p/m (5 maç) | 🚑 Eksik: ev 4 (1 sakat, 1 cezalı, 2 diğer) · dep 3 (2 sakat, 1 diğer)",
+     "form_home": "GBMGG",
+     "form_away": "MGGMM",
+     "ppg_home": 1.7,
+     "ppg_away": 1.6,
+     "gf_home": 2.2,
+     "ga_home": 1.7,
+     "gf_away": 1.6,
+     "ga_away": 1.4,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.3822027777777786,
+     "xg_away": 1.1680180555555555,
+     "kor_exp": 8.8,
+     "kor_line": 9.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.6118,
+     "kor_odd": 1.53,
+     "kor_src": "model+oran",
+     "kart_exp": 4.6,
+     "kart_line": 4.5,
+     "kart_pick": "Alt",
+     "kart_prob": 0.5343,
+     "kart_odd": 1.42,
+     "kart_src": "model+oran"
+    },
+    "updated_at": 1795713352.7000034
+   },
+   "factors": [
+    "📈 Sıra: 8. vs 33. (36 takım, 7–1 puan)",
+    "🏟 İç saha 2.5 p/m (4 maç) vs dış saha 1.8 p/m (5 maç)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "2-1",
+    "outcome": "1",
+    "hit_1x2": true,
     "hit_au": true
    }
   },
@@ -3275,105 +3392,6 @@
     "outcome": "1",
     "hit_1x2": false,
     "hit_au": false
-   }
-  },
-  {
-   "match_id": 4484412,
-   "iddaa": 3275689,
-   "home": "Lech Poznan",
-   "away": "Zaglebie Lubin",
-   "league": "Polonya · Ekstraklasa",
-   "date": "08/11/2026",
-   "kickoff": "22:15",
-   "kickoff_iso": "2026-11-08T22:15:00+03:00",
-   "pick": "1",
-   "pick_label": "MS 1 (ev)",
-   "confidence": 0.5252,
-   "probs": {
-    "1": 0.6113,
-    "X": 0.1919,
-    "2": 0.1968
-   },
-   "odds": {
-    "1": 1.26,
-    "X": 3.99,
-    "2": 5.25,
-    "alt": 2.01,
-    "ust": 1.35
-   },
-   "pick_odd": 1.26,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.603,
-    "odd": 1.35
-   },
-   "kg_var": 0.6331,
-   "xg": {
-    "home": 1.91,
-    "away": 1.36
-   },
-   "form": {
-    "home": {
-     "last5": "BGMGM",
-     "ppg": 1.7,
-     "gf": 2.4,
-     "ga": 1.6,
-     "n": 10
-    },
-    "away": {
-     "last5": "GMGBG",
-     "ppg": 1.7,
-     "gf": 1.4,
-     "ga": 1.4,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 4G 0B 1M",
-    "⚽ H2H gol ort. 2.2",
-    "📈 Sıra: 1. vs 7. (18 takım, 31–22 puan)",
-    "🏟 İç saha 1.8 p/m (6 maç) vs dış saha 1.0 p/m (5 maç)",
-    "🚑 Eksik: kayıtlı sakat/cezalı yok"
-   ],
-   "corners": {
-    "expected": 10.4,
-    "line": 10.5,
-    "pick": "Alt",
-    "prob": 0.5348,
-    "odd": 1.63,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 13,
-    "hit": false
-   },
-   "cards": {
-    "expected": 4.6,
-    "line": 4.5,
-    "pick": "Alt",
-    "prob": 0.5254,
-    "odd": null,
-    "source": "model",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": null,
-    "hit": null
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "2-2",
-    "outcome": "X",
-    "hit_1x2": false,
-    "hit_au": true
    }
   }
  ],
