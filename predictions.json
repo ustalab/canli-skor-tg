@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-27T23:04:46+03:00",
+ "generated_at": "2026-11-27T23:14:46+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -139,8 +139,8 @@
    },
    "status": "canli",
    "live": {
-    "minute": "34",
-    "score": "0-1"
+    "minute": "44",
+    "score": "1-1"
    },
    "result": null
   }
