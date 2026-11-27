@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-27T21:56:13+03:00",
+ "generated_at": "2026-11-27T22:06:01+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -66,13 +66,13 @@
      "p1": 0.6661786289637744,
      "px": 0.16879135051422953,
      "p2": 0.16503002052199608,
-     "odd_1": 1.45,
-     "odd_x": 3.82,
-     "odd_2": 4.28,
-     "pick_odd": 1.45,
+     "odd_1": 1.55,
+     "odd_x": 3.66,
+     "odd_2": 3.72,
+     "pick_odd": 1.55,
      "au_pick": "Üst",
      "au_prob": 0.7549714096260343,
-     "odd_alt": 2.21,
+     "odd_alt": 2.2,
      "odd_ust": 1.36,
      "au_odd": 1.37,
      "kg_prob": 0.6743331670632525,
@@ -106,7 +106,7 @@
      "kart_odd": 1.39,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795804845.2505667
+    "updated_at": 1795806191.5770435
    },
    "factors": [
     "📈 Sıra: 6. vs 18. (18 takım, 18–4 puan)",
@@ -252,20 +252,20 @@
   },
   "last7": {
    "ms1x2": {
-    "n": 14,
+    "n": 13,
     "hits": 9,
-    "rate": 0.6429,
-    "roi": -0.2836,
-    "profit": -3.97,
-    "roi_n": 14
+    "rate": 0.6923,
+    "roi": -0.2285,
+    "profit": -2.97,
+    "roi_n": 13
    },
    "alt_ust": {
-    "n": 14,
-    "hits": 9,
-    "rate": 0.6429,
-    "roi": -0.2386,
-    "profit": -3.34,
-    "roi_n": 14
+    "n": 13,
+    "hits": 8,
+    "rate": 0.6154,
+    "roi": -0.2631,
+    "profit": -3.42,
+    "roi_n": 13
    }
   },
   "channel": {
