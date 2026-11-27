@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-27T22:15:20+03:00",
+ "generated_at": "2026-11-27T22:25:04+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -106,7 +106,7 @@
      "kart_odd": 1.39,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795806381.7892785
+    "updated_at": 1795806945.0867422
    },
    "factors": [
     "📈 Sıra: 6. vs 18. (18 takım, 18–4 puan)",
