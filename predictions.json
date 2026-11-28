@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-28T22:44:41+03:00",
+ "generated_at": "2026-11-28T22:54:29+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -285,7 +285,7 @@
      "kart_odd": null,
      "kart_src": "model"
     },
-    "updated_at": 1795893845.628584
+    "updated_at": 1795895081.9275842
    },
    "factors": [
     "📈 Sıra: 3. vs 11. (18 takım, 28–13 puan)",
@@ -294,8 +294,11 @@
    ],
    "corners": null,
    "cards": null,
-   "status": "bekliyor",
-   "live": null,
+   "status": "canli",
+   "live": {
+    "minute": "8",
+    "score": "0-0"
+   },
    "result": null
   },
   {
@@ -357,13 +360,13 @@
      "px": 0.1772101110484556,
      "p2": 0.1385605190938524,
      "odd_1": 1.0,
-     "odd_x": 8.18,
-     "odd_2": 14.7,
+     "odd_x": 7.97,
+     "odd_2": 13.6,
      "pick_odd": 1.0,
      "au_pick": "Üst",
      "au_prob": 0.6522208431588855,
-     "odd_alt": 3.19,
-     "odd_ust": 1.15,
+     "odd_alt": 3.31,
+     "odd_ust": 1.13,
      "au_odd": 1.15,
      "kg_prob": 0.566583569195204,
      "model": "app",
@@ -396,7 +399,7 @@
      "kart_odd": 1.64,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795893845.6322653
+    "updated_at": 1795895602.4646657
    },
    "factors": [
     "📊 H2H son 5 (ev açısından): 5G 0B 0M",
