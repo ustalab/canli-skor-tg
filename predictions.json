@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-28T21:44:46+03:00",
+ "generated_at": "2026-11-28T21:54:46+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -180,7 +180,7 @@
    "cards": null,
    "status": "canli",
    "live": {
-    "minute": "IY",
+    "minute": "52",
     "score": "2-0"
    },
    "result": null
@@ -283,7 +283,7 @@
      "kart_odd": null,
      "kart_src": "model"
     },
-    "updated_at": 1795891463.0807858
+    "updated_at": 1795892060.819715
    },
    "factors": [
     "📈 Sıra: 3. vs 11. (18 takım, 28–13 puan)",
@@ -355,8 +355,8 @@
      "px": 0.1772101110484556,
      "p2": 0.1385605190938524,
      "odd_1": 1.0,
-     "odd_x": 8.02,
-     "odd_2": 14.55,
+     "odd_x": 7.97,
+     "odd_2": 14.5,
      "pick_odd": 1.0,
      "au_pick": "Üst",
      "au_prob": 0.6522208431588855,
@@ -394,7 +394,7 @@
      "kart_odd": 1.64,
      "kart_src": "model+oran"
     },
-    "updated_at": 1795891463.0845299
+    "updated_at": 1795892060.8239024
    },
    "factors": [
     "📊 H2H son 5 (ev açısından): 5G 0B 0M",
