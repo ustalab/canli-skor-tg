@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-28T17:04:46+03:00",
+ "generated_at": "2026-11-28T17:57:13+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -8,6 +8,63 @@
   "text": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson (k=5). 1X2 ≥%60, A/Ü ≥%58. Korner/kart deneysel; ana güvene dahil değil."
  },
  "predictions": [
+  {
+   "match_id": 4428368,
+   "iddaa": 3336339,
+   "home": "Bodo/Glimt",
+   "away": "KFUM Oslo",
+   "league": "Norveç · Eliteserien",
+   "date": "28/11/2026",
+   "kickoff": "18:00",
+   "kickoff_iso": "2026-11-28T18:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.7181,
+   "probs": {
+    "1": 0.7181,
+    "X": 0.1573,
+    "2": 0.1246
+   },
+   "odds": {
+    "1": 1.0,
+    "X": 13.15,
+    "2": 17.35,
+    "alt": 4.94,
+    "ust": 1.0
+   },
+   "pick_odd": 1.0,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.7182,
+    "odd": 1.0
+   },
+   "kg_var": 0.6048,
+   "xg": {
+    "home": 2.6727025693784956,
+    "away": 1.0489524374802153
+   },
+   "form": null,
+   "model": "app",
+   "source": "oto",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": false,
+   "publication_basis": "latest_model",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": null,
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 3G 2B 0M",
+    "⚽ H2H gol ort. 2.8",
+    "📈 Sıra: 1. vs 10. (16 takım, 65–31 puan)",
+    "🏟 İç saha 2.2 p/m (6 maç) vs dış saha 1.3 p/m (6 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
   {
    "match_id": 4481607,
    "iddaa": 3331469,
@@ -310,7 +367,7 @@
  ],
  "stats": {
   "settled": 6206,
-  "pending": 3,
+  "pending": 4,
   "void": 611,
   "overall": {
    "n": 12302,
