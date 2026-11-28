@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated_at": "2026-11-28T22:36:38+03:00",
+ "generated_at": "2026-11-28T22:44:41+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
@@ -178,9 +178,14 @@
    ],
    "corners": null,
    "cards": null,
-   "status": "bekliyor",
+   "status": "bitti",
    "live": null,
-   "result": null
+   "result": {
+    "score": "4-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
   },
   {
    "match_id": 4480780,
@@ -407,32 +412,32 @@
   }
  ],
  "stats": {
-  "settled": 6207,
-  "pending": 3,
+  "settled": 6208,
+  "pending": 2,
   "void": 611,
   "overall": {
-   "n": 12304,
-   "hits": 6827,
+   "n": 12306,
+   "hits": 6829,
    "rate": 0.5549,
    "roi": -0.162,
-   "profit": -1859.92,
-   "roi_n": 11481
+   "profit": -1859.74,
+   "roi_n": 11483
   },
   "ms1x2": {
-   "n": 6207,
-   "hits": 3233,
+   "n": 6208,
+   "hits": 3234,
    "rate": 0.5209,
    "roi": -0.153,
-   "profit": -949.76,
-   "roi_n": 6207
+   "profit": -949.68,
+   "roi_n": 6208
   },
   "alt_ust": {
-   "n": 6097,
-   "hits": 3594,
+   "n": 6098,
+   "hits": 3595,
    "rate": 0.5895,
-   "roi": -0.1726,
-   "profit": -910.16,
-   "roi_n": 5274
+   "roi": -0.1725,
+   "profit": -910.06,
+   "roi_n": 5275
   },
   "korner": {
    "n": 2755,
@@ -480,12 +485,12 @@
    },
    {
     "label": "≥ %65",
-    "n": 164,
-    "hits": 114,
-    "rate": 0.6951,
-    "roi": -0.0309,
-    "profit": -5.06,
-    "roi_n": 164
+    "n": 165,
+    "hits": 115,
+    "rate": 0.697,
+    "roi": -0.0302,
+    "profit": -4.98,
+    "roi_n": 165
    }
   ],
   "model": {
@@ -506,48 +511,48 @@
     "roi_n": 512
    },
    "app": {
-    "n": 367,
-    "hits": 237,
-    "rate": 0.6458,
-    "roi": -0.0724,
-    "profit": -26.58,
-    "roi_n": 367
+    "n": 368,
+    "hits": 238,
+    "rate": 0.6467,
+    "roi": -0.072,
+    "profit": -26.5,
+    "roi_n": 368
    }
   },
   "last7": {
    "ms1x2": {
-    "n": 11,
-    "hits": 7,
-    "rate": 0.6364,
-    "roi": -0.3155,
-    "profit": -3.47,
-    "roi_n": 11
+    "n": 12,
+    "hits": 8,
+    "rate": 0.6667,
+    "roi": -0.2825,
+    "profit": -3.39,
+    "roi_n": 12
    },
    "alt_ust": {
-    "n": 11,
-    "hits": 8,
-    "rate": 0.7273,
-    "roi": -0.1464,
-    "profit": -1.61,
-    "roi_n": 11
+    "n": 12,
+    "hits": 9,
+    "rate": 0.75,
+    "roi": -0.1258,
+    "profit": -1.51,
+    "roi_n": 12
    }
   },
   "channel": {
    "ms1x2": {
-    "n": 364,
-    "hits": 235,
-    "rate": 0.6456,
-    "roi": -0.0704,
-    "profit": -25.64,
-    "roi_n": 364
+    "n": 365,
+    "hits": 236,
+    "rate": 0.6466,
+    "roi": -0.07,
+    "profit": -25.56,
+    "roi_n": 365
    },
    "alt_ust": {
-    "n": 362,
-    "hits": 244,
-    "rate": 0.674,
-    "roi": -0.0802,
-    "profit": -27.5,
-    "roi_n": 343
+    "n": 363,
+    "hits": 245,
+    "rate": 0.6749,
+    "roi": -0.0797,
+    "profit": -27.4,
+    "roi_n": 344
    },
    "korner": {
     "n": 256,
@@ -565,10 +570,127 @@
     "profit": -23.08,
     "roi_n": 147
    },
-   "days": 43
+   "days": 44
   }
  },
  "history": [
+  {
+   "match_id": 4481607,
+   "iddaa": 3331469,
+   "home": "PSV Eindhoven",
+   "away": "Go Ahead Eagles",
+   "league": "Hollanda · Eredivisie",
+   "date": "28/11/2026",
+   "kickoff": "20:45",
+   "kickoff_iso": "2026-11-28T20:45:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.683,
+   "probs": {
+    "1": 0.683,
+    "X": 0.1549,
+    "2": 0.1621
+   },
+   "odds": {
+    "1": 1.08,
+    "X": 6.74,
+    "2": 9.37,
+    "alt": 3.59,
+    "ust": 1.1
+   },
+   "pick_odd": 1.08,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.8198,
+    "odd": 1.1
+   },
+   "kg_var": 0.7294,
+   "xg": {
+    "home": 2.9787702411994785,
+    "away": 1.462909209434633
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4481607,
+     "iddaa": 3331469,
+     "home": "PSV Eindhoven",
+     "away": "Go Ahead Eagles",
+     "league": "Hollanda · Eredivisie",
+     "match_date": "28/11/2026",
+     "kickoff": "20:45",
+     "kickoff_ts": 1795887900.0,
+     "pick": "1",
+     "confidence": 0.6829599247749114,
+     "p1": 0.6829599247749114,
+     "px": 0.1548939558673804,
+     "p2": 0.1621461193577081,
+     "odd_1": 1.0,
+     "odd_x": 7.24,
+     "odd_2": 10.8,
+     "pick_odd": 1.0,
+     "au_pick": "Üst",
+     "au_prob": 0.8197550676287372,
+     "odd_alt": 3.6,
+     "odd_ust": 1.1,
+     "au_odd": 1.1,
+     "kg_prob": 0.7293591766451643,
+     "model": "app",
+     "source": "oto",
+     "live": 0,
+     "p_over": 0.8197550676287372,
+     "factors": "📊 H2H son 5 (ev açısından): 3G 0B 2M | ⚽ H2H gol ort. 3.8 | 📈 Sıra: 1. vs 9. (18 takım, 29–17 puan) | 🏟 İç saha 1.8 p/m (4 maç) vs dış saha 1.3 p/m (6 maç) | 🚑 Eksik: ev 3 (3 sakat) · dep 2 (2 sakat)",
+     "form_home": "GMGGM",
+     "form_away": "GGMGM",
+     "ppg_home": 1.6,
+     "ppg_away": 1.3,
+     "gf_home": 2.3,
+     "ga_home": 1.4,
+     "gf_away": 1.8,
+     "ga_away": 1.9,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.9787702411994785,
+     "xg_away": 1.462909209434633,
+     "kor_exp": 10.8,
+     "kor_line": 11.5,
+     "kor_pick": "Alt",
+     "kor_prob": 0.6046,
+     "kor_odd": 1.54,
+     "kor_src": "model+oran",
+     "kart_exp": 3.0,
+     "kart_line": 2.5,
+     "kart_pick": "Üst",
+     "kart_prob": 0.5357,
+     "kart_odd": 1.67,
+     "kart_src": "model+oran"
+    },
+    "updated_at": 1795887313.815673
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 3G 0B 2M",
+    "⚽ H2H gol ort. 3.8",
+    "📈 Sıra: 1. vs 9. (18 takım, 29–17 puan)",
+    "🏟 İç saha 1.8 p/m (4 maç) vs dış saha 1.3 p/m (6 maç)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bitti",
+   "live": null,
+   "result": {
+    "score": "4-0",
+    "outcome": "1",
+    "hit_1x2": true,
+    "hit_au": true
+   }
+  },
   {
    "match_id": 4428368,
    "iddaa": 3336339,
@@ -3356,105 +3478,6 @@
     "experimental": true,
     "label": "deneysel",
     "actual": 5,
-    "hit": false
-   },
-   "status": "bitti",
-   "live": null,
-   "result": {
-    "score": "1-2",
-    "outcome": "2",
-    "hit_1x2": true,
-    "hit_au": true
-   }
-  },
-  {
-   "match_id": 4476593,
-   "iddaa": 3278767,
-   "home": "Lens",
-   "away": "Marsilya",
-   "league": "Fransa · Ligue 1",
-   "date": "08/11/2026",
-   "kickoff": "22:45",
-   "kickoff_iso": "2026-11-08T22:45:00+03:00",
-   "pick": "2",
-   "pick_label": "MS 2 (dep)",
-   "confidence": 0.2889,
-   "probs": {
-    "1": 0.3756,
-    "X": 0.2419,
-    "2": 0.3825
-   },
-   "odds": {
-    "1": 2.0,
-    "X": 3.24,
-    "2": 2.65,
-    "alt": 2.02,
-    "ust": 1.45
-   },
-   "pick_odd": 2.65,
-   "alt_ust": {
-    "pick": "Üst",
-    "p_over": 0.596,
-    "odd": 1.45
-   },
-   "kg_var": 0.6187,
-   "xg": {
-    "home": 1.46,
-    "away": 1.64
-   },
-   "form": {
-    "home": {
-     "last5": "GMGMM",
-     "ppg": 1.3,
-     "gf": 1.3,
-     "ga": 2.2,
-     "n": 10
-    },
-    "away": {
-     "last5": "GMGGG",
-     "ppg": 1.5,
-     "gf": 1.6,
-     "ga": 1.4,
-     "n": 10
-    }
-   },
-   "model": "form",
-   "source": "oto",
-   "model_label": "Maçkolik form + oran",
-   "data_status": "hazır",
-   "first_published": false,
-   "publication_basis": "latest_model",
-   "confidence_type": "model_probability_not_calibrated_guarantee",
-   "latest_revision": null,
-   "factors": [
-    "📊 H2H son 5 (ev açısından): 2G 0B 3M",
-    "⚽ H2H gol ort. 3.0",
-    "📈 Sıra: 9. vs 6. (18 takım, 13–15 puan)",
-    "🏟 İç saha 1.5 p/m (4 maç) vs dış saha 1.5 p/m (6 maç)",
-    "🚑 Eksik: ev 6 (5 sakat, 1 diğer) · dep 3 (2 sakat, 1 diğer)"
-   ],
-   "corners": {
-    "expected": 9.2,
-    "line": 9.5,
-    "pick": "Alt",
-    "prob": 0.5589,
-    "odd": 1.58,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 10,
-    "hit": false
-   },
-   "cards": {
-    "expected": 4.0,
-    "line": 3.5,
-    "pick": "Üst",
-    "prob": 0.5303,
-    "odd": 1.53,
-    "source": "model+oran",
-    "experimental": true,
-    "label": "deneysel",
-    "actual": 3,
     "hit": false
    },
    "status": "bitti",
