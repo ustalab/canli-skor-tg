@@ -1,16 +1,316 @@
 {
  "version": 2,
- "generated_at": "2026-11-28T11:56:09+03:00",
+ "generated_at": "2026-11-28T12:54:46+03:00",
  "timezone": "Europe/Istanbul",
  "source": "ESPN (iç/dış saha + puan durumu + Poisson); Maçkolik (oran/skor + deneysel korner/kart)",
  "bot": "https://t.me/mackolik_canli_skor_bot",
  "model": {
   "text": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson (k=5). 1X2 ≥%60, A/Ü ≥%58. Korner/kart deneysel; ana güvene dahil değil."
  },
- "predictions": [],
+ "predictions": [
+  {
+   "match_id": 4481607,
+   "iddaa": 3331469,
+   "home": "PSV Eindhoven",
+   "away": "Go Ahead Eagles",
+   "league": "Hollanda · Eredivisie",
+   "date": "28/11/2026",
+   "kickoff": "20:45",
+   "kickoff_iso": "2026-11-28T20:45:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.683,
+   "probs": {
+    "1": 0.683,
+    "X": 0.1549,
+    "2": 0.1621
+   },
+   "odds": {
+    "1": 1.08,
+    "X": 6.74,
+    "2": 9.37,
+    "alt": 3.59,
+    "ust": 1.1
+   },
+   "pick_odd": 1.08,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.8198,
+    "odd": 1.1
+   },
+   "kg_var": 0.7294,
+   "xg": {
+    "home": 2.9787702411994785,
+    "away": 1.462909209434633
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4481607,
+     "iddaa": 3331469,
+     "home": "PSV Eindhoven",
+     "away": "Go Ahead Eagles",
+     "league": "Hollanda · Eredivisie",
+     "match_date": "28/11/2026",
+     "kickoff": "20:45",
+     "kickoff_ts": 1795887900.0,
+     "pick": "1",
+     "confidence": 0.6829599247749114,
+     "p1": 0.6829599247749114,
+     "px": 0.1548939558673804,
+     "p2": 0.1621461193577081,
+     "odd_1": 1.08,
+     "odd_x": 6.74,
+     "odd_2": 9.37,
+     "pick_odd": 1.08,
+     "au_pick": "Üst",
+     "au_prob": 0.8197550676287372,
+     "odd_alt": 3.59,
+     "odd_ust": 1.1,
+     "au_odd": 1.1,
+     "kg_prob": 0.7293591766451643,
+     "model": "app",
+     "source": "kanal",
+     "live": 0,
+     "p_over": 0.8197550676287372,
+     "factors": "📊 H2H son 5 (ev açısından): 3G 0B 2M | ⚽ H2H gol ort. 3.8 | 📈 Sıra: 1. vs 9. (18 takım, 29–17 puan) | 🏟 İç saha 1.8 p/m (4 maç) vs dış saha 1.3 p/m (6 maç)",
+     "form_home": "GMGGM",
+     "form_away": "GGMGM",
+     "ppg_home": 1.6,
+     "ppg_away": 1.3,
+     "gf_home": 2.3,
+     "ga_home": 1.4,
+     "gf_away": 1.8,
+     "ga_away": 1.9,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.9787702411994785,
+     "xg_away": 1.462909209434633
+    },
+    "updated_at": 1795857740.9049082
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 3G 0B 2M",
+    "⚽ H2H gol ort. 3.8",
+    "📈 Sıra: 1. vs 9. (18 takım, 29–17 puan)",
+    "🏟 İç saha 1.8 p/m (4 maç) vs dış saha 1.3 p/m (6 maç)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
+  {
+   "match_id": 4480780,
+   "iddaa": 3331758,
+   "home": "Sporting Charleroi",
+   "away": "Waasland-Beveren",
+   "league": "Belçika · Pro Lig",
+   "date": "28/11/2026",
+   "kickoff": "22:45",
+   "kickoff_iso": "2026-11-28T22:45:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6588,
+   "probs": {
+    "1": 0.6588,
+    "X": 0.1702,
+    "2": 0.171
+   },
+   "odds": {
+    "1": 1.41,
+    "X": 3.8,
+    "2": 4.6,
+    "alt": 1.99,
+    "ust": 1.46
+   },
+   "pick_odd": 1.41,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.7598,
+    "odd": 1.46
+   },
+   "kg_var": 0.6828,
+   "xg": {
+    "home": 2.6606903669724775,
+    "away": 1.324741972477064
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4480780,
+     "iddaa": 3331758,
+     "home": "Sporting Charleroi",
+     "away": "Waasland-Beveren",
+     "league": "Belçika · Pro Lig",
+     "match_date": "28/11/2026",
+     "kickoff": "22:45",
+     "kickoff_ts": 1795895100.0,
+     "pick": "1",
+     "confidence": 0.6588186876347151,
+     "p1": 0.6588186876347151,
+     "px": 0.17017327400572207,
+     "p2": 0.17100803835956285,
+     "odd_1": 1.41,
+     "odd_x": 3.8,
+     "odd_2": 4.6,
+     "pick_odd": 1.41,
+     "au_pick": "Üst",
+     "au_prob": 0.759754383192679,
+     "odd_alt": 1.99,
+     "odd_ust": 1.46,
+     "au_odd": 1.46,
+     "kg_prob": 0.6828129069281156,
+     "model": "app",
+     "source": "kanal",
+     "live": 0,
+     "p_over": 0.759754383192679,
+     "factors": "📈 Sıra: 3. vs 11. (18 takım, 28–13 puan) | 🏟 İç saha 1.8 p/m (4 maç) vs dış saha 0.2 p/m (4 maç) | 🚑 Eksik: kayıtlı sakat/cezalı yok",
+     "form_home": "GMGGB",
+     "form_away": "GBMMG",
+     "ppg_home": 2.2,
+     "ppg_away": 1.3,
+     "gf_home": 2.3,
+     "ga_home": 1.4,
+     "gf_away": 1.5,
+     "ga_away": 1.7,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.6606903669724775,
+     "xg_away": 1.324741972477064
+    },
+    "updated_at": 1795857740.9129267
+   },
+   "factors": [
+    "📈 Sıra: 3. vs 11. (18 takım, 28–13 puan)",
+    "🏟 İç saha 1.8 p/m (4 maç) vs dış saha 0.2 p/m (4 maç)",
+    "🚑 Eksik: kayıtlı sakat/cezalı yok"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  },
+  {
+   "match_id": 4492396,
+   "iddaa": 3336882,
+   "home": "Real Madrid",
+   "away": "Deportivo Alaves",
+   "league": "İspanya · LaLiga",
+   "date": "28/11/2026",
+   "kickoff": "23:00",
+   "kickoff_iso": "2026-11-28T23:00:00+03:00",
+   "pick": "1",
+   "pick_label": "MS 1 (ev)",
+   "confidence": 0.6842,
+   "probs": {
+    "1": 0.6842,
+    "X": 0.1772,
+    "2": 0.1386
+   },
+   "odds": {
+    "1": 1.0,
+    "X": 7.83,
+    "2": 13.8,
+    "alt": 3.11,
+    "ust": 1.15
+   },
+   "pick_odd": 1.0,
+   "alt_ust": {
+    "pick": "Üst",
+    "p_over": 0.6522,
+    "odd": 1.15
+   },
+   "kg_var": 0.5666,
+   "xg": {
+    "home": 2.3794295857988175,
+    "away": 0.9792455621301775
+   },
+   "form": null,
+   "model": "app",
+   "source": "kanal",
+   "model_label": "ESPN iç/dış saha + puan durumu + büzülmüş Poisson",
+   "data_status": "hazır",
+   "first_published": true,
+   "publication_basis": "first_published",
+   "confidence_type": "model_probability_not_calibrated_guarantee",
+   "latest_revision": {
+    "record": {
+     "match_id": 4492396,
+     "iddaa": 3336882,
+     "home": "Real Madrid",
+     "away": "Deportivo Alaves",
+     "league": "İspanya · LaLiga",
+     "match_date": "28/11/2026",
+     "kickoff": "23:00",
+     "kickoff_ts": 1795896000.0,
+     "pick": "1",
+     "confidence": 0.684229369857692,
+     "p1": 0.684229369857692,
+     "px": 0.1772101110484556,
+     "p2": 0.1385605190938524,
+     "odd_1": 1.0,
+     "odd_x": 7.83,
+     "odd_2": 13.8,
+     "pick_odd": 1.0,
+     "au_pick": "Üst",
+     "au_prob": 0.6522208431588855,
+     "odd_alt": 3.11,
+     "odd_ust": 1.15,
+     "au_odd": 1.15,
+     "kg_prob": 0.566583569195204,
+     "model": "app",
+     "source": "kanal",
+     "live": 0,
+     "p_over": 0.6522208431588855,
+     "factors": "📊 H2H son 5 (ev açısından): 5G 0B 0M | ⚽ H2H gol ort. 3.8 | 📈 Sıra: 2. vs 9. (20 takım, 33–16 puan) | 🏟 İç saha 3.0 p/m (5 maç) vs dış saha 0.8 p/m (6 maç)",
+     "form_home": "GGGGG",
+     "form_away": "BMBGG",
+     "ppg_home": 3.0,
+     "ppg_away": 0.9,
+     "gf_home": 3.1,
+     "ga_home": 1.0,
+     "gf_away": 1.4,
+     "ga_away": 1.6,
+     "n_home": 10,
+     "n_away": 10,
+     "xg_home": 2.3794295857988175,
+     "xg_away": 0.9792455621301775
+    },
+    "updated_at": 1795857740.9182441
+   },
+   "factors": [
+    "📊 H2H son 5 (ev açısından): 5G 0B 0M",
+    "⚽ H2H gol ort. 3.8",
+    "📈 Sıra: 2. vs 9. (20 takım, 33–16 puan)",
+    "🏟 İç saha 3.0 p/m (5 maç) vs dış saha 0.8 p/m (6 maç)"
+   ],
+   "corners": null,
+   "cards": null,
+   "status": "bekliyor",
+   "live": null,
+   "result": null
+  }
+ ],
  "stats": {
   "settled": 6206,
-  "pending": 0,
+  "pending": 3,
   "void": 611,
   "overall": {
    "n": 12302,
@@ -3111,9 +3411,104 @@
   "runs": 10000,
   "model": "Bağımsız Poisson; seçimdeki aynı gol beklentileri",
   "assumption": "Maçlar bağımsız varsayılır. Kupon yalnız MS 1X2 seçimlerini içerir; garanti değildir.",
-  "matches": [],
+  "matches": [
+   {
+    "match_id": 4481607,
+    "home": "PSV Eindhoven",
+    "away": "Go Ahead Eagles",
+    "pick": "1",
+    "top_scores": [
+     {
+      "score": "2-1",
+      "prob": 0.0748
+     },
+     {
+      "score": "3-1",
+      "prob": 0.0746
+     },
+     {
+      "score": "4-1",
+      "prob": 0.059
+     }
+    ],
+    "probs": {
+     "1": 0.6849,
+     "X": 0.1565,
+     "2": 0.1586
+    },
+    "p_over25": 0.8174,
+    "p_under25": 0.18259999999999998,
+    "kg_var": 0.7281
+   },
+   {
+    "match_id": 4480780,
+    "home": "Sporting Charleroi",
+    "away": "Waasland-Beveren",
+    "pick": "1",
+    "top_scores": [
+     {
+      "score": "2-1",
+      "prob": 0.0865
+     },
+     {
+      "score": "3-1",
+      "prob": 0.0748
+     },
+     {
+      "score": "1-1",
+      "prob": 0.0641
+     }
+    ],
+    "probs": {
+     "1": 0.6568,
+     "X": 0.1725,
+     "2": 0.1707
+    },
+    "p_over25": 0.7618,
+    "p_under25": 0.23819999999999997,
+    "kg_var": 0.6862
+   },
+   {
+    "match_id": 4492396,
+    "home": "Real Madrid",
+    "away": "Deportivo Alaves",
+    "pick": "1",
+    "top_scores": [
+     {
+      "score": "2-0",
+      "prob": 0.0986
+     },
+     {
+      "score": "2-1",
+      "prob": 0.0976
+     },
+     {
+      "score": "1-0",
+      "prob": 0.0856
+     }
+    ],
+    "probs": {
+     "1": 0.6872,
+     "X": 0.1769,
+     "2": 0.1359
+    },
+    "p_over25": 0.6509,
+    "p_under25": 0.34909999999999997,
+    "kg_var": 0.5574
+   }
+  ],
   "missing": [],
-  "coupon": null
+  "coupon": {
+   "legs": 3,
+   "market": "1X2",
+   "all_hit": 0.3086,
+   "hit_distribution": {
+    "0": 0.0331,
+    "1": 0.2135,
+    "2": 0.4448,
+    "3": 0.3086
+   }
+  }
  },
  "historical_note": "Eski kanal A/Ü olasılıkları saklanmadığından güvenilir eşik backtesti yapılamaz; geçmiş ilk sürümler geri kurulamaz."
 }
